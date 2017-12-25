@@ -1,0 +1,1777 @@
+*** USER COLORS START ***
+
+COLOUR name='label_text' rgba='ffffff40'
+COLOUR name='label_mod' rgba='ff0012ff'
+COLOUR name='label_menu' rgba='ffffff70'
+
+COLOUR name='knob_unipolar_left' rgba='00f5ffff'
+COLOUR name='knob_unipolar_center' rgba='00ff81ff'
+COLOUR name='knob_unipolar_right' rgba='00ff58ff'
+COLOUR name='knob_unipolar_mark' rgba='ff380000'
+COLOUR name='knob_bipolar_left' rgba='00ff58ff'
+COLOUR name='knob_bipolar_center' rgba='00f5ffff'
+COLOUR name='knob_bipolar_right' rgba='00ff58ff'
+COLOUR name='knob_bipolar_mark' rgba='ff380000'
+
+COLOUR name='knob_mod_unipolar_left' rgba='ff0012ff'
+COLOUR name='knob_mod_unipolar_center' rgba='ff0012ff'
+COLOUR name='knob_mod_unipolar_right' rgba='ff0012ff'
+COLOUR name='knob_mod_unipolar_mark' rgba='ff540000'
+COLOUR name='knob_mod_bipolar_left' rgba='ff0012ff'
+COLOUR name='knob_mod_bipolar_center' rgba='ff0012ff'
+COLOUR name='knob_mod_bipolar_right' rgba='ff0012ff'
+COLOUR name='knob_mod_bipolar_mark' rgba='ff540000'
+
+COLOUR name='knob_special_unipolar_left' rgba='00f5ffff'
+COLOUR name='knob_special_unipolar_center' rgba='00ff81ff'
+COLOUR name='knob_special_unipolar_right' rgba='00ff58ff'
+COLOUR name='knob_special_unipolar_mark' rgba='ff380000'
+COLOUR name='knob_special_bipolar_left' rgba='00ff58ff'
+COLOUR name='knob_special_bipolar_center' rgba='00f5ffff'
+COLOUR name='knob_special_bipolar_right' rgba='00ff58ff'
+COLOUR name='knob_special_bipolar_mark' rgba='ff380000'
+
+COLOUR name='knob_secondary_unipolar_left' rgba='00f5ffff'
+COLOUR name='knob_secondary_unipolar_center' rgba='00ff81ff'
+COLOUR name='knob_secondary_unipolar_right' rgba='00ff58ff'
+COLOUR name='knob_secondary_unipolar_mark' rgba='ffffff00'
+COLOUR name='knob_secondary_bipolar_left' rgba='00ff58ff'
+COLOUR name='knob_secondary_bipolar_center' rgba='00f5ffff'
+COLOUR name='knob_secondary_bipolar_right' rgba='00ff58ff'
+COLOUR name='knob_secondary_bipolar_mark' rgba='ffffff00'
+
+COLOUR name='knob_eq1_unipolar_left' rgba='00f5ffff'
+COLOUR name='knob_eq1_unipolar_center' rgba='00ff81ff'
+COLOUR name='knob_eq1_unipolar_right' rgba='00ff58ff'
+COLOUR name='knob_eq1_unipolar_mark' rgba='ffffff00'
+COLOUR name='knob_eq1_bipolar_left' rgba='00ff58ff'
+COLOUR name='knob_eq1_bipolar_center' rgba='00f5ffff'
+COLOUR name='knob_eq1_bipolar_right' rgba='00ff58ff'
+COLOUR name='knob_eq1_bipolar_mark' rgba='ffffff00'
+
+COLOUR name='knob_eq2_unipolar_left' rgba='00f5ffff'
+COLOUR name='knob_eq2_unipolar_center' rgba='00ff81ff'
+COLOUR name='knob_eq2_unipolar_right' rgba='00ff58ff'
+COLOUR name='knob_eq2_unipolar_mark' rgba='ffffff00'
+COLOUR name='knob_eq2_bipolar_left' rgba='00ff58ff'
+COLOUR name='knob_eq2_bipolar_center' rgba='00f5ffff'
+COLOUR name='knob_eq2_bipolar_right' rgba='00ff58ff'
+COLOUR name='knob_eq2_bipolar_mark' rgba='ffffff00'
+
+COLOUR name='knob_eq3_unipolar_left' rgba='00f5ffff'
+COLOUR name='knob_eq3_unipolar_center' rgba='00ff81ff'
+COLOUR name='knob_eq3_unipolar_right' rgba='00ff58ff'
+COLOUR name='knob_eq3_unipolar_mark' rgba='ffffff00'
+COLOUR name='knob_eq3_bipolar_left' rgba='00ff58ff'
+COLOUR name='knob_eq3_bipolar_center' rgba='00f5ffff'
+COLOUR name='knob_eq3_bipolar_right' rgba='00ff58ff'
+COLOUR name='knob_eq3_bipolar_mark' rgba='ffffff00'
+
+COLOUR name='knob_eq4_unipolar_left' rgba='00f5ffff'
+COLOUR name='knob_eq4_unipolar_center' rgba='00ff81ff'
+COLOUR name='knob_eq4_unipolar_right' rgba='00ff58ff'
+COLOUR name='knob_eq4_unipolar_mark' rgba='ffffff00'
+COLOUR name='knob_eq4_bipolar_left' rgba='00ff58ff'
+COLOUR name='knob_eq4_bipolar_center' rgba='00f5ffff'
+COLOUR name='knob_eq4_bipolar_right' rgba='00ff58ff'
+COLOUR name='knob_eq4_bipolar_mark' rgba='ffffff00'
+
+COLOUR name='knob_bg' rgba='00000032'
+COLOUR name='knob_mod_bg' rgba='00000032'
+COLOUR name='knob_secondary_bg' rgba='ffffff12'
+COLOUR name='knob_secondary_mod_bg' rgba='ffffff12'
+
+COLOUR name='xy_puck_big' rgba='00ff81ff'
+COLOUR name='xy_puck_small' rgba='ffffff70'
+
+COLOUR name='eq_puck_1' rgba='ffffff70'
+COLOUR name='eq_puck_2' rgba='ffffff70'
+COLOUR name='eq_puck_3' rgba='ffffff70'
+COLOUR name='eq_puck_4' rgba='ffffff70'
+
+COLOUR name='config_bg' rgba='46454a00'
+COLOUR name='config_sub_bg' rgba='46454aa1'
+COLOUR name='diva_vcf_bg' rgba='46454a00'
+COLOUR name='osc_bg' rgba='46454a00'
+COLOUR name='osc_sub_bg' rgba='46454aa1'
+COLOUR name='noise_bg' rgba='46454a00'
+COLOUR name='vcf_bg' rgba='46454a00'
+COLOUR name='fmo_bg' rgba='46454a00'
+COLOUR name='fmo_sub_bg' rgba='46454aa1'
+COLOUR name='comb_bg' rgba='46454a00'
+COLOUR name='shaper_bg' rgba='46454a00'
+COLOUR name='mix_bg' rgba='46454a00'
+COLOUR name='xmf_bg' rgba='46454a00'
+COLOUR name='xmf_sub_bg' rgba='46454aa1'
+COLOUR name='sb_bg' rgba='46454a00'
+COLOUR name='dist_bg' rgba='46454a00'
+
+COLOUR name='arp_bg' rgba='46454a00'
+COLOUR name='arp_sub_bg' rgba='46454aa1'
+COLOUR name='arpmod_bg' rgba='46454a00'
+COLOUR name='matrix_bg' rgba='46454a00'
+COLOUR name='matrix_sub_bg' rgba='46454aa1'
+COLOUR name='mseg_bg' rgba='46454a00'
+COLOUR name='env_bg' rgba='46454a00'
+COLOUR name='env_sub_bg' rgba='46454a71'
+COLOUR name='lfo_bg' rgba='46454a00'
+COLOUR name='lfo_sub_bg' rgba='46454a71'
+COLOUR name='lfog_bg' rgba='46454a00'
+COLOUR name='lfog_sub_bg' rgba='46454a71'
+COLOUR name='mmix_bg' rgba='46454a00'
+COLOUR name='mmap_bg' rgba='46454a00'
+
+COLOUR name='fx_rack_bg' rgba='ffffff00'
+COLOUR name='modfx_bg' rgba='46454a00'
+COLOUR name='delay_bg' rgba='46454a00'
+COLOUR name='comp_bg' rgba='46454a00'
+COLOUR name='eq_bg' rgba='46454a00'
+COLOUR name='rev_bg' rgba='46454a00'
+COLOUR name='res_bg' rgba='46454a00'
+
+COLOUR name='keyboard_bg' rgba='ffffff14'
+COLOUR name='envfol_bg' rgba='ffffff14'
+COLOUR name='pitchfol_bg' rgba='ffffff14'
+
+COLOUR name='main_bg' rgba='212024ff' #'1c1b1dff'
+COLOUR name='perf_bg' rgba='212024ee'
+
+COLOUR name='osc_editor_bg' rgba='212024e0'
+
+COLOUR name='label_group' rgba='ffffff90'
+COLOUR name='group_bg' rgba='00000000'
+
+COLOUR name='module_highlight' rgba='ffffff00'
+COLOUR name='editor_in_rack_bg' rgba='21202472' # 00000032 212024c2
+COLOUR name='mseg_editor_bg' rgba='21202482'
+COLOUR name='mseg_cursor' rgba='ffffff1e' # ff0012ff
+COLOUR name='xy_bg' rgba='00000024'
+COLOUR name='label_xy' rgba='ffffff32'
+
+COLOUR name='module_tab_bg' rgba='00000032' # b50 b60
+COLOUR name='label_module_tab_unselected' rgba='ffffff3c' # w60 w70
+COLOUR name='label_module_tab_selected' rgba='ffffff3c'
+
+COLOUR name='slider_bg' rgba='00000032'
+COLOUR name='slider_border' rgba='0000001e' # b10 b30
+COLOUR name='metarange_handle' rgba='ffffff3c'
+COLOUR name='metarange_depth' rgba='ffffff50'
+
+
+COLOUR name='browser_bg' rgba='1a191cf7'
+
+
+COLOUR name='button_light_bg' rgba='ffffff00' #ffffff0a
+COLOUR name='button_light_border' rgba='ffffff0f' #ffffff0a
+COLOUR name='button_dark_bg' rgba='00000032'
+COLOUR name='button_dark_border' rgba='0000001e'
+
+COLOUR name='module_border' rgba='ffffff14'
+COLOUR name='sub_module_border' rgba='ffffff00'
+
+COLOUR name='scrollbar' rgba='ffffff10'
+
+COLOUR name='grid_bg' rgba='ffffff0a'
+COLOUR name='mixer_strip_bg' rgba='ffffff04'
+
+*** USER COLORS END ***
+
+
+
+DEFAULT type='Font' property='FontVOffset' id='0' value='-2.00'
+DEFAULT type='Font' property='FontSize' id='0' value='9.30'
+DEFAULT type='Font' property='FontVAlignment' id='0' value='1'
+DEFAULT type='Font' property='FontAlignment' id='0' value='1'
+
+
+
+
+
+ ######   #######  ##        #######  ########   ######  
+##    ## ##     ## ##       ##     ## ##     ## ##    ## 
+##       ##     ## ##       ##     ## ##     ## ##       
+##       ##     ## ##       ##     ## ########   ######  
+##       ##     ## ##       ##     ## ##   ##         ## 
+##    ## ##     ## ##       ##     ## ##    ##  ##    ## 
+ ######   #######  ########  #######  ##     ##  ######  
+
+COLOUR name='w10' rgba='ffffff0a'
+COLOUR name='w20' rgba='ffffff14'
+COLOUR name='w30' rgba='ffffff1e'
+COLOUR name='w40' rgba='ffffff28'
+COLOUR name='w50' rgba='ffffff32'
+COLOUR name='w60' rgba='ffffff3c'
+COLOUR name='w70' rgba='ffffff46'
+COLOUR name='w80' rgba='ffffff50'
+COLOUR name='w90' rgba='ffffff5a'
+COLOUR name='w100' rgba='ffffff64'
+COLOUR name='w110' rgba='ffffff6e'
+COLOUR name='w120' rgba='ffffff78'
+COLOUR name='w130' rgba='ffffff82'
+COLOUR name='w140' rgba='ffffff8c'
+COLOUR name='w150' rgba='ffffff96'
+COLOUR name='w160' rgba='ffffffa0'
+COLOUR name='w170' rgba='ffffffaa'
+COLOUR name='w180' rgba='ffffffb4'
+COLOUR name='w190' rgba='ffffffbe'
+COLOUR name='w200' rgba='ffffffc8'
+COLOUR name='w210' rgba='ffffffd2'
+COLOUR name='w220' rgba='ffffffdc'
+COLOUR name='w230' rgba='ffffffe6'
+COLOUR name='w240' rgba='fffffff0'
+COLOUR name='w250' rgba='fffffffa'
+
+COLOUR name='b10' rgba='0000000a'
+COLOUR name='b20' rgba='00000014'
+COLOUR name='b30' rgba='0000001e'
+COLOUR name='b40' rgba='00000028'
+COLOUR name='b50' rgba='00000032'
+COLOUR name='b60' rgba='0000003c'
+COLOUR name='b70' rgba='00000046'
+COLOUR name='b80' rgba='00000050'
+COLOUR name='b90' rgba='0000005a'
+COLOUR name='b100' rgba='00000064'
+COLOUR name='b110' rgba='0000006e'
+COLOUR name='b120' rgba='00000078'
+COLOUR name='b130' rgba='00000082'
+COLOUR name='b140' rgba='0000008c'
+COLOUR name='b150' rgba='00000096'
+COLOUR name='b160' rgba='000000a0'
+COLOUR name='b170' rgba='000000aa'
+COLOUR name='b180' rgba='000000b4'
+COLOUR name='b190' rgba='000000be'
+COLOUR name='b200' rgba='000000c8'
+COLOUR name='b210' rgba='000000d2'
+COLOUR name='b220' rgba='000000dc'
+COLOUR name='b230' rgba='000000e6'
+COLOUR name='b240' rgba='000000f0'
+COLOUR name='b250' rgba='000000fa'
+
+# xy pad backup color, osc multiorder morph, vcf vowels label
+COLOUR name='new_red' rgba='ff0012ff'
+
+
+
+
+##    ## ##    ##  #######  ########   ######  
+##   ##  ###   ## ##     ## ##     ## ##    ## 
+##  ##   ####  ## ##     ## ##     ## ##       
+#####    ## ## ## ##     ## ########   ######  
+##  ##   ##  #### ##     ## ##     ##       ## 
+##   ##  ##   ### ##     ## ##     ## ##    ## 
+##    ## ##    ##  #######  ########   ######  
+
+# primary unipolar knob
+GRAPHIC name='knob_unipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_unipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_unipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_unipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_unipolar' name='colour' id='0' value='knob_unipolar_left'
+GR_PROPERTY graphic='knob_unipolar' name='colour' id='1' value='knob_unipolar_center'
+GR_PROPERTY graphic='knob_unipolar' name='colour' id='2' value='knob_unipolar_right'
+GR_PROPERTY graphic='knob_unipolar' name='colour' id='3' value='knob_unipolar_mark'
+GR_PROPERTY graphic='knob_unipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_unipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_unipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_unipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_unipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_unipolar' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='knob_unipolar' name='angles' id='1' value='0.00'
+GR_PROPERTY graphic='knob_unipolar' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='knob_unipolar' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='knob_unipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_unipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_unipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_unipolar' name='radius' id='3' value='0.32'
+
+# primary bipolar knob
+GRAPHIC name='knob_bipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_bipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_bipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_bipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_bipolar' name='colour' id='0' value='knob_bipolar_left'
+GR_PROPERTY graphic='knob_bipolar' name='colour' id='1' value='knob_bipolar_center'
+GR_PROPERTY graphic='knob_bipolar' name='colour' id='2' value='knob_bipolar_right'
+GR_PROPERTY graphic='knob_bipolar' name='colour' id='3' value='knob_bipolar_mark'
+GR_PROPERTY graphic='knob_bipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_bipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_bipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_bipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_bipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_bipolar' name='angles' id='0' value='0.0'
+GR_PROPERTY graphic='knob_bipolar' name='angles' id='1' value='-180.00'
+GR_PROPERTY graphic='knob_bipolar' name='angles' id='2' value='0.0'
+GR_PROPERTY graphic='knob_bipolar' name='angles' id='3' value='180.00'
+GR_PROPERTY graphic='knob_bipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_bipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_bipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_bipolar' name='radius' id='3' value='0.32'
+
+# definable unipolar knob
+GRAPHIC name='knob_mod_unipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_mod_unipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_mod_unipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_mod_unipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_mod_unipolar' name='colour' id='0' value='knob_mod_unipolar_left'
+GR_PROPERTY graphic='knob_mod_unipolar' name='colour' id='1' value='knob_mod_unipolar_center'
+GR_PROPERTY graphic='knob_mod_unipolar' name='colour' id='2' value='knob_mod_unipolar_right'
+GR_PROPERTY graphic='knob_mod_unipolar' name='colour' id='3' value='knob_mod_unipolar_mark'
+GR_PROPERTY graphic='knob_mod_unipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_mod_unipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_mod_unipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_mod_unipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_mod_unipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_mod_unipolar' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='knob_mod_unipolar' name='angles' id='1' value='0.00'
+GR_PROPERTY graphic='knob_mod_unipolar' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='knob_mod_unipolar' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='knob_mod_unipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_mod_unipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_mod_unipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_mod_unipolar' name='radius' id='3' value='0.32'
+
+# definable bipolar knob
+GRAPHIC name='knob_mod_bipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_mod_bipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_mod_bipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_mod_bipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_mod_bipolar' name='colour' id='0' value='knob_mod_bipolar_left'
+GR_PROPERTY graphic='knob_mod_bipolar' name='colour' id='1' value='knob_mod_bipolar_center'
+GR_PROPERTY graphic='knob_mod_bipolar' name='colour' id='2' value='knob_mod_bipolar_right'
+GR_PROPERTY graphic='knob_mod_bipolar' name='colour' id='3' value='knob_mod_bipolar_mark'
+GR_PROPERTY graphic='knob_mod_bipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_mod_bipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_mod_bipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_mod_bipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_mod_bipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_mod_bipolar' name='angles' id='0' value='0.00'
+GR_PROPERTY graphic='knob_mod_bipolar' name='angles' id='1' value='-180.00'
+GR_PROPERTY graphic='knob_mod_bipolar' name='angles' id='2' value='0.00'
+GR_PROPERTY graphic='knob_mod_bipolar' name='angles' id='3' value='180.00'
+GR_PROPERTY graphic='knob_mod_bipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_mod_bipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_mod_bipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_mod_bipolar' name='radius' id='3' value='0.32'
+
+# secondary unipolar knob
+GRAPHIC name='knob_secondary_unipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='colour' id='0' value='knob_secondary_unipolar_left'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='colour' id='1' value='knob_secondary_unipolar_center'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='colour' id='2' value='knob_secondary_unipolar_right'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='colour' id='3' value='knob_secondary_unipolar_mark'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='angles' id='1' value='0.00' # 4
+GR_PROPERTY graphic='knob_secondary_unipolar' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_secondary_unipolar' name='radius' id='3' value='0.32'
+
+# secondary bipolar knob
+GRAPHIC name='knob_secondary_bipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='colour' id='0' value='knob_secondary_bipolar_left'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='colour' id='1' value='knob_secondary_bipolar_center'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='colour' id='2' value='knob_secondary_bipolar_right'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='colour' id='3' value='knob_secondary_bipolar_mark'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='angles' id='0' value='0.00'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='angles' id='1' value='-180.00'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='angles' id='2' value='0.00'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='angles' id='3' value='180.00'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_secondary_bipolar' name='radius' id='3' value='0.32'
+
+
+# special unipolar knob
+# env: init, sus2; global: glide, range, swing
+GRAPHIC name='knob_special_unipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_special_unipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_special_unipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_special_unipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_special_unipolar' name='colour' id='0' value='knob_special_unipolar_left'
+GR_PROPERTY graphic='knob_special_unipolar' name='colour' id='1' value='knob_special_unipolar_center'
+GR_PROPERTY graphic='knob_special_unipolar' name='colour' id='2' value='knob_special_unipolar_right'
+GR_PROPERTY graphic='knob_special_unipolar' name='colour' id='3' value='knob_special_unipolar_mark'
+GR_PROPERTY graphic='knob_special_unipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_special_unipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_special_unipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_special_unipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_special_unipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_special_unipolar' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='knob_special_unipolar' name='angles' id='1' value='0.00'
+GR_PROPERTY graphic='knob_special_unipolar' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='knob_special_unipolar' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='knob_special_unipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_special_unipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_special_unipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_special_unipolar' name='radius' id='3' value='0.32'
+
+# special bipolar knob
+# osc: sfx1, sfx2; global: finetune, glide 2
+GRAPHIC name='knob_special_bipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_special_bipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_special_bipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_special_bipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_special_bipolar' name='colour' id='0' value='knob_special_bipolar_left'
+GR_PROPERTY graphic='knob_special_bipolar' name='colour' id='1' value='knob_special_bipolar_center'
+GR_PROPERTY graphic='knob_special_bipolar' name='colour' id='2' value='knob_special_bipolar_right'
+GR_PROPERTY graphic='knob_special_bipolar' name='colour' id='3' value='knob_special_bipolar_mark'
+GR_PROPERTY graphic='knob_special_bipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_special_bipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_special_bipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_special_bipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_special_bipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_special_bipolar' name='angles' id='0' value='0.0'
+GR_PROPERTY graphic='knob_special_bipolar' name='angles' id='1' value='-180.00'
+GR_PROPERTY graphic='knob_special_bipolar' name='angles' id='2' value='0.0'
+GR_PROPERTY graphic='knob_special_bipolar' name='angles' id='3' value='180.00'
+GR_PROPERTY graphic='knob_special_bipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_special_bipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_special_bipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_special_bipolar' name='radius' id='3' value='0.32'
+
+
+# eq1 unipolar knob
+GRAPHIC name='knob_eq1_unipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='colour' id='0' value='knob_eq1_unipolar_left'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='colour' id='1' value='knob_eq1_unipolar_center'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='colour' id='2' value='knob_eq1_unipolar_right'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='colour' id='3' value='knob_eq1_unipolar_mark'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='angles' id='1' value='0.00'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_eq1_unipolar' name='radius' id='3' value='0.32'
+
+# eq1 bipolar knob
+GRAPHIC name='knob_eq1_bipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='colour' id='0' value='knob_eq1_bipolar_left'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='colour' id='1' value='knob_eq1_bipolar_center'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='colour' id='2' value='knob_eq1_bipolar_right'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='colour' id='3' value='knob_eq1_bipolar_mark'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='angles' id='0' value='0.00'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='angles' id='1' value='-180.00'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='angles' id='2' value='0.00'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='angles' id='3' value='180.00'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_eq1_bipolar' name='radius' id='3' value='0.32'
+
+
+# eq2 unipolar knob
+GRAPHIC name='knob_eq2_unipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='colour' id='0' value='knob_eq2_unipolar_left'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='colour' id='1' value='knob_eq2_unipolar_center'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='colour' id='2' value='knob_eq2_unipolar_right'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='colour' id='3' value='knob_eq2_unipolar_mark'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='angles' id='1' value='0.00'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_eq2_unipolar' name='radius' id='3' value='0.32'
+
+# eq2 bipolar knob
+GRAPHIC name='knob_eq2_bipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='colour' id='0' value='knob_eq2_bipolar_left'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='colour' id='1' value='knob_eq2_bipolar_center'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='colour' id='2' value='knob_eq2_bipolar_right'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='colour' id='3' value='knob_eq2_bipolar_mark'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='angles' id='0' value='0.00'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='angles' id='1' value='-180.00'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='angles' id='2' value='0.00'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='angles' id='3' value='180.00'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_eq2_bipolar' name='radius' id='3' value='0.32'
+
+
+# eq3 unipolar knob
+GRAPHIC name='knob_eq3_unipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='colour' id='0' value='knob_eq3_unipolar_left'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='colour' id='1' value='knob_eq3_unipolar_center'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='colour' id='2' value='knob_eq3_unipolar_right'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='colour' id='3' value='knob_eq3_unipolar_mark'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='angles' id='1' value='0.00'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_eq3_unipolar' name='radius' id='3' value='0.32'
+
+# eq3 bipolar knob
+GRAPHIC name='knob_eq3_bipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='colour' id='0' value='knob_eq3_bipolar_left'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='colour' id='1' value='knob_eq3_bipolar_center'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='colour' id='2' value='knob_eq3_bipolar_right'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='colour' id='3' value='knob_eq3_bipolar_mark'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='angles' id='0' value='0.00'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='angles' id='1' value='-180.00'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='angles' id='2' value='0.00'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='angles' id='3' value='180.00'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_eq3_bipolar' name='radius' id='3' value='0.32'
+
+
+# eq4 unipolar knob
+GRAPHIC name='knob_eq4_unipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='colour' id='0' value='knob_eq4_unipolar_left'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='colour' id='1' value='knob_eq4_unipolar_center'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='colour' id='2' value='knob_eq4_unipolar_right'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='colour' id='3' value='knob_eq4_unipolar_mark'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='angles' id='1' value='0.00'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_eq4_unipolar' name='radius' id='3' value='0.32'
+
+# eq4 bipolar knob
+GRAPHIC name='knob_eq4_bipolar' path='1' type='circ'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='colour' id='0' value='knob_eq4_bipolar_left'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='colour' id='1' value='knob_eq4_bipolar_center'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='colour' id='2' value='knob_eq4_bipolar_right'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='colour' id='3' value='knob_eq4_bipolar_mark'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='angles' id='0' value='0.00'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='angles' id='1' value='-180.00'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='angles' id='2' value='0.00'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='angles' id='3' value='180.00'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='radius' id='0' value='0.22'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='radius' id='1' value='0.32'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='radius' id='2' value='0.22'
+GR_PROPERTY graphic='knob_eq4_bipolar' name='radius' id='3' value='0.32'
+
+
+########   ######   
+##     ## ##    ##  
+##     ## ##        
+########  ##   #### 
+##     ## ##    ##  
+##     ## ##    ##  
+########   ######   
+
+# primary knob background
+GRAPHIC name='knob_bg' path='1' type='circ'
+GR_PROPERTY graphic='knob_bg' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_bg' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_bg' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_bg' name='colour' id='1' value='none'
+GR_PROPERTY graphic='knob_bg' name='colour' id='2' value='knob_bg'
+GR_PROPERTY graphic='knob_bg' name='colour' id='0' value='none'
+GR_PROPERTY graphic='knob_bg' name='colour' id='3' value='none'
+GR_PROPERTY graphic='knob_bg' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_bg' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_bg' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_bg' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_bg' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_bg' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='knob_bg' name='angles' id='1' value='4.00'
+GR_PROPERTY graphic='knob_bg' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='knob_bg' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='knob_bg' name='radius' id='0' value='0.40'
+GR_PROPERTY graphic='knob_bg' name='radius' id='1' value='0.00'
+GR_PROPERTY graphic='knob_bg' name='radius' id='2' value='0.40'
+GR_PROPERTY graphic='knob_bg' name='radius' id='3' value='0.00'
+
+# primary mod knob background
+GRAPHIC name='knob_mod_bg' path='1' type='circ'
+GR_PROPERTY graphic='knob_mod_bg' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_mod_bg' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_mod_bg' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_mod_bg' name='colour' id='1' value='none'
+GR_PROPERTY graphic='knob_mod_bg' name='colour' id='2' value='knob_mod_bg'
+GR_PROPERTY graphic='knob_mod_bg' name='colour' id='0' value='none'
+GR_PROPERTY graphic='knob_mod_bg' name='colour' id='3' value='none'
+GR_PROPERTY graphic='knob_mod_bg' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_mod_bg' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_mod_bg' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_mod_bg' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_mod_bg' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_mod_bg' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='knob_mod_bg' name='angles' id='1' value='4.00'
+GR_PROPERTY graphic='knob_mod_bg' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='knob_mod_bg' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='knob_mod_bg' name='radius' id='0' value='0.40'
+GR_PROPERTY graphic='knob_mod_bg' name='radius' id='1' value='0.00'
+GR_PROPERTY graphic='knob_mod_bg' name='radius' id='2' value='0.40'
+GR_PROPERTY graphic='knob_mod_bg' name='radius' id='3' value='0.00'
+
+# secondary knob background
+GRAPHIC name='knob_secondary_bg' path='1' type='circ'
+GR_PROPERTY graphic='knob_secondary_bg' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_secondary_bg' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_secondary_bg' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_secondary_bg' name='colour' id='1' value='none'
+GR_PROPERTY graphic='knob_secondary_bg' name='colour' id='2' value='knob_secondary_bg'
+GR_PROPERTY graphic='knob_secondary_bg' name='colour' id='0' value='none'
+GR_PROPERTY graphic='knob_secondary_bg' name='colour' id='3' value='none'
+GR_PROPERTY graphic='knob_secondary_bg' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_secondary_bg' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_secondary_bg' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_secondary_bg' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_secondary_bg' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_secondary_bg' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='knob_secondary_bg' name='angles' id='1' value='4.00'
+GR_PROPERTY graphic='knob_secondary_bg' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='knob_secondary_bg' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='knob_secondary_bg' name='radius' id='0' value='0.40'
+GR_PROPERTY graphic='knob_secondary_bg' name='radius' id='1' value='0.00'
+GR_PROPERTY graphic='knob_secondary_bg' name='radius' id='2' value='0.40'
+GR_PROPERTY graphic='knob_secondary_bg' name='radius' id='3' value='0.00'
+
+# secondary mod knob background
+GRAPHIC name='knob_secondary_mod_bg' path='1' type='circ'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='width' id='0' value='256.00'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='height' id='0' value='256.00'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='colour' id='1' value='none'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='colour' id='2' value='knob_secondary_mod_bg'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='colour' id='0' value='none'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='colour' id='3' value='none'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='colour' id='4' value='none'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='colour' id='5' value='none'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='colour' id='6' value='none'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='colour' id='7' value='none'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='colour' id='8' value='none'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='angles' id='1' value='4.00'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='radius' id='0' value='0.40'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='radius' id='1' value='0.00'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='radius' id='2' value='0.40'
+GR_PROPERTY graphic='knob_secondary_mod_bg' name='radius' id='3' value='0.00'
+
+
+
+
+
+########  ##     ##  ######  ##    ##  ######  
+##     ## ##     ## ##    ## ##   ##  ##    ## 
+##     ## ##     ## ##       ##  ##   ##       
+########  ##     ## ##       #####     ######  
+##        ##     ## ##       ##  ##         ## 
+##        ##     ## ##    ## ##   ##  ##    ## 
+##         #######   ######  ##    ##  ######  
+
+# Pucks
+
+GRAPHIC name='xy_puck_big' path='1' type='circ'
+GR_PROPERTY graphic='xy_puck_big' name='width' id='0' value='14.00'
+GR_PROPERTY graphic='xy_puck_big' name='height' id='0' value='14.00'
+GR_PROPERTY graphic='xy_puck_big' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='xy_puck_big' name='colour' id='1' value='none'
+GR_PROPERTY graphic='xy_puck_big' name='colour' id='2' value='xy_puck_big'
+GR_PROPERTY graphic='xy_puck_big' name='colour' id='0' value='none'
+GR_PROPERTY graphic='xy_puck_big' name='colour' id='3' value='none' # minimum line
+GR_PROPERTY graphic='xy_puck_big' name='colour' id='4' value='none'
+GR_PROPERTY graphic='xy_puck_big' name='colour' id='5' value='none'
+GR_PROPERTY graphic='xy_puck_big' name='colour' id='6' value='none'
+GR_PROPERTY graphic='xy_puck_big' name='colour' id='7' value='none'
+GR_PROPERTY graphic='xy_puck_big' name='colour' id='8' value='none'
+GR_PROPERTY graphic='xy_puck_big' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='xy_puck_big' name='angles' id='1' value='4.00'
+GR_PROPERTY graphic='xy_puck_big' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='xy_puck_big' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='xy_puck_big' name='radius' id='0' value='0.80'
+GR_PROPERTY graphic='xy_puck_big' name='radius' id='1' value='0.0'
+GR_PROPERTY graphic='xy_puck_big' name='radius' id='2' value='0.30' # bg ring size
+GR_PROPERTY graphic='xy_puck_big' name='radius' id='3' value='0.0'
+
+GRAPHIC name='xy_puck_small' path='1' type='circ'
+GR_PROPERTY graphic='xy_puck_small' name='width' id='0' value='10.00'
+GR_PROPERTY graphic='xy_puck_small' name='height' id='0' value='10.00'
+GR_PROPERTY graphic='xy_puck_small' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='xy_puck_small' name='colour' id='1' value='none'
+GR_PROPERTY graphic='xy_puck_small' name='colour' id='2' value='xy_puck_small'
+GR_PROPERTY graphic='xy_puck_small' name='colour' id='0' value='none'
+GR_PROPERTY graphic='xy_puck_small' name='colour' id='3' value='none' # minimum line
+GR_PROPERTY graphic='xy_puck_small' name='colour' id='4' value='none'
+GR_PROPERTY graphic='xy_puck_small' name='colour' id='5' value='none'
+GR_PROPERTY graphic='xy_puck_small' name='colour' id='6' value='none'
+GR_PROPERTY graphic='xy_puck_small' name='colour' id='7' value='none'
+GR_PROPERTY graphic='xy_puck_small' name='colour' id='8' value='none'
+GR_PROPERTY graphic='xy_puck_small' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='xy_puck_small' name='angles' id='1' value='4.00'
+GR_PROPERTY graphic='xy_puck_small' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='xy_puck_small' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='xy_puck_small' name='radius' id='0' value='0.40'
+GR_PROPERTY graphic='xy_puck_small' name='radius' id='1' value='0.0'
+GR_PROPERTY graphic='xy_puck_small' name='radius' id='2' value='0.30' # bg ring size
+GR_PROPERTY graphic='xy_puck_small' name='radius' id='3' value='0.0'
+
+GRAPHIC name='eq_puck_1' path='1' type='circ'
+GR_PROPERTY graphic='eq_puck_1' name='width' id='0' value='10.00'
+GR_PROPERTY graphic='eq_puck_1' name='height' id='0' value='10.00'
+GR_PROPERTY graphic='eq_puck_1' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='eq_puck_1' name='colour' id='1' value='none'
+GR_PROPERTY graphic='eq_puck_1' name='colour' id='2' value='eq_puck_1'
+GR_PROPERTY graphic='eq_puck_1' name='colour' id='0' value='none'
+GR_PROPERTY graphic='eq_puck_1' name='colour' id='3' value='none' # minimum line
+GR_PROPERTY graphic='eq_puck_1' name='colour' id='4' value='none'
+GR_PROPERTY graphic='eq_puck_1' name='colour' id='5' value='none'
+GR_PROPERTY graphic='eq_puck_1' name='colour' id='6' value='none'
+GR_PROPERTY graphic='eq_puck_1' name='colour' id='7' value='none'
+GR_PROPERTY graphic='eq_puck_1' name='colour' id='8' value='none'
+GR_PROPERTY graphic='eq_puck_1' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='eq_puck_1' name='angles' id='1' value='4.00'
+GR_PROPERTY graphic='eq_puck_1' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='eq_puck_1' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='eq_puck_1' name='radius' id='0' value='0.80'
+GR_PROPERTY graphic='eq_puck_1' name='radius' id='1' value='0.0'
+GR_PROPERTY graphic='eq_puck_1' name='radius' id='2' value='0.30' # bg ring size
+GR_PROPERTY graphic='eq_puck_1' name='radius' id='3' value='0.0'
+
+GRAPHIC name='eq_puck_2' path='1' type='circ'
+GR_PROPERTY graphic='eq_puck_2' name='width' id='0' value='10.00'
+GR_PROPERTY graphic='eq_puck_2' name='height' id='0' value='10.00'
+GR_PROPERTY graphic='eq_puck_2' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='eq_puck_2' name='colour' id='1' value='none'
+GR_PROPERTY graphic='eq_puck_2' name='colour' id='2' value='eq_puck_2'
+GR_PROPERTY graphic='eq_puck_2' name='colour' id='0' value='none'
+GR_PROPERTY graphic='eq_puck_2' name='colour' id='3' value='none' # minimum line
+GR_PROPERTY graphic='eq_puck_2' name='colour' id='4' value='none'
+GR_PROPERTY graphic='eq_puck_2' name='colour' id='5' value='none'
+GR_PROPERTY graphic='eq_puck_2' name='colour' id='6' value='none'
+GR_PROPERTY graphic='eq_puck_2' name='colour' id='7' value='none'
+GR_PROPERTY graphic='eq_puck_2' name='colour' id='8' value='none'
+GR_PROPERTY graphic='eq_puck_2' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='eq_puck_2' name='angles' id='1' value='4.00'
+GR_PROPERTY graphic='eq_puck_2' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='eq_puck_2' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='eq_puck_2' name='radius' id='0' value='0.80'
+GR_PROPERTY graphic='eq_puck_2' name='radius' id='1' value='0.0'
+GR_PROPERTY graphic='eq_puck_2' name='radius' id='2' value='0.30' # bg ring size
+GR_PROPERTY graphic='eq_puck_2' name='radius' id='3' value='0.0'
+
+GRAPHIC name='eq_puck_3' path='1' type='circ'
+GR_PROPERTY graphic='eq_puck_3' name='width' id='0' value='10.00'
+GR_PROPERTY graphic='eq_puck_3' name='height' id='0' value='10.00'
+GR_PROPERTY graphic='eq_puck_3' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='eq_puck_3' name='colour' id='1' value='none'
+GR_PROPERTY graphic='eq_puck_3' name='colour' id='2' value='eq_puck_3'
+GR_PROPERTY graphic='eq_puck_3' name='colour' id='0' value='none'
+GR_PROPERTY graphic='eq_puck_3' name='colour' id='3' value='none' # minimum line
+GR_PROPERTY graphic='eq_puck_3' name='colour' id='4' value='none'
+GR_PROPERTY graphic='eq_puck_3' name='colour' id='5' value='none'
+GR_PROPERTY graphic='eq_puck_3' name='colour' id='6' value='none'
+GR_PROPERTY graphic='eq_puck_3' name='colour' id='7' value='none'
+GR_PROPERTY graphic='eq_puck_3' name='colour' id='8' value='none'
+GR_PROPERTY graphic='eq_puck_3' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='eq_puck_3' name='angles' id='1' value='4.00'
+GR_PROPERTY graphic='eq_puck_3' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='eq_puck_3' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='eq_puck_3' name='radius' id='0' value='0.80'
+GR_PROPERTY graphic='eq_puck_3' name='radius' id='1' value='0.0'
+GR_PROPERTY graphic='eq_puck_3' name='radius' id='2' value='0.30' # bg ring size
+GR_PROPERTY graphic='eq_puck_3' name='radius' id='3' value='0.0'
+
+GRAPHIC name='eq_puck_4' path='1' type='circ'
+GR_PROPERTY graphic='eq_puck_4' name='width' id='0' value='10.00'
+GR_PROPERTY graphic='eq_puck_4' name='height' id='0' value='10.00'
+GR_PROPERTY graphic='eq_puck_4' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='eq_puck_4' name='colour' id='1' value='none'
+GR_PROPERTY graphic='eq_puck_4' name='colour' id='2' value='eq_puck_4'
+GR_PROPERTY graphic='eq_puck_4' name='colour' id='0' value='none'
+GR_PROPERTY graphic='eq_puck_4' name='colour' id='3' value='none' # minimum line
+GR_PROPERTY graphic='eq_puck_4' name='colour' id='4' value='none'
+GR_PROPERTY graphic='eq_puck_4' name='colour' id='5' value='none'
+GR_PROPERTY graphic='eq_puck_4' name='colour' id='6' value='none'
+GR_PROPERTY graphic='eq_puck_4' name='colour' id='7' value='none'
+GR_PROPERTY graphic='eq_puck_4' name='colour' id='8' value='none'
+GR_PROPERTY graphic='eq_puck_4' name='angles' id='0' value='-180.00'
+GR_PROPERTY graphic='eq_puck_4' name='angles' id='1' value='4.00'
+GR_PROPERTY graphic='eq_puck_4' name='angles' id='2' value='-180.00'
+GR_PROPERTY graphic='eq_puck_4' name='angles' id='3' value='359.90'
+GR_PROPERTY graphic='eq_puck_4' name='radius' id='0' value='0.80'
+GR_PROPERTY graphic='eq_puck_4' name='radius' id='1' value='0.0'
+GR_PROPERTY graphic='eq_puck_4' name='radius' id='2' value='0.30' # bg ring size
+GR_PROPERTY graphic='eq_puck_4' name='radius' id='3' value='0.0'
+
+*********************************************************************
+
+
+
+
+
+ ######   #######  ##    ## ######## ########   #######  ##        ######  
+##    ## ##     ## ###   ##    ##    ##     ## ##     ## ##       ##    ## 
+##       ##     ## ####  ##    ##    ##     ## ##     ## ##       ##       
+##       ##     ## ## ## ##    ##    ########  ##     ## ##        ######  
+##       ##     ## ##  ####    ##    ##   ##   ##     ## ##             ## 
+##    ## ##     ## ##   ###    ##    ##    ##  ##     ## ##       ##    ## 
+ ######   #######  ##    ##    ##    ##     ##  #######  ########  ######  
+
+
+CONTROL type='Pane' name='Pane 114 Ghost' bounds='0.00 0.00 908.00 287.00' parent='root' layerMask='ffffffff'
+PROPERTY control='Pane 114 Ghost' name='colours' id='0' value='none'
+PROPERTY control='Pane 114 Ghost' name='colours' id='1' value='none'
+PROPERTY control='Pane 114 Ghost' name='colours' id='2' value='none'
+PROPERTY control='Pane 114 Ghost' name='colours' id='3' value='none'
+PROPERTY control='Pane 114 Ghost' name='graphics' id='0' value='main_bg'
+PROPERTY control='Pane 114 Ghost' name='layer' id='0' value='Layer 1'
+
+	CONTROL type='Pane' name='Pane 114 ID BG' bounds='0.00 0.00 908.00 287.00' parent='root' layerMask='1'
+	PROPERTY control='Pane 114 ID BG' name='colours' id='0' value='main_bg'
+	PROPERTY control='Pane 114 ID BG' name='colours' id='1' value='none'
+	PROPERTY control='Pane 114 ID BG' name='colours' id='2' value='none'
+	PROPERTY control='Pane 114 ID BG' name='colours' id='3' value='none'
+	PROPERTY control='Pane 114 ID BG' name='graphics' id='0' value='none'
+
+		CONTROL type='Pane' name='Pane 114' bounds='0.00 0.00 908.00 287.00' parent='Pane 114 ID BG' layerMask='1'
+		PROPERTY control='Pane 114' name='colours' id='0' value='none'
+		PROPERTY control='Pane 114' name='colours' id='1' value='none'
+		PROPERTY control='Pane 114' name='colours' id='2' value='none'
+		PROPERTY control='Pane 114' name='colours' id='3' value='none'
+		PROPERTY control='Pane 114' name='graphics' id='0' value='none'
+
+
+
+ ######  ######## ##    ## ######## ########     ###    ##          ########     ###    ##    ## ######## 
+##    ## ##       ###   ##    ##    ##     ##   ## ##   ##          ##     ##   ## ##   ###   ## ##       
+##       ##       ####  ##    ##    ##     ##  ##   ##  ##          ##     ##  ##   ##  ####  ## ##       
+##       ######   ## ## ##    ##    ########  ##     ## ##          ########  ##     ## ## ## ## ######   
+##       ##       ##  ####    ##    ##   ##   ######### ##          ##        ######### ##  #### ##       
+##    ## ##       ##   ###    ##    ##    ##  ##     ## ##          ##        ##     ## ##   ### ##       
+ ######  ######## ##    ##    ##    ##     ## ##     ## ########    ##        ##     ## ##    ## ######## 
+
+CONTROL type='Pane' name='Central Pane' bounds='344.00 0.00 220.00 287.00' parent='Pane 114' layerMask='1'
+PROPERTY control='Central Pane' name='colours' id='0' value='grid_bg'
+PROPERTY control='Central Pane' name='colours' id='1' value='none'
+PROPERTY control='Central Pane' name='colours' id='2' value='none'
+PROPERTY control='Central Pane' name='colours' id='3' value='none'
+PROPERTY control='Central Pane' name='graphics' id='0' value='none'
+
+
+########  ####  ######  ########  ##          ###    ##    ## 
+##     ##  ##  ##    ## ##     ## ##         ## ##    ##  ##  
+##     ##  ##  ##       ##     ## ##        ##   ##    ####   
+##     ##  ##   ######  ########  ##       ##     ##    ##    
+##     ##  ##        ## ##        ##       #########    ##    
+##     ##  ##  ##    ## ##        ##       ##     ##    ##    
+########  ####  ######  ##        ######## ##     ##    ##    
+
+	# display
+	CONTROL type='InfoDisplay' name='InfoDisplay 143' bounds='4.00 10.00 212.00 24.00' parent='Central Pane' layerMask='1'
+	PROPERTY control='InfoDisplay 143' name='colours' id='0' value='none'
+	PROPERTY control='InfoDisplay 143' name='colours' id='1' value='none'
+	PROPERTY control='InfoDisplay 143' name='colours' id='2' value='label_text'
+	PROPERTY control='InfoDisplay 143' name='graphics' id='0' value='none'
+	PARAMETER control='InfoDisplay 143' port='MIDILearnMode' module='PCore' parameter='MidiL'
+	PARAMETER control='InfoDisplay 143' port='MIDILearnType' module='PCore' parameter='MidiT'
+	PARAMETER control='InfoDisplay 143' port='Display PAGES' module='PCore' parameter='PagesOn'
+
+
+
+
+# CONTROL type='Pane' name='Mixer Pane' bounds='0.00 39.00 220.00 128.00' parent='Central Pane' layerMask='1'
+# PROPERTY control='Mixer Pane' name='colours' id='0' value='w30'
+# PROPERTY control='Mixer Pane' name='colours' id='1' value='w30'
+# PROPERTY control='Mixer Pane' name='colours' id='2' value='none'
+# PROPERTY control='Mixer Pane' name='colours' id='3' value='none'
+# PROPERTY control='Mixer Pane' name='graphics' id='0' value='none'
+
+
+
+	# reverb type
+	CONTROL type='Display' name='Display 115' bounds='4.00 42.00 212.00 24.00' parent='Central Pane' layerMask='1'
+	PROPERTY control='Display 115' name='colours' id='0' value='button_light_bg'
+	PROPERTY control='Display 115' name='colours' id='1' value='button_light_border'
+	PROPERTY control='Display 115' name='colours' id='2' value='label_menu'
+	PROPERTY control='Display 115' name='graphics' id='0' value='none'
+	PROPERTY control='Display 115' name='graphics' id='1' value='none'
+	PARAMETER control='Display 115' port='integer' module='Rev1' parameter='Mode'
+
+	PROPERTY control='Display 115' name='FontSize' id='0' value='18.00'
+
+
+
+
+##     ## #### ##     ## ######## ########  
+###   ###  ##   ##   ##  ##       ##     ## 
+#### ####  ##    ## ##   ##       ##     ## 
+## ### ##  ##     ###    ######   ########  
+##     ##  ##    ## ##   ##       ##   ##   
+##     ##  ##   ##   ##  ##       ##    ##  
+##     ## #### ##     ## ######## ##     ## 
+
+# emt mix
+CONTROL type='Knob' name='Knob 166' bounds='92.00 188.00 34.00 34.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 166' name='graphics' id='0' value='knob_secondary_bg'
+PROPERTY control='Knob 166' name='graphics' id='1' value='knob_secondary_unipolar'
+PROPERTY control='Knob 166' name='graphics' id='2' value='none'
+PARAMETER control='Knob 166' port='Knob Value' module='Rev1' parameter='EMix' valuestring='generic'
+
+CONTROL type='Label' name='Label 167' bounds='0.00 34.00 34.00 12.00' parent='Knob 166' layerMask='ffffffff'
+PROPERTY control='Label 167' name='colours' id='0' value='none'
+PROPERTY control='Label 167' name='colours' id='1' value='label_text'
+PROPERTY control='Label 167' name='graphics' id='0' value='none'
+PROPERTY control='Label 167' name='labeltext' id='0' value='Emt Mix'
+PROPERTY control='Label 167' name='parentLabel' id='0' value='yes'
+
+# dry
+CONTROL type='Knob' name='Knob 117' bounds='60.00 236.00 34.00 34.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 117' name='graphics' id='0' value='knob_secondary_bg'
+PROPERTY control='Knob 117' name='graphics' id='1' value='knob_secondary_unipolar'
+PROPERTY control='Knob 117' name='graphics' id='2' value='none'
+PARAMETER control='Knob 117' port='Knob Value' module='Rev1' parameter='Dry' valuestring='generic'
+
+CONTROL type='Label' name='Label 118' bounds='-1.00 34.00 36.00 12.00' parent='Knob 117' layerMask='ffffffff'
+PROPERTY control='Label 118' name='colours' id='0' value='none'
+PROPERTY control='Label 118' name='colours' id='1' value='label_text'
+PROPERTY control='Label 118' name='graphics' id='0' value='none'
+PROPERTY control='Label 118' name='labeltext' id='0' value='Dry'
+PROPERTY control='Label 118' name='parentLabel' id='0' value='yes'
+
+# wet
+CONTROL type='Knob' name='Knob 119' bounds='126.00 236.00 34.00 34.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 119' name='graphics' id='0' value='knob_secondary_bg'
+PROPERTY control='Knob 119' name='graphics' id='1' value='knob_secondary_unipolar'
+PROPERTY control='Knob 119' name='graphics' id='2' value='none'
+PARAMETER control='Knob 119' port='Knob Value' module='Rev1' parameter='Wet' valuestring='generic'
+
+CONTROL type='Label' name='Label 120' bounds='0.00 34.00 34.00 12.00' parent='Knob 119' layerMask='ffffffff'
+PROPERTY control='Label 120' name='colours' id='0' value='none'
+PROPERTY control='Label 120' name='colours' id='1' value='label_text'
+PROPERTY control='Label 120' name='graphics' id='0' value='none'
+PROPERTY control='Label 120' name='labeltext' id='0' value='Wet'
+PROPERTY control='Label 120' name='parentLabel' id='0' value='yes'
+
+
+
+
+
+# t size
+CONTROL type='Knob' name='Knob 125' bounds='22.00 162.00 60.00 60.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 125' name='graphics' id='0' value='knob_bg'
+PROPERTY control='Knob 125' name='graphics' id='1' value='knob_unipolar'
+PROPERTY control='Knob 125' name='graphics' id='2' value='none'
+PARAMETER control='Knob 125' port='Knob Value' module='Rev1' parameter='Size' valuestring='generic'
+
+CONTROL type='Label' name='Label 126' bounds='14.00 60.00 34.00 12.00' parent='Knob 125' layerMask='ffffffff'
+PROPERTY control='Label 126' name='colours' id='0' value='none'
+PROPERTY control='Label 126' name='colours' id='1' value='label_text'
+PROPERTY control='Label 126' name='graphics' id='0' value='none'
+PROPERTY control='Label 126' name='labeltext' id='0' value='Size'
+PROPERTY control='Label 126' name='parentLabel' id='0' value='yes'
+
+# t diff
+CONTROL type='Knob' name='Knob 121' bounds='10.00 70.00 34.00 34.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 121' name='graphics' id='0' value='knob_bg'
+PROPERTY control='Knob 121' name='graphics' id='1' value='knob_unipolar'
+PROPERTY control='Knob 121' name='graphics' id='2' value='none'
+PARAMETER control='Knob 121' port='Knob Value' module='Rev1' parameter='FB' valuestring='generic'
+
+CONTROL type='Label' name='Label 122' bounds='-3.00 34.00 40.00 12.00' parent='Knob 121' layerMask='ffffffff'
+PROPERTY control='Label 122' name='colours' id='0' value='none'
+PROPERTY control='Label 122' name='colours' id='1' value='label_text'
+PROPERTY control='Label 122' name='graphics' id='0' value='none'
+PROPERTY control='Label 122' name='labeltext' id='0' value='Diffusion'
+PROPERTY control='Label 122' name='parentLabel' id='0' value='yes'
+
+# t damp
+CONTROL type='Knob' name='Knob 123' bounds='60.00 70.00 34.00 34.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 123' name='graphics' id='0' value='knob_bg'
+PROPERTY control='Knob 123' name='graphics' id='1' value='knob_unipolar'
+PROPERTY control='Knob 123' name='graphics' id='2' value='none'
+PARAMETER control='Knob 123' port='Knob Value' module='Rev1' parameter='Damp' valuestring='generic'
+
+CONTROL type='Label' name='Label 124' bounds='0.00 34.00 34.00 12.00' parent='Knob 123' layerMask='ffffffff'
+PROPERTY control='Label 124' name='colours' id='0' value='none'
+PROPERTY control='Label 124' name='colours' id='1' value='label_text'
+PROPERTY control='Label 124' name='graphics' id='0' value='none'
+PROPERTY control='Label 124' name='labeltext' id='0' value='Damp'
+PROPERTY control='Label 124' name='parentLabel' id='0' value='yes'
+
+
+# t speed
+CONTROL type='Knob' name='Knob 144' bounds='10.00 118.00 34.00 34.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 144' name='graphics' id='0' value='knob_bg'
+PROPERTY control='Knob 144' name='graphics' id='1' value='knob_unipolar'
+PROPERTY control='Knob 144' name='graphics' id='2' value='none'
+PARAMETER control='Knob 144' port='Knob Value' module='Rev1' parameter='Spd' valuestring='generic'
+
+CONTROL type='Label' name='Label 145' bounds='0.00 34.00 34.00 12.00' parent='Knob 144' layerMask='ffffffff'
+PROPERTY control='Label 145' name='colours' id='0' value='none'
+PROPERTY control='Label 145' name='colours' id='1' value='label_text'
+PROPERTY control='Label 145' name='graphics' id='0' value='none'
+PROPERTY control='Label 145' name='labeltext' id='0' value='Speed'
+PROPERTY control='Label 145' name='parentLabel' id='0' value='yes'
+
+# t mod depth
+CONTROL type='Knob' name='Knob 146' bounds='60.00 118.00 34.00 34.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 146' name='graphics' id='0' value='knob_bg'
+PROPERTY control='Knob 146' name='graphics' id='1' value='knob_unipolar'
+PROPERTY control='Knob 146' name='graphics' id='2' value='none'
+PARAMETER control='Knob 146' port='Knob Value' module='Rev1' parameter='Dpt' valuestring='generic'
+
+CONTROL type='Label' name='Label 147' bounds='0.00 34.00 34.00 12.00' parent='Knob 146' layerMask='ffffffff'
+PROPERTY control='Label 147' name='colours' id='0' value='none'
+PROPERTY control='Label 147' name='colours' id='1' value='label_text'
+PROPERTY control='Label 147' name='graphics' id='0' value='none'
+PROPERTY control='Label 147' name='labeltext' id='0' value='Depth'
+PROPERTY control='Label 147' name='parentLabel' id='0' value='yes'
+
+
+
+
+
+
+# ap size
+CONTROL type='Knob' name='Knob 168' bounds='138.00 162.00 60.00 60.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 168' name='graphics' id='0' value='knob_bg'
+PROPERTY control='Knob 168' name='graphics' id='1' value='knob_unipolar'
+PROPERTY control='Knob 168' name='graphics' id='2' value='none'
+PARAMETER control='Knob 168' port='Knob Value' module='Rev1' parameter='APFB' valuestring='generic'
+
+CONTROL type='Label' name='Label 169' bounds='12.00 60.00 34.00 12.00' parent='Knob 168' layerMask='ffffffff'
+PROPERTY control='Label 169' name='colours' id='0' value='none'
+PROPERTY control='Label 169' name='colours' id='1' value='label_text'
+PROPERTY control='Label 169' name='graphics' id='0' value='none'
+PROPERTY control='Label 169' name='labeltext' id='0' value='AP Size'
+PROPERTY control='Label 169' name='parentLabel' id='0' value='yes'
+
+# ap col1
+CONTROL type='Knob' name='Knob 164' bounds='126.00 70.00 34.00 34.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 164' name='graphics' id='0' value='knob_bg'
+PROPERTY control='Knob 164' name='graphics' id='1' value='knob_unipolar'
+PROPERTY control='Knob 164' name='graphics' id='2' value='none'
+PARAMETER control='Knob 164' port='Knob Value' module='Rev1' parameter='FB1' valuestring='generic'
+
+CONTROL type='Label' name='Label 165' bounds='0.00 34.00 34.00 12.00' parent='Knob 164' layerMask='ffffffff'
+PROPERTY control='Label 165' name='colours' id='0' value='none'
+PROPERTY control='Label 165' name='colours' id='1' value='label_text'
+PROPERTY control='Label 165' name='graphics' id='0' value='none'
+PROPERTY control='Label 165' name='labeltext' id='0' value='Feedbk 1'
+PROPERTY control='Label 165' name='parentLabel' id='0' value='yes'
+
+# ap col2
+CONTROL type='Knob' name='Knob 170' bounds='176.00 70.00 34.00 34.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 170' name='graphics' id='0' value='knob_bg'
+PROPERTY control='Knob 170' name='graphics' id='1' value='knob_unipolar'
+PROPERTY control='Knob 170' name='graphics' id='2' value='none'
+PARAMETER control='Knob 170' port='Knob Value' module='Rev1' parameter='FB2' valuestring='generic'
+
+CONTROL type='Label' name='Label 171' bounds='0.00 34.00 34.00 12.00' parent='Knob 170' layerMask='ffffffff'
+PROPERTY control='Label 171' name='colours' id='0' value='none'
+PROPERTY control='Label 171' name='colours' id='1' value='label_text'
+PROPERTY control='Label 171' name='graphics' id='0' value='none'
+PROPERTY control='Label 171' name='labeltext' id='0' value='Feedbk 2'
+PROPERTY control='Label 171' name='parentLabel' id='0' value='yes'
+
+# ap speed
+CONTROL type='Knob' name='Knob 172' bounds='126.00 118.00 34.00 34.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 172' name='graphics' id='0' value='knob_bg'
+PROPERTY control='Knob 172' name='graphics' id='1' value='knob_unipolar'
+PROPERTY control='Knob 172' name='graphics' id='2' value='none'
+PARAMETER control='Knob 172' port='Knob Value' module='Rev1' parameter='APSpd' valuestring='generic'
+
+CONTROL type='Label' name='Label 173' bounds='0.00 34.00 34.00 12.00' parent='Knob 172' layerMask='ffffffff'
+PROPERTY control='Label 173' name='colours' id='0' value='none'
+PROPERTY control='Label 173' name='colours' id='1' value='label_text'
+PROPERTY control='Label 173' name='graphics' id='0' value='none'
+PROPERTY control='Label 173' name='labeltext' id='0' value='Speed'
+PROPERTY control='Label 173' name='parentLabel' id='0' value='yes'
+
+# ap mod depth
+CONTROL type='Knob' name='Knob 174' bounds='176.00 118.00 34.00 34.00' parent='Central Pane' layerMask='1'
+PROPERTY control='Knob 174' name='graphics' id='0' value='knob_bg'
+PROPERTY control='Knob 174' name='graphics' id='1' value='knob_unipolar'
+PROPERTY control='Knob 174' name='graphics' id='2' value='none'
+PARAMETER control='Knob 174' port='Knob Value' module='Rev1' parameter='APDpt' valuestring='generic'
+
+CONTROL type='Label' name='Label 175' bounds='0.00 34.00 34.00 12.00' parent='Knob 174' layerMask='ffffffff'
+PROPERTY control='Label 175' name='colours' id='0' value='none'
+PROPERTY control='Label 175' name='colours' id='1' value='label_text'
+PROPERTY control='Label 175' name='graphics' id='0' value='none'
+PROPERTY control='Label 175' name='labeltext' id='0' value='Depth'
+PROPERTY control='Label 175' name='parentLabel' id='0' value='yes'
+
+
+
+
+
+########  ######## ##          ###    ##    ## 
+##     ## ##       ##         ## ##    ##  ##  
+##     ## ##       ##        ##   ##    ####   
+##     ## ######   ##       ##     ##    ##    
+##     ## ##       ##       #########    ##    
+##     ## ##       ##       ##     ##    ##    
+########  ######## ######## ##     ##    ##    
+
+CONTROL type='Pane' name='Left Pane Ghost' bounds='10.00 10.00 324.00 267.00' parent='Pane 114' layerMask='1'
+PROPERTY control='Left Pane Ghost' name='colours' id='0' value='none'
+PROPERTY control='Left Pane Ghost' name='colours' id='1' value='none'
+PROPERTY control='Left Pane Ghost' name='colours' id='2' value='none'
+PROPERTY control='Left Pane Ghost' name='colours' id='3' value='none'
+PROPERTY control='Left Pane Ghost' name='graphics' id='0' value='none'
+
+CONTROL type='Pane' name='Left Pane ID BG' bounds='0.00 0.00 324.00 267.00' parent='Left Pane Ghost' layerMask='1'
+PROPERTY control='Left Pane ID BG' name='colours' id='0' value='none'
+PROPERTY control='Left Pane ID BG' name='colours' id='1' value='none'
+PROPERTY control='Left Pane ID BG' name='colours' id='2' value='none'
+PROPERTY control='Left Pane ID BG' name='colours' id='3' value='none'
+PROPERTY control='Left Pane ID BG' name='graphics' id='0' value='zrev_bg'
+
+CONTROL type='Pane' name='Left Pane' bounds='0.00 0.00 324.00 267.00' parent='Left Pane ID BG' layerMask='1'
+PROPERTY control='Left Pane' name='colours' id='0' value='config_bg'
+PROPERTY control='Left Pane' name='colours' id='1' value='module_border'
+PROPERTY control='Left Pane' name='colours' id='2' value='none'
+PROPERTY control='Left Pane' name='colours' id='3' value='none'
+PROPERTY control='Left Pane' name='graphics' id='0' value='none'
+
+# t
+
+CONTROL type='Pane' name='T0 Slider BG' bounds='4.00 3.00 316.00 30.00' parent='Left Pane' layerMask='1'
+PROPERTY control='T0 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='T0 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='T0 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='T0 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='T0 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='T0 Label' bounds='0.00 0.00 316.00 30.00' parent='T0 Slider BG' layerMask='ffffffff'
+	PROPERTY control='T0 Label' name='colours' id='0' value='none'
+	PROPERTY control='T0 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='T0 Label' name='graphics' id='0' value='none'
+	PROPERTY control='T0 Label' name='labeltext' id='0' value='T0'
+	PROPERTY control='T0 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='T0 Slider' bounds='0.00 0.00 316.00 30.00' parent='T0 Slider BG' layerMask='1'
+	PROPERTY control='T0 Slider' name='colours' id='0' value='none'
+	PROPERTY control='T0 Slider' name='colours' id='1' value='none'
+	PROPERTY control='T0 Slider' name='colours' id='2' value='none'
+	PROPERTY control='T0 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='T0 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='T0 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='T0 Slider' port='Slider Value' module='Rev1' parameter='T0' valuestring='generic'
+	PROPERTY control='T0 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='T1 Slider BG' bounds='4.00 36.00 316.00 30.00' parent='Left Pane' layerMask='1'
+PROPERTY control='T1 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='T1 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='T1 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='T1 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='T1 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='T1 Label' bounds='0.00 0.00 316.00 30.00' parent='T1 Slider BG' layerMask='ffffffff'
+	PROPERTY control='T1 Label' name='colours' id='0' value='none'
+	PROPERTY control='T1 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='T1 Label' name='graphics' id='0' value='none'
+	PROPERTY control='T1 Label' name='labeltext' id='0' value='T1'
+	PROPERTY control='T1 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='T1 Slider' bounds='0.00 0.00 316.00 30.00' parent='T1 Slider BG' layerMask='1'
+	PROPERTY control='T1 Slider' name='colours' id='0' value='none'
+	PROPERTY control='T1 Slider' name='colours' id='1' value='none'
+	PROPERTY control='T1 Slider' name='colours' id='2' value='none'
+	PROPERTY control='T1 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='T1 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='T1 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='T1 Slider' port='Slider Value' module='Rev1' parameter='T1' valuestring='generic'
+	PROPERTY control='T1 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='T2 Slider BG' bounds='4.00 69.00 316.00 30.00' parent='Left Pane' layerMask='1'
+PROPERTY control='T2 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='T2 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='T2 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='T2 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='T2 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='T2 Label' bounds='0.00 0.00 316.00 30.00' parent='T2 Slider BG' layerMask='ffffffff'
+	PROPERTY control='T2 Label' name='colours' id='0' value='none'
+	PROPERTY control='T2 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='T2 Label' name='graphics' id='0' value='none'
+	PROPERTY control='T2 Label' name='labeltext' id='0' value='T2'
+	PROPERTY control='T2 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='T2 Slider' bounds='0.00 0.00 316.00 30.00' parent='T2 Slider BG' layerMask='1'
+	PROPERTY control='T2 Slider' name='colours' id='0' value='none'
+	PROPERTY control='T2 Slider' name='colours' id='1' value='none'
+	PROPERTY control='T2 Slider' name='colours' id='2' value='none'
+	PROPERTY control='T2 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='T2 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='T2 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='T2 Slider' port='Slider Value' module='Rev1' parameter='T2' valuestring='generic'
+	PROPERTY control='T2 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='T3 Slider BG' bounds='4.00 102.00 316.00 30.00' parent='Left Pane' layerMask='1'
+PROPERTY control='T3 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='T3 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='T3 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='T3 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='T3 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='T3 Label' bounds='0.00 0.00 316.00 30.00' parent='T3 Slider BG' layerMask='ffffffff'
+	PROPERTY control='T3 Label' name='colours' id='0' value='none'
+	PROPERTY control='T3 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='T3 Label' name='graphics' id='0' value='none'
+	PROPERTY control='T3 Label' name='labeltext' id='0' value='T3'
+	PROPERTY control='T3 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='T3 Slider' bounds='0.00 0.00 316.00 30.00' parent='T3 Slider BG' layerMask='1'
+	PROPERTY control='T3 Slider' name='colours' id='0' value='none'
+	PROPERTY control='T3 Slider' name='colours' id='1' value='none'
+	PROPERTY control='T3 Slider' name='colours' id='2' value='none'
+	PROPERTY control='T3 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='T3 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='T3 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='T3 Slider' port='Slider Value' module='Rev1' parameter='T3' valuestring='generic'
+	PROPERTY control='T3 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='T4 Slider BG' bounds='4.00 135.00 316.00 30.00' parent='Left Pane' layerMask='1'
+PROPERTY control='T4 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='T4 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='T4 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='T4 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='T4 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='T4 Label' bounds='0.00 0.00 316.00 30.00' parent='T4 Slider BG' layerMask='ffffffff'
+	PROPERTY control='T4 Label' name='colours' id='0' value='none'
+	PROPERTY control='T4 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='T4 Label' name='graphics' id='0' value='none'
+	PROPERTY control='T4 Label' name='labeltext' id='0' value='T4'
+	PROPERTY control='T4 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='T4 Slider' bounds='0.00 0.00 316.00 30.00' parent='T4 Slider BG' layerMask='1'
+	PROPERTY control='T4 Slider' name='colours' id='0' value='none'
+	PROPERTY control='T4 Slider' name='colours' id='1' value='none'
+	PROPERTY control='T4 Slider' name='colours' id='2' value='none'
+	PROPERTY control='T4 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='T4 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='T4 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='T4 Slider' port='Slider Value' module='Rev1' parameter='T4' valuestring='generic'
+	PROPERTY control='T4 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='T5 Slider BG' bounds='4.00 168.00 316.00 30.00' parent='Left Pane' layerMask='1'
+PROPERTY control='T5 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='T5 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='T5 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='T5 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='T5 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='T5 Label' bounds='0.00 0.00 316.00 30.00' parent='T5 Slider BG' layerMask='ffffffff'
+	PROPERTY control='T5 Label' name='colours' id='0' value='none'
+	PROPERTY control='T5 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='T5 Label' name='graphics' id='0' value='none'
+	PROPERTY control='T5 Label' name='labeltext' id='0' value='T5'
+	PROPERTY control='T5 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='T5 Slider' bounds='0.00 0.00 316.00 30.00' parent='T5 Slider BG' layerMask='1'
+	PROPERTY control='T5 Slider' name='colours' id='0' value='none'
+	PROPERTY control='T5 Slider' name='colours' id='1' value='none'
+	PROPERTY control='T5 Slider' name='colours' id='2' value='none'
+	PROPERTY control='T5 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='T5 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='T5 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='T5 Slider' port='Slider Value' module='Rev1' parameter='T5' valuestring='generic'
+	PROPERTY control='T5 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='T6 Slider BG' bounds='4.00 201.00 316.00 30.00' parent='Left Pane' layerMask='1'
+PROPERTY control='T6 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='T6 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='T6 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='T6 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='T6 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='T6 Label' bounds='0.00 0.00 316.00 30.00' parent='T6 Slider BG' layerMask='ffffffff'
+	PROPERTY control='T6 Label' name='colours' id='0' value='none'
+	PROPERTY control='T6 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='T6 Label' name='graphics' id='0' value='none'
+	PROPERTY control='T6 Label' name='labeltext' id='0' value='T6'
+	PROPERTY control='T6 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='T6 Slider' bounds='0.00 0.00 316.00 30.00' parent='T6 Slider BG' layerMask='1'
+	PROPERTY control='T6 Slider' name='colours' id='0' value='none'
+	PROPERTY control='T6 Slider' name='colours' id='1' value='none'
+	PROPERTY control='T6 Slider' name='colours' id='2' value='none'
+	PROPERTY control='T6 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='T6 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='T6 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='T6 Slider' port='Slider Value' module='Rev1' parameter='T6' valuestring='generic'
+	PROPERTY control='T6 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='T7 Slider BG' bounds='4.00 234.00 316.00 30.00' parent='Left Pane' layerMask='1'
+PROPERTY control='T7 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='T7 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='T7 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='T7 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='T7 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='T7 Label' bounds='0.00 0.00 316.00 30.00' parent='T7 Slider BG' layerMask='ffffffff'
+	PROPERTY control='T7 Label' name='colours' id='0' value='none'
+	PROPERTY control='T7 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='T7 Label' name='graphics' id='0' value='none'
+	PROPERTY control='T7 Label' name='labeltext' id='0' value='T7'
+	PROPERTY control='T7 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='T7 Slider' bounds='0.00 0.00 316.00 30.00' parent='T7 Slider BG' layerMask='1'
+	PROPERTY control='T7 Slider' name='colours' id='0' value='none'
+	PROPERTY control='T7 Slider' name='colours' id='1' value='none'
+	PROPERTY control='T7 Slider' name='colours' id='2' value='none'
+	PROPERTY control='T7 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='T7 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='T7 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='T7 Slider' port='Slider Value' module='Rev1' parameter='T7' valuestring='generic'
+	PROPERTY control='T7 Slider' name='direction' id='0' value='horizontal'
+
+
+
+
+
+
+
+######## ######## ######## ########  ########     ###     ######  ##    ## 
+##       ##       ##       ##     ## ##     ##   ## ##   ##    ## ##   ##  
+##       ##       ##       ##     ## ##     ##  ##   ##  ##       ##  ##   
+######   ######   ######   ##     ## ########  ##     ## ##       #####    
+##       ##       ##       ##     ## ##     ## ######### ##       ##  ##   
+##       ##       ##       ##     ## ##     ## ##     ## ##    ## ##   ##  
+##       ######## ######## ########  ########  ##     ##  ######  ##    ## 
+
+# ap
+
+CONTROL type='Pane' name='Right Pane Ghost' bounds='574.00 10.00 324.00 267.00' parent='Pane 114' layerMask='1'
+PROPERTY control='Right Pane Ghost' name='colours' id='0' value='none'
+PROPERTY control='Right Pane Ghost' name='colours' id='1' value='none'
+PROPERTY control='Right Pane Ghost' name='colours' id='2' value='none'
+PROPERTY control='Right Pane Ghost' name='colours' id='3' value='none'
+PROPERTY control='Right Pane Ghost' name='graphics' id='0' value='none'
+
+CONTROL type='Pane' name='Right Pane ID BG' bounds='0.00 0.00 324.00 267.00' parent='Right Pane Ghost' layerMask='1'
+PROPERTY control='Right Pane ID BG' name='colours' id='0' value='none'
+PROPERTY control='Right Pane ID BG' name='colours' id='1' value='none'
+PROPERTY control='Right Pane ID BG' name='colours' id='2' value='none'
+PROPERTY control='Right Pane ID BG' name='colours' id='3' value='none'
+PROPERTY control='Right Pane ID BG' name='graphics' id='0' value='zrev_bg'
+
+CONTROL type='Pane' name='Right Pane' bounds='0.00 0.00 324.00 267.00' parent='Right Pane ID BG' layerMask='1'
+PROPERTY control='Right Pane' name='colours' id='0' value='config_bg'
+PROPERTY control='Right Pane' name='colours' id='1' value='module_border'
+PROPERTY control='Right Pane' name='colours' id='2' value='none'
+PROPERTY control='Right Pane' name='colours' id='3' value='none'
+PROPERTY control='Right Pane' name='graphics' id='0' value='none'
+
+
+CONTROL type='Pane' name='AP0 Slider BG' bounds='4.00 3.00 316.00 30.00' parent='Right Pane' layerMask='1'
+PROPERTY control='AP0 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='AP0 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='AP0 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='AP0 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='AP0 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='AP0 Label' bounds='0.00 0.00 316.00 30.00' parent='AP0 Slider BG' layerMask='ffffffff'
+	PROPERTY control='AP0 Label' name='colours' id='0' value='none'
+	PROPERTY control='AP0 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='AP0 Label' name='graphics' id='0' value='none'
+	PROPERTY control='AP0 Label' name='labeltext' id='0' value='AP0'
+	PROPERTY control='AP0 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='AP0 Slider' bounds='0.00 0.00 316.00 30.00' parent='AP0 Slider BG' layerMask='1'
+	PROPERTY control='AP0 Slider' name='colours' id='0' value='none'
+	PROPERTY control='AP0 Slider' name='colours' id='1' value='none'
+	PROPERTY control='AP0 Slider' name='colours' id='2' value='none'
+	PROPERTY control='AP0 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='AP0 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='AP0 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='AP0 Slider' port='Slider Value' module='Rev1' parameter='AP0' valuestring='generic'
+	PROPERTY control='AP0 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='AP1 Slider BG' bounds='4.00 36.00 316.00 30.00' parent='Right Pane' layerMask='1'
+PROPERTY control='AP1 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='AP1 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='AP1 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='AP1 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='AP1 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='AP1 Label' bounds='0.00 0.00 316.00 30.00' parent='AP1 Slider BG' layerMask='ffffffff'
+	PROPERTY control='AP1 Label' name='colours' id='0' value='none'
+	PROPERTY control='AP1 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='AP1 Label' name='graphics' id='0' value='none'
+	PROPERTY control='AP1 Label' name='labeltext' id='0' value='AP1'
+	PROPERTY control='AP1 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='AP1 Slider' bounds='0.00 0.00 316.00 30.00' parent='AP1 Slider BG' layerMask='1'
+	PROPERTY control='AP1 Slider' name='colours' id='0' value='none'
+	PROPERTY control='AP1 Slider' name='colours' id='1' value='none'
+	PROPERTY control='AP1 Slider' name='colours' id='2' value='none'
+	PROPERTY control='AP1 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='AP1 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='AP1 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='AP1 Slider' port='Slider Value' module='Rev1' parameter='AP1' valuestring='generic'
+	PROPERTY control='AP1 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='AP2 Slider BG' bounds='4.00 69.00 316.00 30.00' parent='Right Pane' layerMask='1'
+PROPERTY control='AP2 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='AP2 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='AP2 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='AP2 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='AP2 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='AP2 Label' bounds='0.00 0.00 316.00 30.00' parent='AP2 Slider BG' layerMask='ffffffff'
+	PROPERTY control='AP2 Label' name='colours' id='0' value='none'
+	PROPERTY control='AP2 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='AP2 Label' name='graphics' id='0' value='none'
+	PROPERTY control='AP2 Label' name='labeltext' id='0' value='AP2'
+	PROPERTY control='AP2 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='AP2 Slider' bounds='0.00 0.00 316.00 30.00' parent='AP2 Slider BG' layerMask='1'
+	PROPERTY control='AP2 Slider' name='colours' id='0' value='none'
+	PROPERTY control='AP2 Slider' name='colours' id='1' value='none'
+	PROPERTY control='AP2 Slider' name='colours' id='2' value='none'
+	PROPERTY control='AP2 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='AP2 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='AP2 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='AP2 Slider' port='Slider Value' module='Rev1' parameter='AP2' valuestring='generic'
+	PROPERTY control='AP2 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='AP3 Slider BG' bounds='4.00 102.00 316.00 30.00' parent='Right Pane' layerMask='1'
+PROPERTY control='AP3 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='AP3 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='AP3 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='AP3 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='AP3 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='AP3 Label' bounds='0.00 0.00 316.00 30.00' parent='AP3 Slider BG' layerMask='ffffffff'
+	PROPERTY control='AP3 Label' name='colours' id='0' value='none'
+	PROPERTY control='AP3 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='AP3 Label' name='graphics' id='0' value='none'
+	PROPERTY control='AP3 Label' name='labeltext' id='0' value='AP3'
+	PROPERTY control='AP3 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='AP3 Slider' bounds='0.00 0.00 316.00 30.00' parent='AP3 Slider BG' layerMask='1'
+	PROPERTY control='AP3 Slider' name='colours' id='0' value='none'
+	PROPERTY control='AP3 Slider' name='colours' id='1' value='none'
+	PROPERTY control='AP3 Slider' name='colours' id='2' value='none'
+	PROPERTY control='AP3 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='AP3 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='AP3 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='AP3 Slider' port='Slider Value' module='Rev1' parameter='AP3' valuestring='generic'
+	PROPERTY control='AP3 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='AP4 Slider BG' bounds='4.00 135.00 316.00 30.00' parent='Right Pane' layerMask='1'
+PROPERTY control='AP4 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='AP4 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='AP4 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='AP4 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='AP4 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='AP4 Label' bounds='0.00 0.00 316.00 30.00' parent='AP4 Slider BG' layerMask='ffffffff'
+	PROPERTY control='AP4 Label' name='colours' id='0' value='none'
+	PROPERTY control='AP4 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='AP4 Label' name='graphics' id='0' value='none'
+	PROPERTY control='AP4 Label' name='labeltext' id='0' value='AP4'
+	PROPERTY control='AP4 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='AP4 Slider' bounds='0.00 0.00 316.00 30.00' parent='AP4 Slider BG' layerMask='1'
+	PROPERTY control='AP4 Slider' name='colours' id='0' value='none'
+	PROPERTY control='AP4 Slider' name='colours' id='1' value='none'
+	PROPERTY control='AP4 Slider' name='colours' id='2' value='none'
+	PROPERTY control='AP4 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='AP4 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='AP4 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='AP4 Slider' port='Slider Value' module='Rev1' parameter='AP4' valuestring='generic'
+	PROPERTY control='AP4 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='AP5 Slider BG' bounds='4.00 168.00 316.00 30.00' parent='Right Pane' layerMask='1'
+PROPERTY control='AP5 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='AP5 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='AP5 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='AP5 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='AP5 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='AP5 Label' bounds='0.00 0.00 316.00 30.00' parent='AP5 Slider BG' layerMask='ffffffff'
+	PROPERTY control='AP5 Label' name='colours' id='0' value='none'
+	PROPERTY control='AP5 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='AP5 Label' name='graphics' id='0' value='none'
+	PROPERTY control='AP5 Label' name='labeltext' id='0' value='AP5'
+	PROPERTY control='AP5 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='AP5 Slider' bounds='0.00 0.00 316.00 30.00' parent='AP5 Slider BG' layerMask='1'
+	PROPERTY control='AP5 Slider' name='colours' id='0' value='none'
+	PROPERTY control='AP5 Slider' name='colours' id='1' value='none'
+	PROPERTY control='AP5 Slider' name='colours' id='2' value='none'
+	PROPERTY control='AP5 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='AP5 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='AP5 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='AP5 Slider' port='Slider Value' module='Rev1' parameter='AP5' valuestring='generic'
+	PROPERTY control='AP5 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='AP6 Slider BG' bounds='4.00 201.00 316.00 30.00' parent='Right Pane' layerMask='1'
+PROPERTY control='AP6 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='AP6 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='AP6 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='AP6 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='AP6 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='AP6 Label' bounds='0.00 0.00 316.00 30.00' parent='AP6 Slider BG' layerMask='ffffffff'
+	PROPERTY control='AP6 Label' name='colours' id='0' value='none'
+	PROPERTY control='AP6 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='AP6 Label' name='graphics' id='0' value='none'
+	PROPERTY control='AP6 Label' name='labeltext' id='0' value='AP6'
+	PROPERTY control='AP6 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='AP6 Slider' bounds='0.00 0.00 316.00 30.00' parent='AP6 Slider BG' layerMask='1'
+	PROPERTY control='AP6 Slider' name='colours' id='0' value='none'
+	PROPERTY control='AP6 Slider' name='colours' id='1' value='none'
+	PROPERTY control='AP6 Slider' name='colours' id='2' value='none'
+	PROPERTY control='AP6 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='AP6 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='AP6 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='AP6 Slider' port='Slider Value' module='Rev1' parameter='AP6' valuestring='generic'
+	PROPERTY control='AP6 Slider' name='direction' id='0' value='horizontal'
+
+
+
+CONTROL type='Pane' name='AP7 Slider BG' bounds='4.00 234.00 316.00 30.00' parent='Right Pane' layerMask='1'
+PROPERTY control='AP7 Slider BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='AP7 Slider BG' name='colours' id='1' value='slider_border'
+PROPERTY control='AP7 Slider BG' name='colours' id='2' value='none'
+PROPERTY control='AP7 Slider BG' name='colours' id='3' value='none'
+PROPERTY control='AP7 Slider BG' name='graphics' id='0' value='none'
+
+	CONTROL type='Label' name='AP7 Label' bounds='0.00 0.00 316.00 30.00' parent='AP7 Slider BG' layerMask='ffffffff'
+	PROPERTY control='AP7 Label' name='colours' id='0' value='none'
+	PROPERTY control='AP7 Label' name='colours' id='1' value='label_text'
+	PROPERTY control='AP7 Label' name='graphics' id='0' value='none'
+	PROPERTY control='AP7 Label' name='labeltext' id='0' value='AP7'
+	PROPERTY control='AP7 Label' name='parentLabel' id='0' value='yes'
+
+	CONTROL type='Slider' name='AP7 Slider' bounds='0.00 0.00 316.00 30.00' parent='AP7 Slider BG' layerMask='1'
+	PROPERTY control='AP7 Slider' name='colours' id='0' value='none'
+	PROPERTY control='AP7 Slider' name='colours' id='1' value='none'
+	PROPERTY control='AP7 Slider' name='colours' id='2' value='none'
+	PROPERTY control='AP7 Slider' name='graphics' id='0' value='none'
+	PROPERTY control='AP7 Slider' name='graphics' id='1' value='none'
+	PROPERTY control='AP7 Slider' name='graphics' id='2' value='silder_handle_big'
+	PARAMETER control='AP7 Slider' port='Slider Value' module='Rev1' parameter='AP7' valuestring='generic'
+	PROPERTY control='AP7 Slider' name='direction' id='0' value='horizontal'
+
+
+
+
+
+
+
+
+########  ########   #######  ########  ######## ########  ######## #### ########  ######  
+##     ## ##     ## ##     ## ##     ## ##       ##     ##    ##     ##  ##       ##    ## 
+##     ## ##     ## ##     ## ##     ## ##       ##     ##    ##     ##  ##       ##       
+########  ########  ##     ## ########  ######   ########     ##     ##  ######    ######  
+##        ##   ##   ##     ## ##        ##       ##   ##      ##     ##  ##             ## 
+##        ##    ##  ##     ## ##        ##       ##    ##     ##     ##  ##       ##    ## 
+##        ##     ##  #######  ##        ######## ##     ##    ##    #### ########  ######  
+
+PROPERTY control='Pane 114' name='BlendMode' id='0' value='normal'
+PROPERTY control='Pane 114' name='Radius' id='0' value='12.00'
+PROPERTY control='Knob 117' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Knob 119' name='prototype' id='0' value='Knob 117'
+PROPERTY control='Knob 119' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 120' name='prototype' id='0' value='Label 118'
+PROPERTY control='Knob 121' name='prototype' id='0' value='Knob 119'
+PROPERTY control='Knob 121' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 122' name='prototype' id='0' value='Label 120'
+PROPERTY control='Knob 123' name='prototype' id='0' value='Knob 121'
+PROPERTY control='Knob 123' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 124' name='prototype' id='0' value='Label 122'
+PROPERTY control='Knob 125' name='prototype' id='0' value='Knob 123'
+PROPERTY control='Knob 125' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 126' name='prototype' id='0' value='Label 124'
+PROPERTY control='Knob 127' name='prototype' id='0' value='Knob 125'
+PROPERTY control='Knob 127' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 128' name='prototype' id='0' value='Label 126'
+PROPERTY control='Knob 129' name='prototype' id='0' value='Knob 127'
+PROPERTY control='Knob 129' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 130' name='prototype' id='0' value='Label 128'
+PROPERTY control='Knob 131' name='prototype' id='0' value='Knob 129'
+PROPERTY control='Knob 131' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 132' name='prototype' id='0' value='Label 130'
+PROPERTY control='Knob 133' name='prototype' id='0' value='Knob 131'
+PROPERTY control='Knob 133' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 134' name='prototype' id='0' value='Label 132'
+PROPERTY control='Knob 135' name='prototype' id='0' value='Knob 133'
+PROPERTY control='Knob 135' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 136' name='prototype' id='0' value='Label 134'
+PROPERTY control='Knob 137' name='prototype' id='0' value='Knob 135'
+PROPERTY control='Knob 137' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 138' name='prototype' id='0' value='Label 136'
+PROPERTY control='Knob 139' name='prototype' id='0' value='Knob 137'
+PROPERTY control='Knob 139' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 140' name='prototype' id='0' value='Label 138'
+PROPERTY control='Knob 141' name='prototype' id='0' value='Knob 139'
+PROPERTY control='Knob 141' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 142' name='prototype' id='0' value='Label 140'
+PROPERTY control='InfoDisplay 143' name='infodisplaytype' id='0' value='FFFF'
+PROPERTY control='Knob 144' name='prototype' id='0' value='Knob 131'
+PROPERTY control='Knob 144' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 145' name='prototype' id='0' value='Label 132'
+PROPERTY control='Knob 146' name='prototype' id='0' value='Knob 139'
+PROPERTY control='Knob 146' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 147' name='prototype' id='0' value='Label 140'
+PROPERTY control='Knob 148' name='prototype' id='0' value='Knob 127'
+PROPERTY control='Knob 148' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 149' name='prototype' id='0' value='Label 128'
+PROPERTY control='Knob 150' name='prototype' id='0' value='Knob 129'
+PROPERTY control='Knob 150' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 151' name='prototype' id='0' value='Label 130'
+PROPERTY control='Knob 152' name='prototype' id='0' value='Knob 131'
+PROPERTY control='Knob 152' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 153' name='prototype' id='0' value='Label 132'
+PROPERTY control='Knob 154' name='prototype' id='0' value='Knob 133'
+PROPERTY control='Knob 154' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 155' name='prototype' id='0' value='Label 134'
+PROPERTY control='Knob 156' name='prototype' id='0' value='Knob 135'
+PROPERTY control='Knob 156' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 157' name='prototype' id='0' value='Label 136'
+PROPERTY control='Knob 158' name='prototype' id='0' value='Knob 137'
+PROPERTY control='Knob 158' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 159' name='prototype' id='0' value='Label 138'
+PROPERTY control='Knob 160' name='prototype' id='0' value='Knob 139'
+PROPERTY control='Knob 160' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 161' name='prototype' id='0' value='Label 140'
+PROPERTY control='Knob 162' name='prototype' id='0' value='Knob 141'
+PROPERTY control='Knob 162' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 163' name='prototype' id='0' value='Label 142'
+PROPERTY control='Knob 164' name='prototype' id='0' value='Knob 156'
+PROPERTY control='Knob 164' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 165' name='prototype' id='0' value='Label 157'
+PROPERTY control='Knob 166' name='prototype' id='0' value='Knob 164'
+PROPERTY control='Knob 166' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 167' name='prototype' id='0' value='Label 165'
+PROPERTY control='Knob 168' name='prototype' id='0' value='Knob 121'
+PROPERTY control='Knob 168' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 169' name='prototype' id='0' value='Label 122'
+PROPERTY control='Knob 170' name='prototype' id='0' value='Knob 164'
+PROPERTY control='Knob 170' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 171' name='prototype' id='0' value='Label 165'
+PROPERTY control='Knob 172' name='prototype' id='0' value='Knob 144'
+PROPERTY control='Knob 172' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 173' name='prototype' id='0' value='Label 145'
+PROPERTY control='Knob 174' name='prototype' id='0' value='Knob 146'
+PROPERTY control='Knob 174' name='backgroundNeedsValue' id='0' value='NO'
+PROPERTY control='Label 175' name='prototype' id='0' value='Label 147'
+PROPERTY control='Label 177' name='prototype' id='0' value='Label 176'
+PROPERTY control='Label 178' name='prototype' id='0' value='Label 177'
+PROPERTY control='Button 198' name='ActionID' id='1' value='5F776562'
+
+V_PROPERTY name='ObjectInstance' id='0' value='210'
