@@ -31,7 +31,7 @@ variables = {'label_font': 'RopaSans-Italic',
              'button_font_size': '13.00',
              'slider_head_size': '2.00',
              'slider_sensitivity': '0.20',
-             'DEV_VERSION': now,
+             'redux_version': now,
              'redux_pane_radius': '0.00',
              'redux_dot_size': '7.00'
              }
