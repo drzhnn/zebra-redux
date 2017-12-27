@@ -5928,164 +5928,98 @@ PROPERTY control='_PresetInspectorView' name='Resize Type V' id='0' value='Flexi
 
 
 
-# Folders
+# # Patch Information
+# CONTROL type='Pane' name='MetaInfo Pane' bounds='4.00 230.00 247.00 490.00' parent='Full Size' layerMask='7fffffff'
+# PROPERTY control='MetaInfo Pane' name='colours' id='0' value='main_bg'
+# PROPERTY control='MetaInfo Pane' name='colours' id='1' value='none'
+# PROPERTY control='MetaInfo Pane' name='colours' id='2' value='none'
+# PROPERTY control='MetaInfo Pane' name='colours' id='3' value='none'
+# PROPERTY control='MetaInfo Pane' name='graphics' id='0' value='none'
+# PROPERTY control='MetaInfo Pane' name='movable' id='0' value='NO'
+# PROPERTY control='MetaInfo Pane' name='hideOnInit' id='0' value='YES'
 
-# CONTROL type='PresetManager' name='PresetManager 1516' bounds='255.00 40.00 228.00 676.00' parent='Top Panel' layerMask='2'
-# PROPERTY control='PresetManager 1516' name='colours' id='0' value='none'
-# PROPERTY control='PresetManager 1516' name='colours' id='1' value='w120' # text
-# PROPERTY control='PresetManager 1516' name='colours' id='2' value='w20' # selection bg
-# PROPERTY control='PresetManager 1516' name='colours' id='3' value='none' # selected text
-# PROPERTY control='PresetManager 1516' name='colours' id='4' value='invisible' # scrollbar border
-# PROPERTY control='PresetManager 1516' name='colours' id='5' value='scrollbar' # scrollbar
-# PROPERTY control='PresetManager 1516' name='graphics' id='0' value='none'
-# PROPERTY control='PresetManager 1516' name='labeltext' id='0' value='PresetManager 1516'
-# PROPERTY control='PresetManager 1516' name='labelTextAlignment' id='0' value='0'
-# PROPERTY control='PresetManager 1516' name='labelTextVAlignment' id='0' value='1'
-# PROPERTY control='PresetManager 1516' name='labelTextSize' id='0' value='11.00'
-# PROPERTY control='PresetManager 1516' name='labelTextVOffset' id='0' value='-2.00'
+# # inspector
+# CONTROL type='Layout-Stack' name='_PresetInspectorStack2' bounds='0.00 0.00 255.00 480.00' parent='MetaInfo Pane' layerMask='1'
+# PROPERTY control='_PresetInspectorStack2' name='colours' id='0' value='none'
+# PROPERTY control='_PresetInspectorStack2' name='colours' id='1' value='none'
+# PROPERTY control='_PresetInspectorStack2' name='graphics' id='0' value='none'
+# PROPERTY control='_PresetInspectorStack2' name='prototype' id='0' value='_PresetSelectorStack'
+# PROPERTY control='_PresetInspectorStack2' name='align (non orientation)' id='0' value='left'
+# PROPERTY control='_PresetInspectorStack2' name='margin H' id='0' value='4.00'
 
+# # INFO label
+# CONTROL type='Layout-Stack' name='_PresetInspectorHeaderStack2' bounds='0.00 0.00 20.00 32.00' parent='_PresetInspectorStack2' layerMask='ffffffff'
+# PROPERTY control='_PresetInspectorHeaderStack2' name='colours' id='0' value='none'
+# PROPERTY control='_PresetInspectorHeaderStack2' name='colours' id='1' value='none'
+# PROPERTY control='_PresetInspectorHeaderStack2' name='graphics' id='0' value='none'
+# PROPERTY control='_PresetInspectorHeaderStack2' name='orientation' id='0' value='horizontal'
+# PROPERTY control='_PresetInspectorHeaderStack2' name='align (non orientation)' id='0' value='center'
+# PROPERTY control='_PresetInspectorHeaderStack2' name='margin H' id='0' value='4.00'
+# PROPERTY control='_PresetInspectorHeaderStack2' name='Resize Type H' id='0' value='Flexible'
 
-# # Files
+# CONTROL type='Label' name='_PresetInspectorInfoLabel2' bounds='4.00 0.00 70.00 32.00' parent='_PresetInspectorHeaderStack2' layerMask='ffffffff'
+# PROPERTY control='_PresetInspectorInfoLabel2' name='colours' id='0' value='none'
+# PROPERTY control='_PresetInspectorInfoLabel2' name='colours' id='1' value='w80'
+# PROPERTY control='_PresetInspectorInfoLabel2' name='graphics' id='0' value='none'
+# PROPERTY control='_PresetInspectorInfoLabel2' name='labeltext' id='0' value=''
+# PROPERTY control='_PresetInspectorInfoLabel2' name='FontSize' id='0' value='12.00'
+# PROPERTY control='_PresetInspectorInfoLabel2' name='FontAlignment' id='0' value='left'
+# PROPERTY control='_PresetInspectorInfoLabel2' name='Resize Type V' id='0' value='Flexible'
 
-# CONTROL type='Pane' name='Column Line 1' bounds='482.00 40.00 1.00 676.00' parent='Top Panel' layerMask='2'
-# PROPERTY control='Column Line 1' name='colours' id='0' value='w20'
-# PROPERTY control='Column Line 1' name='colours' id='1' value='none'
-# PROPERTY control='Column Line 1' name='colours' id='2' value='none'
-# PROPERTY control='Column Line 1' name='colours' id='3' value='none'
-# PROPERTY control='Column Line 1' name='graphics' id='0' value='none'
+# CONTROL type='Layout-Spacer' name='Layout-Spacer 719852' bounds='74.00 11.00 128.00 10.00' parent='_PresetInspectorHeaderStack2' layerMask='ffffffff'
+# PROPERTY control='Layout-Spacer 719852' name='colours' id='0' value='none'
+# PROPERTY control='Layout-Spacer 719852' name='colours' id='1' value='none'
 
-# CONTROL type='Pane' name='Column Line 2' bounds='711.00 40.00 1.00 662.00' parent='Top Panel' layerMask='2'
-# PROPERTY control='Column Line 2' name='colours' id='0' value='w20'
-# PROPERTY control='Column Line 2' name='colours' id='1' value='none'
-# PROPERTY control='Column Line 2' name='colours' id='2' value='none'
-# PROPERTY control='Column Line 2' name='colours' id='3' value='none'
-# PROPERTY control='Column Line 2' name='graphics' id='0' value='none'
-
-# CONTROL type='Pane' name='Column Line 3' bounds='938.00 40.00 1.00 662.00' parent='Top Panel' layerMask='2'
-# PROPERTY control='Column Line 3' name='colours' id='0' value='w20'
-# PROPERTY control='Column Line 3' name='colours' id='1' value='none'
-# PROPERTY control='Column Line 3' name='colours' id='2' value='none'
-# PROPERTY control='Column Line 3' name='colours' id='3' value='none'
-# PROPERTY control='Column Line 3' name='graphics' id='0' value='none'
-
-# CONTROL type='PresetSelector' name='PresetSelector 1517' bounds='483.00 40.00 684.00 678.00' parent='Top Panel' layerMask='2'
-# PROPERTY control='PresetSelector 1517' name='colours' id='0' value='none'
-# PROPERTY control='PresetSelector 1517' name='colours' id='1' value='w120' # TextOnSilver
-# PROPERTY control='PresetSelector 1517' name='colours' id='2' value='w20'
-# PROPERTY control='PresetSelector 1517' name='colours' id='3' value='none' # selected text
-# PROPERTY control='PresetSelector 1517' name='colours' id='4' value='invisible'
-# PROPERTY control='PresetSelector 1517' name='colours' id='5' value='w80' # scrollbar
-# PROPERTY control='PresetSelector 1517' name='colours' id='6' value='orange' # fav unselected text w120
-# PROPERTY control='PresetSelector 1517' name='colours' id='7' value='orange' # fav selected taxt w120
-# PROPERTY control='PresetSelector 1517' name='colours' id='8' value='none' # fav unselected bg
-# PROPERTY control='PresetSelector 1517' name='colours' id='9' value='none' # fav selected bg
-# PROPERTY control='PresetSelector 1517' name='colours' id='10' value='w70' # junk unselected text
-# PROPERTY control='PresetSelector 1517' name='colours' id='11' value='w70' # junk selected taxt
-# PROPERTY control='PresetSelector 1517' name='colours' id='12' value='none' # junk unselected bg
-# PROPERTY control='PresetSelector 1517' name='colours' id='13' value='none' # junk selected bg
-# PROPERTY control='PresetSelector 1517' name='graphics' id='0' value='none'
-# PROPERTY control='PresetSelector 1517' name='graphics' id='1' value='none' # defaultFavIcon
-# PROPERTY control='PresetSelector 1517' name='graphics' id='2' value='none' # defaultJunkIcon
-# PROPERTY control='PresetSelector 1517' name='labeltext' id='0' value='PresetSelector 1517'
-# PROPERTY control='PresetSelector 1517' name='labelTextAlignment' id='0' value='0'
-# PROPERTY control='PresetSelector 1517' name='labelTextVAlignment' id='0' value='1'
-# PROPERTY control='PresetSelector 1517' name='labelTextSize' id='0' value='11.00'
-# PROPERTY control='PresetSelector 1517' name='labelTextVOffset' id='0' value='-2.00'
-# PROPERTY control='PresetSelector 1517' name='Columns' id='1' value='3'
-
-# Patch Information
-
-CONTROL type='Pane' name='MetaInfo Pane' bounds='4.00 230.00 247.00 490.00' parent='Full Size' layerMask='7fffffff'
-PROPERTY control='MetaInfo Pane' name='colours' id='0' value='main_bg'
-PROPERTY control='MetaInfo Pane' name='colours' id='1' value='none'
-PROPERTY control='MetaInfo Pane' name='colours' id='2' value='none'
-PROPERTY control='MetaInfo Pane' name='colours' id='3' value='none'
-PROPERTY control='MetaInfo Pane' name='graphics' id='0' value='none'
-PROPERTY control='MetaInfo Pane' name='movable' id='0' value='NO'
-PROPERTY control='MetaInfo Pane' name='hideOnInit' id='0' value='YES'
-
-# inspector
-CONTROL type='Layout-Stack' name='_PresetInspectorStack' bounds='0.00 0.00 255.00 480.00' parent='MetaInfo Pane' layerMask='ffffffff'
-PROPERTY control='_PresetInspectorStack' name='colours' id='0' value='none'
-PROPERTY control='_PresetInspectorStack' name='colours' id='1' value='none'
-PROPERTY control='_PresetInspectorStack' name='graphics' id='0' value='none'
-PROPERTY control='_PresetInspectorStack' name='prototype' id='0' value='_PresetSelectorStack'
-PROPERTY control='_PresetInspectorStack' name='align (non orientation)' id='0' value='left'
-PROPERTY control='_PresetInspectorStack' name='margin H' id='0' value='4.00'
-
-# INFO label
-CONTROL type='Layout-Stack' name='_PresetInspectorHeaderStack' bounds='0.00 0.00 20.00 32.00' parent='_PresetInspectorStack' layerMask='ffffffff'
-PROPERTY control='_PresetInspectorHeaderStack' name='colours' id='0' value='none'
-PROPERTY control='_PresetInspectorHeaderStack' name='colours' id='1' value='none'
-PROPERTY control='_PresetInspectorHeaderStack' name='graphics' id='0' value='none'
-PROPERTY control='_PresetInspectorHeaderStack' name='orientation' id='0' value='horizontal'
-PROPERTY control='_PresetInspectorHeaderStack' name='align (non orientation)' id='0' value='center'
-PROPERTY control='_PresetInspectorHeaderStack' name='margin H' id='0' value='4.00'
-PROPERTY control='_PresetInspectorHeaderStack' name='Resize Type H' id='0' value='Flexible'
-
-CONTROL type='Label' name='_PresetInspectorInfoLabel' bounds='4.00 0.00 70.00 32.00' parent='_PresetInspectorHeaderStack' layerMask='ffffffff'
-PROPERTY control='_PresetInspectorInfoLabel' name='colours' id='0' value='none'
-PROPERTY control='_PresetInspectorInfoLabel' name='colours' id='1' value='w80'
-PROPERTY control='_PresetInspectorInfoLabel' name='graphics' id='0' value='none'
-PROPERTY control='_PresetInspectorInfoLabel' name='labeltext' id='0' value=''
-PROPERTY control='_PresetInspectorInfoLabel' name='FontSize' id='0' value='12.00'
-PROPERTY control='_PresetInspectorInfoLabel' name='FontAlignment' id='0' value='left'
-PROPERTY control='_PresetInspectorInfoLabel' name='Resize Type V' id='0' value='Flexible'
-
-CONTROL type='Layout-Spacer' name='Layout-Spacer 71985' bounds='74.00 11.00 128.00 10.00' parent='_PresetInspectorHeaderStack' layerMask='ffffffff'
-PROPERTY control='Layout-Spacer 71985' name='colours' id='0' value='none'
-PROPERTY control='Layout-Spacer 71985' name='colours' id='1' value='none'
-
-CONTROL type='PresetInspector' name='_PresetInspectorView' bounds='4.00 32.00 210.00 380.00' parent='_PresetInspectorStack' layerMask='ffffffff'
-PROPERTY control='_PresetInspectorView' name='colours' id='0' value='none'
-PROPERTY control='_PresetInspectorView' name='colours' id='1' value='none'
-PROPERTY control='_PresetInspectorView' name='colours' id='2' value='none'
-PROPERTY control='_PresetInspectorView' name='colours' id='3' value='grey60' # info block titles
-PROPERTY control='_PresetInspectorView' name='colours' id='4' value='none'
-PROPERTY control='_PresetInspectorView' name='colours' id='5' value='grey60' # horizontal lines
-PROPERTY control='_PresetInspectorView' name='colours' id='6' value='none'
-PROPERTY control='_PresetInspectorView' name='colours' id='7' value='none'
-PROPERTY control='_PresetInspectorView' name='colours' id='8' value='grey'
-PROPERTY control='_PresetInspectorView' name='colours' id='9' value='none'
-PROPERTY control='_PresetInspectorView' name='colours' id='10' value='white' # presset name
-PROPERTY control='_PresetInspectorView' name='colours' id='11' value='none'
-PROPERTY control='_PresetInspectorView' name='colours' id='12' value='grey60' # path
-PROPERTY control='_PresetInspectorView' name='colours' id='13' value='invisible'
-PROPERTY control='_PresetInspectorView' name='colours' id='14' value='greyA0' # text
-PROPERTY control='_PresetInspectorView' name='colours' id='15' value='none'
-PROPERTY control='_PresetInspectorView' name='colours' id='16' value='invisible'
-PROPERTY control='_PresetInspectorView' name='colours' id='17' value='invisible'
-PROPERTY control='_PresetInspectorView' name='graphics' id='0' value='none'
-PROPERTY control='_PresetInspectorView' name='graphics' id='1' value='none'
-PROPERTY control='_PresetInspectorView' name='graphics' id='2' value='none'
-PARAMETER control='_PresetInspectorView' port='Name' module='PCore' parameter='GFile'
-PARAMETER control='_PresetInspectorView' port='Path' module='PCore' parameter='PFold'
-PARAMETER control='_PresetInspectorView' port='Author' module='PCore' parameter='MetaA'
-PARAMETER control='_PresetInspectorView' port='Description' module='PCore' parameter='MetaD'
-PARAMETER control='_PresetInspectorView' port='Usage' module='PCore' parameter='MetaH'
-PARAMETER control='_PresetInspectorView' port='Category' module='PCore' parameter='MetaCat'
-PARAMETER control='_PresetInspectorView' port='Features' module='PCore' parameter='MetaF'
-PARAMETER control='_PresetInspectorView' port='Character' module='PCore' parameter='MetaCha'
-PROPERTY control='_PresetInspectorView' name='tag font size' id='0' value='10.00'
-PROPERTY control='_PresetInspectorView' name='Resize Type H' id='0' value='Flexible'
-PROPERTY control='_PresetInspectorView' name='Resize Type V' id='0' value='Flexible'
+# CONTROL type='PresetInspector' name='_PresetInspectorView2' bounds='4.00 32.00 210.00 380.00' parent='_PresetInspectorStack2' layerMask='ffffffff'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='0' value='none'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='1' value='none'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='2' value='none'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='3' value='grey60' # info block titles
+# PROPERTY control='_PresetInspectorView2' name='colours' id='4' value='none'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='5' value='grey60' # horizontal lines
+# PROPERTY control='_PresetInspectorView2' name='colours' id='6' value='none'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='7' value='none'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='8' value='grey'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='9' value='none'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='10' value='white' # presset name
+# PROPERTY control='_PresetInspectorView2' name='colours' id='11' value='none'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='12' value='grey60' # path
+# PROPERTY control='_PresetInspectorView2' name='colours' id='13' value='invisible'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='14' value='greyA0' # text
+# PROPERTY control='_PresetInspectorView2' name='colours' id='15' value='none'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='16' value='invisible'
+# PROPERTY control='_PresetInspectorView2' name='colours' id='17' value='invisible'
+# PROPERTY control='_PresetInspectorView2' name='graphics' id='0' value='none'
+# PROPERTY control='_PresetInspectorView2' name='graphics' id='1' value='none'
+# PROPERTY control='_PresetInspectorView2' name='graphics' id='2' value='none'
+# PARAMETER control='_PresetInspectorView2' port='Name' module='PCore' parameter='GFile'
+# PARAMETER control='_PresetInspectorView2' port='Path' module='PCore' parameter='PFold'
+# PARAMETER control='_PresetInspectorView2' port='Author' module='PCore' parameter='MetaA'
+# PARAMETER control='_PresetInspectorView2' port='Description' module='PCore' parameter='MetaD'
+# PARAMETER control='_PresetInspectorView2' port='Usage' module='PCore' parameter='MetaH'
+# PARAMETER control='_PresetInspectorView2' port='Category' module='PCore' parameter='MetaCat'
+# PARAMETER control='_PresetInspectorView2' port='Features' module='PCore' parameter='MetaF'
+# PARAMETER control='_PresetInspectorView2' port='Character' module='PCore' parameter='MetaCha'
+# PROPERTY control='_PresetInspectorView2' name='tag font size' id='0' value='10.00'
+# PROPERTY control='_PresetInspectorView2' name='Resize Type H' id='0' value='Flexible'
+# PROPERTY control='_PresetInspectorView2' name='Resize Type V' id='0' value='Flexible'
 
 
-####
+# ####
 
-CONTROL type='Button On-Off' name='MetaInfoText Button' bounds='230.00 205.00 20.00 20.00' parent='Top Panel' layerMask='7fffffff'
-PROPERTY control='MetaInfoText Button' name='colours' id='0' value='none'
-PROPERTY control='MetaInfoText Button' name='colours' id='1' value='none'
-PROPERTY control='MetaInfoText Button' name='colours' id='2' value='none'
-PROPERTY control='MetaInfoText Button' name='colours' id='3' value='none'
-PROPERTY control='MetaInfoText Button' name='colours' id='4' value='none'
-PROPERTY control='MetaInfoText Button' name='graphics' id='0' value='none'
-PROPERTY control='MetaInfoText Button' name='graphics' id='1' value='button_info' # close_editor
-PROPERTY control='MetaInfoText Button' name='graphics' id='2' value='none'
-PROPERTY control='MetaInfoText Button' name='graphics' id='3' value='none'
-PROPERTY control='MetaInfoText Button' name='clientpane' id='1' value='MetaInfo Pane'
+# CONTROL type='Button On-Off' name='MetaInfoText Button' bounds='230.00 205.00 20.00 20.00' parent='Top Panel' layerMask='7fffffff'
+# PROPERTY control='MetaInfoText Button' name='colours' id='0' value='none'
+# PROPERTY control='MetaInfoText Button' name='colours' id='1' value='none'
+# PROPERTY control='MetaInfoText Button' name='colours' id='2' value='none'
+# PROPERTY control='MetaInfoText Button' name='colours' id='3' value='none'
+# PROPERTY control='MetaInfoText Button' name='colours' id='4' value='none'
+# PROPERTY control='MetaInfoText Button' name='graphics' id='0' value='none'
+# PROPERTY control='MetaInfoText Button' name='graphics' id='1' value='button_info' # close_editor
+# PROPERTY control='MetaInfoText Button' name='graphics' id='2' value='none'
+# PROPERTY control='MetaInfoText Button' name='graphics' id='3' value='none'
+# PROPERTY control='MetaInfoText Button' name='clientpane' id='1' value='MetaInfo Pane'
 
-###
+# ###
 
 
  ######   ########  #### ########
