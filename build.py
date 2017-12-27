@@ -33,7 +33,8 @@ variables = {'label_font': 'RopaSans-Italic',
              'slider_sensitivity': '0.20',
              'redux_version': now,
              'redux_pane_radius': '0.00',
-             'redux_dot_size': '7.00'
+             'redux_dot_size': '7.00',
+             'redux_title_h': '14.00'
              }
 
 garbage = ['(?!#FX.)[#].*', '^[ \t]+', '[ \t]+$', '  +', '^\n']
