@@ -4,7 +4,7 @@ COLOUR name='label_text' rgba='ffffff60'
 COLOUR name='label_mod' rgba='ff0012ff'
 COLOUR name='label_menu' rgba='ffffffa0'
 COLOUR name='label_matrix_menu' rgba='ffffff70'
-COLOUR name='label_module_number' rgba='ffffff00'
+# COLOUR name='label_module_number' rgba='ffffff00'
 
 COLOUR name='knob_unipolar_left' rgba='00f5ffff'
 COLOUR name='knob_unipolar_center' rgba='00ff81ff'
@@ -110,45 +110,48 @@ COLOUR name='c_lfo_vmet_head' rgba='7B7B7Dff'
 COLOUR name='c_comp_gr_slider' rgba='7B7B7Dff'
 
 
-COLOUR name='config_bg' rgba='3c3a3fff'
+COLOUR name='module_bg' rgba='3c3a3fff'
+
+COLOUR name='config_bg' rgba='3c3a3f20'
 COLOUR name='config_sub_bg' rgba='3c3a3fff'
 COLOUR name='diva_vcf_bg' rgba='3c3a3fff'
-    COLOUR name='osc_bg' rgba='893BFF20'
+COLOUR name='osc_bg' rgba='31504120'
 COLOUR name='osc_sub_bg' rgba='46454aa1'
-    COLOUR name='noise_bg' rgba='3BAEFF20'
-    COLOUR name='vcf_bg' rgba='FF2E4720'
-    COLOUR name='fmo_bg' rgba='FDFF2E20'
+COLOUR name='noise_bg' rgba='314C5020'
+COLOUR name='vcf_bg' rgba='FF2E4710'
+COLOUR name='fmo_bg' rgba='4D503110'
 COLOUR name='fmo_sub_bg' rgba='3c3a3fff'
-    COLOUR name='comb_bg' rgba='B658FF20'
-    COLOUR name='shaper_bg' rgba='FFA35820'
-    COLOUR name='mix_bg' rgba='12FFDB20'
-    COLOUR name='xmf_bg' rgba='FF7C7220'
+COLOUR name='comb_bg' rgba='49315010'
+COLOUR name='shaper_bg' rgba='FFA35810'
+COLOUR name='mix_bg' rgba='29553E10'
+COLOUR name='xmf_bg' rgba='FF2E4710'
 COLOUR name='xmf_sub_bg' rgba='3c3a3fff'
-    COLOUR name='sb_bg' rgba='3B40FF20'
-    COLOUR name='dist_bg' rgba='FFA31320'
-    COLOUR name='fold_bg' rgba='B1571B20'
+COLOUR name='sb_bg' rgba='204A6810'
+COLOUR name='dist_bg' rgba='4D2C0E10'
+COLOUR name='fold_bg' rgba='4D2C0E10'
 
-    COLOUR name='arp_bg' rgba='30275920'
+COLOUR name='arp_bg' rgba='30275910'
 COLOUR name='arp_sub_bg' rgba='3c3a3fff'
-    COLOUR name='arpmod_bg' rgba='685D9820'
+COLOUR name='arpmod_bg' rgba='685D9810'
 COLOUR name='matrix_bg' rgba='3c3a3fff'
 COLOUR name='matrix_sub_bg' rgba='3c3a3fff'
-    COLOUR name='mseg_bg' rgba='40145520'
-    COLOUR name='env_bg' rgba='662A2A20'
+COLOUR name='mseg_bg' rgba='40145510'
+COLOUR name='env_bg' rgba='662A2A10'
 COLOUR name='env_sub_bg' rgba='46454a71'
-    COLOUR name='lfo_bg' rgba='612A6620'
+COLOUR name='lfo_bg' rgba='612A6610'
 COLOUR name='lfo_sub_bg' rgba='46454a71'
-    COLOUR name='lfog_bg' rgba='87278B20'
+COLOUR name='lfog_bg' rgba='87278B10'
 COLOUR name='lfog_sub_bg' rgba='46454a71'
-    COLOUR name='mmix_bg' rgba='F2BF3420'
-    COLOUR name='mmap_bg' rgba='3473F220'
+COLOUR name='mmix_bg' rgba='3C6D1810'
+COLOUR name='mmap_bg' rgba='132A5710'
 
 COLOUR name='fx_rack_bg' rgba='3c3a3f00'
-COLOUR name='modfx_bg' rgba='3c3a3fff'
-COLOUR name='delay_bg' rgba='3c3a3fff'
-COLOUR name='comp_bg' rgba='3c3a3fff'
-COLOUR name='eq_bg' rgba='3c3a3fff'
-COLOUR name='rev_bg' rgba='3c3a3fff'
+COLOUR name='modfx_bg' rgba='0BB23610'
+COLOUR name='delay_bg' rgba='4D4AC010'
+COLOUR name='comp_bg' rgba='70020210'
+COLOUR name='eq_bg' rgba='181719a0'
+COLOUR name='rev_bg' rgba='306C6310'
+COLOUR name='nurev_bg' rgba='48246610'
 COLOUR name='res_bg' rgba='3c3a3fff'
 
 COLOUR name='keyboard_bg' rgba='3c3a3fff'
@@ -156,7 +159,6 @@ COLOUR name='envfol_bg' rgba='3c3a3fff'
 COLOUR name='pitchfol_bg' rgba='3c3a3fff'
 
 
-    COLOUR name='module_bg' rgba='3c3a3fff'
 
 
 COLOUR name='main_bg' rgba='1c1b1fff' #'1c1b1dff'
@@ -8517,8 +8519,9 @@ PROPERTY control='GlobalConfig_Title' name='FontSize' id='0' value='title_font_s
         PROPERTY control='Global Config ID BG' name='colours' id='3' value='none'
         PROPERTY control='Global Config ID BG' name='graphics' id='0' value='config_bg'
 
+
             CONTROL type='Pane' name='Global Config Pane' bounds='0.00 0.00 324.00 71.00' parent='Global Config ID BG' layerMask='1'
-            PROPERTY control='Global Config Pane' name='colours' id='0' value='config_bg'
+            PROPERTY control='Global Config Pane' name='colours' id='0' value='module_bg'
             PROPERTY control='Global Config Pane' name='colours' id='1' value='module_border'
             PROPERTY control='Global Config Pane' name='colours' id='2' value='none'
             PROPERTY control='Global Config Pane' name='colours' id='3' value='none'
@@ -8769,6 +8772,14 @@ PROPERTY control='GlobalConfig_Title' name='FontSize' id='0' value='title_font_s
         PROPERTY control='Label 4382' name='graphics' id='0' value='none'
         PROPERTY control='Label 4382' name='labeltext' id='0' value='Range'
         PROPERTY control='Label 4382' name='parentLabel' id='0' value='yes'
+
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 71.00' parent='Global Config Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='config_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -9022,14 +9033,14 @@ PROPERTY control='Pane 108' name='graphics' id='0' value='none' # Module96OSC116
 # PROPERTY control='Pane 3185' name='graphics' id='0' value='A_OSC'
 # PROPERTY control='Pane 3185' name='layer' id='0' value='Layer 1'
 
-	CONTROL type='Label' name='OSC 1 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 108' layerMask='ffffffff'
-	PROPERTY control='OSC 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='OSC 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='OSC 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='OSC 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='OSC 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='OSC 1 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 108' layerMask='ffffffff'
+	# PROPERTY control='OSC 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='OSC 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='OSC 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='OSC 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='OSC 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='OSC 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='OSC 1 Number' name='FontSize' id='0' value='12.00'
 
 
 CONTROL type='Button On-Off' name='Button OSC1 Mode' bounds='207.00 48.00 26.00 14.00' parent='Pane 108' layerMask='1'
@@ -9762,14 +9773,14 @@ PROPERTY control='Pane 3363' name='graphics' id='0' value='none' # Module96OSC21
 # Labels
 
 
-	CONTROL type='Label' name='OSC 2 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 3363' layerMask='ffffffff'
-	PROPERTY control='OSC 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='OSC 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='OSC 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='OSC 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='OSC 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='OSC 2 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 3363' layerMask='ffffffff'
+	# PROPERTY control='OSC 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='OSC 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='OSC 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='OSC 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='OSC 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='OSC 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='OSC 2 Number' name='FontSize' id='0' value='12.00'
 
 
 # PW/Sync/Retrigger buttons
@@ -10429,14 +10440,14 @@ PROPERTY control='Pane 3410' name='graphics' id='0' value='none' # Module96OSC31
 # Labels
 
 
-	CONTROL type='Label' name='OSC 3 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 3410' layerMask='ffffffff'
-	PROPERTY control='OSC 3 Number' name='colours' id='0' value='none'
-	PROPERTY control='OSC 3 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='OSC 3 Number' name='graphics' id='0' value='none'
-	PROPERTY control='OSC 3 Number' name='labeltext' id='0' value='3'
-	PROPERTY control='OSC 3 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='OSC 3 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 3410' layerMask='ffffffff'
+	# PROPERTY control='OSC 3 Number' name='colours' id='0' value='none'
+	# PROPERTY control='OSC 3 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='OSC 3 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='OSC 3 Number' name='labeltext' id='0' value='3'
+	# PROPERTY control='OSC 3 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='OSC 3 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='OSC 3 Number' name='FontSize' id='0' value='12.00'
 
 
 # PW/Sync/Retrigger buttons
@@ -11091,14 +11102,14 @@ PROPERTY control='Pane 3457' name='graphics' id='0' value='none' # Module96OSC41
 # Labels
 
 
-	CONTROL type='Label' name='OSC 4 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 3457' layerMask='ffffffff'
-	PROPERTY control='OSC 4 Number' name='colours' id='0' value='none'
-	PROPERTY control='OSC 4 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='OSC 4 Number' name='graphics' id='0' value='none'
-	PROPERTY control='OSC 4 Number' name='labeltext' id='0' value='4'
-	PROPERTY control='OSC 4 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='OSC 4 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 3457' layerMask='ffffffff'
+	# PROPERTY control='OSC 4 Number' name='colours' id='0' value='none'
+	# PROPERTY control='OSC 4 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='OSC 4 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='OSC 4 Number' name='labeltext' id='0' value='4'
+	# PROPERTY control='OSC 4 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='OSC 4 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='OSC 4 Number' name='FontSize' id='0' value='12.00'
 
 
 # PW/Sync/Retrigger buttons
@@ -12011,14 +12022,14 @@ PROPERTY control='Noise1 GD4' name='graphics' id='0' value='none'
 
 	# Label
 
-	CONTROL type='Label' name='Noise 1 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 1298' layerMask='7fffffff'
-	PROPERTY control='Noise 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='Noise 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Noise 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Noise 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='Noise 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Noise 1 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 1298' layerMask='7fffffff'
+	# PROPERTY control='Noise 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Noise 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Noise 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Noise 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='Noise 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Noise 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Noise 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 90.00' parent='Noise 1 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='noise_bg'
@@ -12344,14 +12355,14 @@ PROPERTY control='Noise1 GD4' name='graphics' id='0' value='none'
 
 	# Label
 
-	CONTROL type='Label' name='Noise 2 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 3715' layerMask='7fffffff'
-	PROPERTY control='Noise 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='Noise 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Noise 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Noise 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='Noise 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Noise 2 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 3715' layerMask='7fffffff'
+	# PROPERTY control='Noise 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Noise 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Noise 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Noise 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='Noise 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Noise 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Noise 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 90.00' parent='Noise 2 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='noise_bg'
@@ -12597,14 +12608,14 @@ PARAMETER control='Knob 503' port='Knob Value' module='VCF1' parameter='KeyScl' 
 
 # Text Label
 
-	CONTROL type='Label' name='VCF 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 461' layerMask='7fffffff'
-	PROPERTY control='VCF 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='VCF 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='VCF 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='VCF 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='VCF 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='VCF 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 461' layerMask='7fffffff'
+	# PROPERTY control='VCF 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='VCF 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='VCF 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='VCF 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='VCF 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='VCF 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='VCF 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 0.00 324.00 48.00' parent='VCF 1 Pane' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg'
@@ -12835,14 +12846,14 @@ PARAMETER control='Knob 3620' port='Knob Value' module='VCF2' parameter='KeyScl'
 
 # Text Label
 
-	CONTROL type='Label' name='VCF 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3610' layerMask='7fffffff'
-	PROPERTY control='VCF 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='VCF 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='VCF 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='VCF 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='VCF 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='VCF 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3610' layerMask='7fffffff'
+	# PROPERTY control='VCF 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='VCF 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='VCF 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='VCF 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='VCF 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='VCF 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='VCF 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 0.00 324.00 48.00' parent='VCF 2 Pane' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg'
@@ -13075,14 +13086,14 @@ PARAMETER control='Knob 3641' port='Knob Value' module='VCF3' parameter='KeyScl'
 
 # Text Label
 
-	CONTROL type='Label' name='VCF 3 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3631' layerMask='7fffffff'
-	PROPERTY control='VCF 3 Number' name='colours' id='0' value='none'
-	PROPERTY control='VCF 3 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='VCF 3 Number' name='graphics' id='0' value='none'
-	PROPERTY control='VCF 3 Number' name='labeltext' id='0' value='3'
-	PROPERTY control='VCF 3 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='VCF 3 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3631' layerMask='7fffffff'
+	# PROPERTY control='VCF 3 Number' name='colours' id='0' value='none'
+	# PROPERTY control='VCF 3 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='VCF 3 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='VCF 3 Number' name='labeltext' id='0' value='3'
+	# PROPERTY control='VCF 3 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='VCF 3 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='VCF 3 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 0.00 324.00 48.00' parent='VCF 3 Pane' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg'
@@ -13313,14 +13324,14 @@ PARAMETER control='Knob 3662' port='Knob Value' module='VCF4' parameter='KeyScl'
 
 # Text Label
 
-	CONTROL type='Label' name='VCF 4 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3652' layerMask='7fffffff'
-	PROPERTY control='VCF 4 Number' name='colours' id='0' value='none'
-	PROPERTY control='VCF 4 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='VCF 4 Number' name='graphics' id='0' value='none'
-	PROPERTY control='VCF 4 Number' name='labeltext' id='0' value='4'
-	PROPERTY control='VCF 4 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='VCF 4 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3652' layerMask='7fffffff'
+	# PROPERTY control='VCF 4 Number' name='colours' id='0' value='none'
+	# PROPERTY control='VCF 4 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='VCF 4 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='VCF 4 Number' name='labeltext' id='0' value='4'
+	# PROPERTY control='VCF 4 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='VCF 4 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='VCF 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 0.00 324.00 48.00' parent='VCF 4 Pane' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg'
@@ -13637,14 +13648,14 @@ PROPERTY control='Label 947' name='parentLabel' id='0' value='yes'
 
 # Label
 
-	CONTROL type='Label' name='FMO 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 832' layerMask='ffffffff'
-	PROPERTY control='FMO 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='FMO 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='FMO 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='FMO 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='FMO 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='FMO 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 832' layerMask='ffffffff'
+	# PROPERTY control='FMO 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='FMO 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='FMO 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='FMO 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='FMO 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='FMO 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='FMO 1 Number' name='FontSize' id='0' value='12.00'
 
 # KeyScale Pane
 
@@ -14029,14 +14040,14 @@ PROPERTY control='Label 3762' name='parentLabel' id='0' value='yes'
 
 # Label
 
-	CONTROL type='Label' name='FMO 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3738' layerMask='ffffffff'
-	PROPERTY control='FMO 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='FMO 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='FMO 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='FMO 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='FMO 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='FMO 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3738' layerMask='ffffffff'
+	# PROPERTY control='FMO 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='FMO 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='FMO 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='FMO 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='FMO 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='FMO 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='FMO 2 Number' name='FontSize' id='0' value='12.00'
 
 # KeyScale Pane
 
@@ -14423,14 +14434,14 @@ PROPERTY control='Label 3789' name='parentLabel' id='0' value='yes'
 
 # Label
 
-	CONTROL type='Label' name='FMO 3 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3765' layerMask='ffffffff'
-	PROPERTY control='FMO 3 Number' name='colours' id='0' value='none'
-	PROPERTY control='FMO 3 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='FMO 3 Number' name='graphics' id='0' value='none'
-	PROPERTY control='FMO 3 Number' name='labeltext' id='0' value='3'
-	PROPERTY control='FMO 3 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='FMO 3 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3765' layerMask='ffffffff'
+	# PROPERTY control='FMO 3 Number' name='colours' id='0' value='none'
+	# PROPERTY control='FMO 3 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='FMO 3 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='FMO 3 Number' name='labeltext' id='0' value='3'
+	# PROPERTY control='FMO 3 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='FMO 3 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='FMO 3 Number' name='FontSize' id='0' value='12.00'
 
 # KeyScale Pane
 
@@ -14818,14 +14829,14 @@ PROPERTY control='Label 3816' name='parentLabel' id='0' value='yes'
 
 # Label
 
-	CONTROL type='Label' name='FMO 4 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3792' layerMask='ffffffff'
-	PROPERTY control='FMO 4 Number' name='colours' id='0' value='none'
-	PROPERTY control='FMO 4 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='FMO 4 Number' name='graphics' id='0' value='none'
-	PROPERTY control='FMO 4 Number' name='labeltext' id='0' value='4'
-	PROPERTY control='FMO 4 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='FMO 4 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3792' layerMask='ffffffff'
+	# PROPERTY control='FMO 4 Number' name='colours' id='0' value='none'
+	# PROPERTY control='FMO 4 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='FMO 4 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='FMO 4 Number' name='labeltext' id='0' value='4'
+	# PROPERTY control='FMO 4 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='FMO 4 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='FMO 4 Number' name='FontSize' id='0' value='12.00'
 
 # KeyScale Pane
 
@@ -15413,14 +15424,14 @@ PROPERTY control='Label 1255' name='parentLabel' id='0' value='yes'
 
 # Label
 
-CONTROL type='Label' name='Comb 1 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 1162' layerMask='ffffffff'
-PROPERTY control='Comb 1 Number' name='colours' id='0' value='none'
-PROPERTY control='Comb 1 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='Comb 1 Number' name='graphics' id='0' value='none'
-PROPERTY control='Comb 1 Number' name='labeltext' id='0' value='1'
-PROPERTY control='Comb 1 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='Comb 1 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 1162' layerMask='ffffffff'
+# PROPERTY control='Comb 1 Number' name='colours' id='0' value='none'
+# PROPERTY control='Comb 1 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='Comb 1 Number' name='graphics' id='0' value='none'
+# PROPERTY control='Comb 1 Number' name='labeltext' id='0' value='1'
+# PROPERTY control='Comb 1 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='Comb 1 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='Comb 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 174.00' parent='Comb 1 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='comb_bg'
@@ -15936,14 +15947,14 @@ PROPERTY control='Label 3548' name='parentLabel' id='0' value='yes'
 
 # Label
 
-CONTROL type='Label' name='Comb 2 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 3504' layerMask='ffffffff'
-PROPERTY control='Comb 2 Number' name='colours' id='0' value='none'
-PROPERTY control='Comb 2 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='Comb 2 Number' name='graphics' id='0' value='none'
-PROPERTY control='Comb 2 Number' name='labeltext' id='0' value='2'
-PROPERTY control='Comb 2 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='Comb 2 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 3504' layerMask='ffffffff'
+# PROPERTY control='Comb 2 Number' name='colours' id='0' value='none'
+# PROPERTY control='Comb 2 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='Comb 2 Number' name='graphics' id='0' value='none'
+# PROPERTY control='Comb 2 Number' name='labeltext' id='0' value='2'
+# PROPERTY control='Comb 2 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='Comb 2 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='Comb 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 174.00' parent='Comb 2 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='comb_bg'
@@ -16141,14 +16152,14 @@ PROPERTY control='Label 1720' name='parentLabel' id='0' value='yes'
 
 
 
-	CONTROL type='Label' name='Shaper 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 1706' layerMask='7fffffff'
-	PROPERTY control='Shaper 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='Shaper 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Shaper 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Shaper 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='Shaper 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Shaper 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 1706' layerMask='7fffffff'
+	# PROPERTY control='Shaper 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Shaper 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Shaper 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Shaper 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='Shaper 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Shaper 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Shaper 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Shaper 1 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='shaper_bg'
@@ -16330,14 +16341,14 @@ PROPERTY control='Label 3563' name='graphics' id='0' value='none'
 PROPERTY control='Label 3563' name='labeltext' id='0' value='...'
 PROPERTY control='Label 3563' name='parentLabel' id='0' value='yes'
 
-	CONTROL type='Label' name='Shaper 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3556' layerMask='7fffffff'
-	PROPERTY control='Shaper 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='Shaper 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Shaper 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Shaper 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='Shaper 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Shaper 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3556' layerMask='7fffffff'
+	# PROPERTY control='Shaper 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Shaper 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Shaper 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Shaper 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='Shaper 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Shaper 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Shaper 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Shaper 2 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='shaper_bg'
@@ -16465,14 +16476,14 @@ PROPERTY control='Display 2000' name='graphics' id='0' value='none'
 PROPERTY control='Display 2000' name='graphics' id='1' value='none'
 PARAMETER control='Display 2000' port='integer' module='Mix1' parameter='PnMd'
 
-	CONTROL type='Label' name='Mix 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 1995' layerMask='ffffffff'
-	PROPERTY control='Mix 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='Mix 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Mix 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Mix 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='Mix 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Mix 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 1995' layerMask='ffffffff'
+	# PROPERTY control='Mix 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Mix 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Mix 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Mix 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='Mix 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Mix 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Mix 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Mix 1 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg'
@@ -16598,14 +16609,14 @@ PROPERTY control='Display 3824' name='graphics' id='0' value='none'
 PROPERTY control='Display 3824' name='graphics' id='1' value='none'
 PARAMETER control='Display 3824' port='integer' module='Mix2' parameter='PnMd'
 
-	CONTROL type='Label' name='Mix 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3819' layerMask='ffffffff'
-	PROPERTY control='Mix 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='Mix 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Mix 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Mix 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='Mix 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Mix 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3819' layerMask='ffffffff'
+	# PROPERTY control='Mix 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Mix 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Mix 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Mix 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='Mix 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Mix 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Mix 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Mix 2 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg'
@@ -16731,14 +16742,14 @@ PROPERTY control='Display 3835' name='graphics' id='0' value='none'
 PROPERTY control='Display 3835' name='graphics' id='1' value='none'
 PARAMETER control='Display 3835' port='integer' module='Mix3' parameter='PnMd'
 
-	CONTROL type='Label' name='Mix 3 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3830' layerMask='ffffffff'
-	PROPERTY control='Mix 3 Number' name='colours' id='0' value='none'
-	PROPERTY control='Mix 3 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Mix 3 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Mix 3 Number' name='labeltext' id='0' value='3'
-	PROPERTY control='Mix 3 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Mix 3 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3830' layerMask='ffffffff'
+	# PROPERTY control='Mix 3 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Mix 3 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Mix 3 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Mix 3 Number' name='labeltext' id='0' value='3'
+	# PROPERTY control='Mix 3 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Mix 3 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Mix 3 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Mix 3 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg'
@@ -16865,14 +16876,14 @@ PROPERTY control='Display 3846' name='graphics' id='0' value='none'
 PROPERTY control='Display 3846' name='graphics' id='1' value='none'
 PARAMETER control='Display 3846' port='integer' module='Mix4' parameter='PnMd'
 
-	CONTROL type='Label' name='Mix 4 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3841' layerMask='ffffffff'
-	PROPERTY control='Mix 4 Number' name='colours' id='0' value='none'
-	PROPERTY control='Mix 4 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Mix 4 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Mix 4 Number' name='labeltext' id='0' value='4'
-	PROPERTY control='Mix 4 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Mix 4 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3841' layerMask='ffffffff'
+	# PROPERTY control='Mix 4 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Mix 4 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Mix 4 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Mix 4 Number' name='labeltext' id='0' value='4'
+	# PROPERTY control='Mix 4 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Mix 4 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Mix 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Mix 4 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg'
@@ -17148,14 +17159,14 @@ PROPERTY control='OSC1 GD5' name='graphics' id='0' value='none'
 
 	# Label
 
-	CONTROL type='Label' name='XMF 1 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 2914' layerMask='ffffffff'
-	PROPERTY control='XMF 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='XMF 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='XMF 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='XMF 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='XMF 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='XMF 1 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 2914' layerMask='ffffffff'
+	# PROPERTY control='XMF 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='XMF 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='XMF 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='XMF 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='XMF 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='XMF 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='XMF 1 Number' name='FontSize' id='0' value='12.00'
 
 
 # Menu items BG
@@ -17580,14 +17591,14 @@ PROPERTY control='OSC1 GD5' name='graphics' id='0' value='none'
 
 	# Label
 
-	CONTROL type='Label' name='XMF 2 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 3874' layerMask='ffffffff'
-	PROPERTY control='XMF 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='XMF 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='XMF 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='XMF 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='XMF 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='XMF 2 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 3874' layerMask='ffffffff'
+	# PROPERTY control='XMF 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='XMF 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='XMF 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='XMF 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='XMF 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='XMF 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='XMF 2 Number' name='FontSize' id='0' value='12.00'
 
 	# Filter 1 type
 
@@ -17794,7 +17805,6 @@ PROPERTY control='SB1_Title' name='FontSize' id='0' value='title_font_size'
 	PROPERTY control='SB 1 Pane' name='colours' id='3' value='none'
 	PROPERTY control='SB 1 Pane' name='graphics' id='0' value='none'
 	PROPERTY control='SB 1 Pane' name='layer' id='0' value='SB1'
-	# PROPERTY control='SB 1 Pane' name='RackMember' id='0' value='YES'
     PROPERTY control='SB 1 Pane' name='Radius' id='0' value='redux_pane_radius'
 
 		CONTROL type='Pane' name='Pane 3034' bounds='0.00 0.00 324.00 48.00' parent='SB 1 Pane' layerMask='1'
@@ -17937,14 +17947,14 @@ PROPERTY control='Label 3048' name='parentLabel' id='0' value='yes'
 
 
 
-	CONTROL type='Label' name='SB 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3034' layerMask='7fffffff'
-	PROPERTY control='SB 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='SB 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='SB 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='SB 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='SB 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='SB 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3034' layerMask='7fffffff'
+	# PROPERTY control='SB 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='SB 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='SB 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='SB 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='SB 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='SB 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='SB 1 Number' name='FontSize' id='0' value='12.00'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='SB 1 Ghost' layerMask='1'
@@ -18122,14 +18132,14 @@ PROPERTY control='Label 3912' name='graphics' id='0' value='none'
 PROPERTY control='Label 3912' name='labeltext' id='0' value='...'
 PROPERTY control='Label 3912' name='parentLabel' id='0' value='yes'
 
-	CONTROL type='Label' name='SB 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3902' layerMask='7fffffff'
-	PROPERTY control='SB 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='SB 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='SB 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='SB 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='SB 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='SB 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3902' layerMask='7fffffff'
+	# PROPERTY control='SB 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='SB 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='SB 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='SB 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='SB 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='SB 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='SB 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='SB 2 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='sb_bg'
@@ -18335,14 +18345,14 @@ PARAMETER control='Display 5064' port='integer' module='Dist1' parameter='PostFl
 # PROPERTY control='Label 5065' name='parentLabel' id='0' value='yes'
 
 
-CONTROL type='Label' name='Dist 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane Dist1' layerMask='ffffffff'
-PROPERTY control='Dist 1 Number' name='colours' id='0' value='none'
-PROPERTY control='Dist 1 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='Dist 1 Number' name='graphics' id='0' value='none'
-PROPERTY control='Dist 1 Number' name='labeltext' id='0' value='1'
-PROPERTY control='Dist 1 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='Dist 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane Dist1' layerMask='ffffffff'
+# PROPERTY control='Dist 1 Number' name='colours' id='0' value='none'
+# PROPERTY control='Dist 1 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='Dist 1 Number' name='graphics' id='0' value='none'
+# PROPERTY control='Dist 1 Number' name='labeltext' id='0' value='1'
+# PROPERTY control='Dist 1 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='Dist 1 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='Dist 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 100.00' parent='Dist 1 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='dist_bg'
@@ -18521,14 +18531,14 @@ PARAMETER control='Display 5066' port='integer' module='Dist2' parameter='PostFl
 
 	PROPERTY control='Display 5066' name='iterate' id='1' value='yes'
 
-CONTROL type='Label' name='Dist 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane Dist2' layerMask='ffffffff'
-PROPERTY control='Dist 2 Number' name='colours' id='0' value='none'
-PROPERTY control='Dist 2 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='Dist 2 Number' name='graphics' id='0' value='none'
-PROPERTY control='Dist 2 Number' name='labeltext' id='0' value='2'
-PROPERTY control='Dist 2 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='Dist 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane Dist2' layerMask='ffffffff'
+# PROPERTY control='Dist 2 Number' name='colours' id='0' value='none'
+# PROPERTY control='Dist 2 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='Dist 2 Number' name='graphics' id='0' value='none'
+# PROPERTY control='Dist 2 Number' name='labeltext' id='0' value='2'
+# PROPERTY control='Dist 2 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='Dist 2 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='Dist 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 100.00' parent='Dist 2 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='dist_bg'
@@ -18741,12 +18751,12 @@ PROPERTY control='Label FOLD1 Live' name='labeltext' id='0' value='Live'
 PROPERTY control='Label FOLD1 Live' name='parentLabel' id='0' value='yes'
 
 
-CONTROL type='Label' name='Label FOLD1 Module Num' bounds='2.00 2.00 14.00 14.00' parent='FOLD1 Module' layerMask='1'
-PROPERTY control='Label FOLD1 Module Num' name='colours' id='0' value='none'
-PROPERTY control='Label FOLD1 Module Num' name='colours' id='1' value='label_module_number'
-PROPERTY control='Label FOLD1 Module Num' name='graphics' id='0' value='none'
-PROPERTY control='Label FOLD1 Module Num' name='labeltext' id='0' value='1'
-PROPERTY control='Label FOLD1 Module Num' name='FontSize' id='0' value='12.00'
+# CONTROL type='Label' name='Label FOLD1 Module Num' bounds='2.00 2.00 14.00 14.00' parent='FOLD1 Module' layerMask='1'
+# PROPERTY control='Label FOLD1 Module Num' name='colours' id='0' value='none'
+# PROPERTY control='Label FOLD1 Module Num' name='colours' id='1' value='label_module_number'
+# PROPERTY control='Label FOLD1 Module Num' name='graphics' id='0' value='none'
+# PROPERTY control='Label FOLD1 Module Num' name='labeltext' id='0' value='1'
+# PROPERTY control='Label FOLD1 Module Num' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 114.00' parent='FOLD1 RackPane' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='fold_bg'
@@ -18956,12 +18966,12 @@ PROPERTY control='Label FOLD2 Live' name='labeltext' id='0' value='Live'
 PROPERTY control='Label FOLD2 Live' name='parentLabel' id='0' value='yes'
 
 
-CONTROL type='Label' name='Label FOLD2 Module Num' bounds='2.00 2.00 14.00 14.00' parent='FOLD2 Module' layerMask='1'
-PROPERTY control='Label FOLD2 Module Num' name='colours' id='0' value='none'
-PROPERTY control='Label FOLD2 Module Num' name='colours' id='1' value='label_module_number'
-PROPERTY control='Label FOLD2 Module Num' name='graphics' id='0' value='none'
-PROPERTY control='Label FOLD2 Module Num' name='labeltext' id='0' value='2'
-PROPERTY control='Label FOLD2 Module Num' name='FontSize' id='0' value='12.00'
+# CONTROL type='Label' name='Label FOLD2 Module Num' bounds='2.00 2.00 14.00 14.00' parent='FOLD2 Module' layerMask='1'
+# PROPERTY control='Label FOLD2 Module Num' name='colours' id='0' value='none'
+# PROPERTY control='Label FOLD2 Module Num' name='colours' id='1' value='label_module_number'
+# PROPERTY control='Label FOLD2 Module Num' name='graphics' id='0' value='none'
+# PROPERTY control='Label FOLD2 Module Num' name='labeltext' id='0' value='2'
+# PROPERTY control='Label FOLD2 Module Num' name='FontSize' id='0' value='12.00'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 114.00' parent='FOLD2 RackPane' layerMask='1'
@@ -22776,14 +22786,14 @@ PROPERTY control='Env 1 More Button' name='graphics' id='0' value='none'
 
 
 	# Text label
-	CONTROL type='Label' name='Env 1 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 1561' layerMask='7fffffff'
-	PROPERTY control='Env 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='Env 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Env 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Env 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='Env 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Env 1 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 1561' layerMask='7fffffff'
+	# PROPERTY control='Env 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Env 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Env 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Env 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='Env 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Env 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Env 1 Number' name='FontSize' id='0' value='12.00'
 
 
 
@@ -23136,14 +23146,14 @@ PROPERTY control='Env 2 More Button' name='graphics' id='0' value='none'
 	PROPERTY control='Label 4015' name='parentLabel' id='0' value='yes'
 
 	# Text label
-	CONTROL type='Label' name='Env 2 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4002' layerMask='7fffffff'
-	PROPERTY control='Env 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='Env 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Env 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Env 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='Env 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Env 2 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4002' layerMask='7fffffff'
+	# PROPERTY control='Env 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Env 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Env 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Env 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='Env 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Env 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Env 2 Number' name='FontSize' id='0' value='12.00'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 62.00' parent='Env 2 Ghost' layerMask='1'
@@ -23493,14 +23503,14 @@ PROPERTY control='ENV 3 More Button' name='graphics' id='0' value='none'
 	PROPERTY control='Label 4058' name='parentLabel' id='0' value='yes'
 
 	# Text label
-	CONTROL type='Label' name='ENV 3 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4045' layerMask='7fffffff'
-	PROPERTY control='ENV 3 Number' name='colours' id='0' value='none'
-	PROPERTY control='ENV 3 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='ENV 3 Number' name='graphics' id='0' value='none'
-	PROPERTY control='ENV 3 Number' name='labeltext' id='0' value='3'
-	PROPERTY control='ENV 3 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='ENV 3 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4045' layerMask='7fffffff'
+	# PROPERTY control='ENV 3 Number' name='colours' id='0' value='none'
+	# PROPERTY control='ENV 3 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='ENV 3 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='ENV 3 Number' name='labeltext' id='0' value='3'
+	# PROPERTY control='ENV 3 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='ENV 3 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='ENV 3 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 62.00' parent='ENV 3 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='env_bg'
@@ -23851,14 +23861,14 @@ PROPERTY control='Env 4 More Button' name='graphics' id='0' value='none'
 	PROPERTY control='Label 4101' name='parentLabel' id='0' value='yes'
 
 	# Text label
-	CONTROL type='Label' name='Env 4 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4088' layerMask='7fffffff'
-	PROPERTY control='Env 4 Number' name='colours' id='0' value='none'
-	PROPERTY control='Env 4 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Env 4 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Env 4 Number' name='labeltext' id='0' value='4'
-	PROPERTY control='Env 4 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Env 4 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4088' layerMask='7fffffff'
+	# PROPERTY control='Env 4 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Env 4 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Env 4 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Env 4 Number' name='labeltext' id='0' value='4'
+	# PROPERTY control='Env 4 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Env 4 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Env 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 62.00' parent='Env 4 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='env_bg'
@@ -24042,14 +24052,14 @@ PROPERTY control='MultiStage 1435 1r' name='dot shape' id='0' value='circle'
 
 
 
-CONTROL type='Label' name='MSEG 1 Number' bounds='310.00 2.00 14.00 14.00' parent='MSEG 1 Rack Pane' layerMask='ffffffff'
-PROPERTY control='MSEG 1 Number' name='colours' id='0' value='none'
-PROPERTY control='MSEG 1 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='MSEG 1 Number' name='graphics' id='0' value='none'
-PROPERTY control='MSEG 1 Number' name='labeltext' id='0' value='1'
-PROPERTY control='MSEG 1 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='MSEG 1 Number' bounds='310.00 2.00 14.00 14.00' parent='MSEG 1 Rack Pane' layerMask='ffffffff'
+# PROPERTY control='MSEG 1 Number' name='colours' id='0' value='none'
+# PROPERTY control='MSEG 1 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='MSEG 1 Number' name='graphics' id='0' value='none'
+# PROPERTY control='MSEG 1 Number' name='labeltext' id='0' value='1'
+# PROPERTY control='MSEG 1 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='MSEG 1 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='MSEG 1 Number' name='FontSize' id='0' value='12.00'
 
     CONTROL type='Pane' name='MSEG 1 L' bounds='190.00 5.00 130.00 36.00' parent='MSEG 1 Rack Pane' layerMask='1'
     PROPERTY control='MSEG 1 L' name='colours' id='0' value='none'
@@ -24228,14 +24238,14 @@ PROPERTY control='MultiStage 1435 2r' name='dot shape' id='0' value='circle'
 	PROPERTY control='PresetSaver 2567' name='graphics' id='1' value='none'
 	PARAMETER control='PresetSaver 2567' port='MPreset' module='ZMas' parameter='MSEG2'
 
-CONTROL type='Label' name='MSEG 2 Number' bounds='310.00 2.00 14.00 14.00' parent='MSEG 2 Rack Pane' layerMask='ffffffff'
-PROPERTY control='MSEG 2 Number' name='colours' id='0' value='none'
-PROPERTY control='MSEG 2 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='MSEG 2 Number' name='graphics' id='0' value='none'
-PROPERTY control='MSEG 2 Number' name='labeltext' id='0' value='2'
-PROPERTY control='MSEG 2 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='MSEG 2 Number' bounds='310.00 2.00 14.00 14.00' parent='MSEG 2 Rack Pane' layerMask='ffffffff'
+# PROPERTY control='MSEG 2 Number' name='colours' id='0' value='none'
+# PROPERTY control='MSEG 2 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='MSEG 2 Number' name='graphics' id='0' value='none'
+# PROPERTY control='MSEG 2 Number' name='labeltext' id='0' value='2'
+# PROPERTY control='MSEG 2 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='MSEG 2 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='MSEG 2 Number' name='FontSize' id='0' value='12.00'
 
     CONTROL type='Pane' name='MSEG 2 L' bounds='190.00 5.00 130.00 36.00' parent='MSEG 2 Rack Pane' layerMask='1'
     PROPERTY control='MSEG 2 L' name='colours' id='0' value='none'
@@ -24414,14 +24424,14 @@ PROPERTY control='MultiStage 1435 3r' name='dot shape' id='0' value='circle'
 	PROPERTY control='Label 2651' name='labeltext' id='0' value='Attack'
 	PROPERTY control='Label 2651' name='parentLabel' id='0' value='yes'
 
-CONTROL type='Label' name='MSEG 3 Number' bounds='310.00 2.00 14.00 14.00' parent='MSEG 3 Rack Pane' layerMask='ffffffff'
-PROPERTY control='MSEG 3 Number' name='colours' id='0' value='none'
-PROPERTY control='MSEG 3 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='MSEG 3 Number' name='graphics' id='0' value='none'
-PROPERTY control='MSEG 3 Number' name='labeltext' id='0' value='3'
-PROPERTY control='MSEG 3 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='MSEG 3 Number' bounds='310.00 2.00 14.00 14.00' parent='MSEG 3 Rack Pane' layerMask='ffffffff'
+# PROPERTY control='MSEG 3 Number' name='colours' id='0' value='none'
+# PROPERTY control='MSEG 3 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='MSEG 3 Number' name='graphics' id='0' value='none'
+# PROPERTY control='MSEG 3 Number' name='labeltext' id='0' value='3'
+# PROPERTY control='MSEG 3 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='MSEG 3 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='MSEG 3 Number' name='FontSize' id='0' value='12.00'
 
     CONTROL type='Pane' name='MSEG 3 L' bounds='190.00 5.00 130.00 36.00' parent='MSEG 3 Rack Pane' layerMask='1'
     PROPERTY control='MSEG 3 L' name='colours' id='0' value='none'
@@ -24600,14 +24610,14 @@ PROPERTY control='MultiStage 1435 4r' name='dot shape' id='0' value='circle'
 	PROPERTY control='Label 2663' name='labeltext' id='0' value='Attack'
 	PROPERTY control='Label 2663' name='parentLabel' id='0' value='yes'
 
-CONTROL type='Label' name='MSEG 4 Number' bounds='310.00 2.00 14.00 14.00' parent='MSEG 4 Rack Pane' layerMask='ffffffff'
-PROPERTY control='MSEG 4 Number' name='colours' id='0' value='none'
-PROPERTY control='MSEG 4 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='MSEG 4 Number' name='graphics' id='0' value='none'
-PROPERTY control='MSEG 4 Number' name='labeltext' id='0' value='4'
-PROPERTY control='MSEG 4 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='MSEG 4 Number' bounds='310.00 2.00 14.00 14.00' parent='MSEG 4 Rack Pane' layerMask='ffffffff'
+# PROPERTY control='MSEG 4 Number' name='colours' id='0' value='none'
+# PROPERTY control='MSEG 4 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='MSEG 4 Number' name='graphics' id='0' value='none'
+# PROPERTY control='MSEG 4 Number' name='labeltext' id='0' value='4'
+# PROPERTY control='MSEG 4 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='MSEG 4 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='MSEG 4 Number' name='FontSize' id='0' value='12.00'
 
     CONTROL type='Pane' name='MSEG 4 L' bounds='190.00 5.00 130.00 36.00' parent='MSEG 4 Rack Pane' layerMask='1'
     PROPERTY control='MSEG 4 L' name='colours' id='0' value='none'
@@ -24910,14 +24920,14 @@ PROPERTY control='GenericStep 2149' name='dot shape' id='0' value='circle'
 
 		PROPERTY control='Display 155+' name='clientpane' id='1' value='Pane 2156'
 
-	CONTROL type='Label' name='LFO 1 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 2155' layerMask='ffffffff'
-	PROPERTY control='LFO 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='LFO 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='LFO 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='LFO 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='LFO 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='LFO 1 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 2155' layerMask='ffffffff'
+	# PROPERTY control='LFO 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='LFO 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='LFO 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='LFO 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='LFO 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='LFO 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='LFO 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 64.00' parent='Pane 2155' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='lfo_bg'
@@ -25200,14 +25210,14 @@ PROPERTY control='GenericStep 4133' name='dot shape' id='0' value='circle'
 			PROPERTY control='Display 4117+' name='clientpane' id='1' value='Pane 4132'
 
 
-	CONTROL type='Label' name='LFO 2 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4111' layerMask='ffffffff'
-	PROPERTY control='LFO 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='LFO 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='LFO 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='LFO 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='LFO 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='LFO 2 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4111' layerMask='ffffffff'
+	# PROPERTY control='LFO 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='LFO 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='LFO 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='LFO 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='LFO 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='LFO 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='LFO 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 64.00' parent='Pane 4111' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='lfo_bg'
@@ -25491,14 +25501,14 @@ PROPERTY control='GenericStep 4160' name='dot shape' id='0' value='circle'
 
 		PROPERTY control='Display 4144+' name='clientpane' id='1' value='Pane 4159'
 
-	CONTROL type='Label' name='LFO 3 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4138' layerMask='ffffffff'
-	PROPERTY control='LFO 3 Number' name='colours' id='0' value='none'
-	PROPERTY control='LFO 3 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='LFO 3 Number' name='graphics' id='0' value='none'
-	PROPERTY control='LFO 3 Number' name='labeltext' id='0' value='3'
-	PROPERTY control='LFO 3 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='LFO 3 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4138' layerMask='ffffffff'
+	# PROPERTY control='LFO 3 Number' name='colours' id='0' value='none'
+	# PROPERTY control='LFO 3 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='LFO 3 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='LFO 3 Number' name='labeltext' id='0' value='3'
+	# PROPERTY control='LFO 3 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='LFO 3 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='LFO 3 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 64.00' parent='Pane 4138' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='lfo_bg'
@@ -25785,14 +25795,14 @@ PROPERTY control='GenericStep 4187' name='dot shape' id='0' value='circle'
 
 		PROPERTY control='Display 4171+' name='clientpane' id='1' value='Pane 4186'
 
-	CONTROL type='Label' name='LFO 4 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4165' layerMask='ffffffff'
-	PROPERTY control='LFO 4 Number' name='colours' id='0' value='none'
-	PROPERTY control='LFO 4 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='LFO 4 Number' name='graphics' id='0' value='none'
-	PROPERTY control='LFO 4 Number' name='labeltext' id='0' value='4'
-	PROPERTY control='LFO 4 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='LFO 4 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4165' layerMask='ffffffff'
+	# PROPERTY control='LFO 4 Number' name='colours' id='0' value='none'
+	# PROPERTY control='LFO 4 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='LFO 4 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='LFO 4 Number' name='labeltext' id='0' value='4'
+	# PROPERTY control='LFO 4 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='LFO 4 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='LFO 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 64.00' parent='Pane 4165' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='lfo_bg'
@@ -26021,14 +26031,14 @@ PROPERTY control='GenericStep 4214' name='dot shape' id='0' value='circle'
 
 		PROPERTY control='Display 4198+' name='clientpane' id='1' value='Pane 4213'
 
-	CONTROL type='Label' name='GLFO 1 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4192' layerMask='ffffffff'
-	PROPERTY control='GLFO 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='GLFO 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='GLFO 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='GLFO 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='GLFO 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='GLFO 1 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4192' layerMask='ffffffff'
+	# PROPERTY control='GLFO 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='GLFO 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='GLFO 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='GLFO 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='GLFO 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='GLFO 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='GLFO 1 Number' name='FontSize' id='0' value='12.00'
 
     CONTROL type='Pane' name='GLFO 1 G' bounds='70.00 25.00 31.00 36.00' parent='Pane 4192' layerMask='1'
     PROPERTY control='GLFO 1 G' name='colours' id='0' value='none'
@@ -26249,14 +26259,14 @@ PROPERTY control='GenericStep 4241' name='dot shape' id='0' value='circle'
 
 		PROPERTY control='Display 4225+' name='clientpane' id='1' value='Pane 4240'
 
-	CONTROL type='Label' name='GLFO 2 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4219' layerMask='ffffffff'
-	PROPERTY control='GLFO 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='GLFO 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='GLFO 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='GLFO 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='GLFO 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='GLFO 2 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4219' layerMask='ffffffff'
+	# PROPERTY control='GLFO 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='GLFO 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='GLFO 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='GLFO 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='GLFO 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='GLFO 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='GLFO 2 Number' name='FontSize' id='0' value='12.00'
 
     CONTROL type='Pane' name='GLFO 2 G' bounds='70.00 25.00 31.00 36.00' parent='Pane 4219' layerMask='1'
     PROPERTY control='GLFO 2 G' name='colours' id='0' value='none'
@@ -26373,14 +26383,14 @@ PARAMETER control='Display 3024' port='integer' module='MMap1' parameter='MSrc'
 			PARAMETER control='GenericStep 3026' port='Meter' module='MMap1' parameter='Run'
 			PARAMETER control='GenericStep 3026' port='NumSteps' module='MMap1' parameter='Num'
 
-	CONTROL type='Label' name='MMap 1 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 3021' layerMask='ffffffff'
-	PROPERTY control='MMap 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='MMap 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='MMap 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='MMap 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='MMap 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='MMap 1 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 3021' layerMask='ffffffff'
+	# PROPERTY control='MMap 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='MMap 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='MMap 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='MMap 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='MMap 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='MMap 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='MMap 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 98.00' parent='MMap 1 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='mmap_bg'
@@ -26472,14 +26482,14 @@ PARAMETER control='Display 3977' port='integer' module='MMap2' parameter='MSrc'
 			PARAMETER control='GenericStep 3979' port='Meter' module='MMap2' parameter='Run'
 			PARAMETER control='GenericStep 3979' port='NumSteps' module='MMap2' parameter='Num'
 
-	CONTROL type='Label' name='MMap 2 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 3975' layerMask='ffffffff'
-	PROPERTY control='MMap 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='MMap 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='MMap 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='MMap 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='MMap 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='MMap 2 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 3975' layerMask='ffffffff'
+	# PROPERTY control='MMap 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='MMap 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='MMap 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='MMap 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='MMap 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='MMap 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='MMap 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 98.00' parent='MMap 2 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='mmap_bg'
@@ -26572,14 +26582,14 @@ PARAMETER control='Display 4443' port='integer' module='MMap3' parameter='MSrc'
 			PARAMETER control='GenericStep 4445' port='Meter' module='MMap3' parameter='Run'
 			PARAMETER control='GenericStep 4445' port='NumSteps' module='MMap3' parameter='Num'
 
-	CONTROL type='Label' name='MMap 3 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4441' layerMask='ffffffff'
-	PROPERTY control='MMap 3 Number' name='colours' id='0' value='none'
-	PROPERTY control='MMap 3 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='MMap 3 Number' name='graphics' id='0' value='none'
-	PROPERTY control='MMap 3 Number' name='labeltext' id='0' value='3'
-	PROPERTY control='MMap 3 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='MMap 3 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4441' layerMask='ffffffff'
+	# PROPERTY control='MMap 3 Number' name='colours' id='0' value='none'
+	# PROPERTY control='MMap 3 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='MMap 3 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='MMap 3 Number' name='labeltext' id='0' value='3'
+	# PROPERTY control='MMap 3 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='MMap 3 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='MMap 3 Number' name='FontSize' id='0' value='12.00'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 98.00' parent='MMap 3 Ghost' layerMask='1'
@@ -26676,14 +26686,14 @@ PARAMETER control='Display 4468' port='integer' module='MMap4' parameter='MSrc'
 			PARAMETER control='GenericStep 4470' port='Meter' module='MMap4' parameter='Run'
 			PARAMETER control='GenericStep 4470' port='NumSteps' module='MMap4' parameter='Num'
 
-	CONTROL type='Label' name='MMap 4 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4466' layerMask='ffffffff'
-	PROPERTY control='MMap 4 Number' name='colours' id='0' value='none'
-	PROPERTY control='MMap 4 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='MMap 4 Number' name='graphics' id='0' value='none'
-	PROPERTY control='MMap 4 Number' name='labeltext' id='0' value='4'
-	PROPERTY control='MMap 4 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='MMap 4 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 4466' layerMask='ffffffff'
+	# PROPERTY control='MMap 4 Number' name='colours' id='0' value='none'
+	# PROPERTY control='MMap 4 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='MMap 4 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='MMap 4 Number' name='labeltext' id='0' value='4'
+	# PROPERTY control='MMap 4 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='MMap 4 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='MMap 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 98.00' parent='MMap 4 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='mmap_bg'
@@ -26819,14 +26829,14 @@ PROPERTY control='Display 2550' name='FontAlignment' id='0' value='0'
 
 
 
-CONTROL type='Label' name='MMix 1 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 3202' layerMask='ffffffff'
-PROPERTY control='MMix 1 Number' name='colours' id='0' value='none'
-PROPERTY control='MMix 1 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='MMix 1 Number' name='graphics' id='0' value='none'
-PROPERTY control='MMix 1 Number' name='labeltext' id='0' value='1'
-PROPERTY control='MMix 1 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='MMix 1 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 3202' layerMask='ffffffff'
+# PROPERTY control='MMix 1 Number' name='colours' id='0' value='none'
+# PROPERTY control='MMix 1 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='MMix 1 Number' name='graphics' id='0' value='none'
+# PROPERTY control='MMix 1 Number' name='labeltext' id='0' value='1'
+# PROPERTY control='MMix 1 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='MMix 1 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='MMix 1 Number' name='FontSize' id='0' value='12.00'
 
 #--
 
@@ -27003,14 +27013,14 @@ PROPERTY control='MMix 2 Slider BG' name='graphics' id='0' value='none'
 
 
 
-CONTROL type='Label' name='MMix 2 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 3936' layerMask='ffffffff'
-PROPERTY control='MMix 2 Number' name='colours' id='0' value='none'
-PROPERTY control='MMix 2 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='MMix 2 Number' name='graphics' id='0' value='none'
-PROPERTY control='MMix 2 Number' name='labeltext' id='0' value='2'
-PROPERTY control='MMix 2 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='MMix 2 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 3936' layerMask='ffffffff'
+# PROPERTY control='MMix 2 Number' name='colours' id='0' value='none'
+# PROPERTY control='MMix 2 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='MMix 2 Number' name='graphics' id='0' value='none'
+# PROPERTY control='MMix 2 Number' name='labeltext' id='0' value='2'
+# PROPERTY control='MMix 2 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='MMix 2 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='MMix 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 53.00' parent='MMix 2 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='mmix_bg'
@@ -27162,14 +27172,14 @@ PROPERTY control='MMix 3 Slider BG' name='graphics' id='0' value='none'
 
 
 
-CONTROL type='Label' name='MMix 3 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 3949' layerMask='ffffffff'
-PROPERTY control='MMix 3 Number' name='colours' id='0' value='none'
-PROPERTY control='MMix 3 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='MMix 3 Number' name='graphics' id='0' value='none'
-PROPERTY control='MMix 3 Number' name='labeltext' id='0' value='3'
-PROPERTY control='MMix 3 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='MMix 3 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 3949' layerMask='ffffffff'
+# PROPERTY control='MMix 3 Number' name='colours' id='0' value='none'
+# PROPERTY control='MMix 3 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='MMix 3 Number' name='graphics' id='0' value='none'
+# PROPERTY control='MMix 3 Number' name='labeltext' id='0' value='3'
+# PROPERTY control='MMix 3 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='MMix 3 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='MMix 3 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 53.00' parent='MMix 3 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='mmix_bg'
@@ -27323,14 +27333,14 @@ PROPERTY control='MMix 4 Slider BG' name='graphics' id='0' value='none'
 	PROPERTY control='MMix 4 Slider' name='direction' id='0' value='horizontal'
 
 
-	CONTROL type='Label' name='MMix 4 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 3962' layerMask='ffffffff'
-	PROPERTY control='MMix 4 Number' name='colours' id='0' value='none'
-	PROPERTY control='MMix 4 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='MMix 4 Number' name='graphics' id='0' value='none'
-	PROPERTY control='MMix 4 Number' name='labeltext' id='0' value='4'
-	PROPERTY control='MMix 4 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='MMix 4 Number' bounds='310.00 2.00 14.00 14.00' parent='Pane 3962' layerMask='ffffffff'
+	# PROPERTY control='MMix 4 Number' name='colours' id='0' value='none'
+	# PROPERTY control='MMix 4 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='MMix 4 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='MMix 4 Number' name='labeltext' id='0' value='4'
+	# PROPERTY control='MMix 4 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='MMix 4 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='MMix 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 53.00' parent='MMix 4 Ghost' layerMask='1'
 PROPERTY control='ColorOVL' name='colours' id='0' value='mmix_bg'
@@ -27385,26 +27395,26 @@ PROPERTY control='FX_Rack_Title' name='FontSize' id='0' value='title_font_size'
 	PROPERTY control='Effects Pane' name='colours' id='3' value='none'
 	PROPERTY control='Effects Pane' name='graphics' id='0' value='none'
 	PARAMETER control='Effects Pane' port='LayerMem' module='ZMas' parameter='Pn3'
-    PROPERTY control='Effects Pane' name='layer' id='0' value='Delay1' # 1
-    PROPERTY control='Effects Pane' name='layer' id='1' value='Delay2' # 2
-    PROPERTY control='Effects Pane' name='layer' id='2' value='ModFX1' # 4
-    PROPERTY control='Effects Pane' name='layer' id='3' value='ModFX2' # 8
-    PROPERTY control='Effects Pane' name='layer' id='4' value='Rev1' # 10
-    PROPERTY control='Effects Pane' name='layer' id='5' value='Shape3' # 20
-    PROPERTY control='Effects Pane' name='layer' id='6' value='Shape4' # 40
-    PROPERTY control='Effects Pane' name='layer' id='7' value='Mix5' # 80
-    PROPERTY control='Effects Pane' name='layer' id='8' value='Mix6' # 100
-    PROPERTY control='Effects Pane' name='layer' id='9' value='Comp1' # 200 
-    PROPERTY control='Effects Pane' name='layer' id='10' value='Comp2' # 400
-    PROPERTY control='Effects Pane' name='layer' id='11' value='EQ1' # 800
-    PROPERTY control='Effects Pane' name='layer' id='12' value='EQ2' #1000
-    PROPERTY control='Effects Pane' name='layer' id='13' value='VCF5' #2000
-    PROPERTY control='Effects Pane' name='layer' id='14' value='VCF6' #4000
-    PROPERTY control='Effects Pane' name='layer' id='15' value='SB3' #8000
-    PROPERTY control='Effects Pane' name='layer' id='16' value='XMF3' #10000
-    PROPERTY control='Effects Pane' name='layer' id='17' value='Dist3' #20000
-    PROPERTY control='Effects Pane' name='layer' id='18' value='Dist4' #40000
-    PROPERTY control='Effects Pane' name='layer' id='19' value='NuRev1' #80000
+    PROPERTY control='Effects Pane' name='layer' id='0' value='Delay1'
+    PROPERTY control='Effects Pane' name='layer' id='1' value='Delay2'
+    PROPERTY control='Effects Pane' name='layer' id='2' value='ModFX1'
+    PROPERTY control='Effects Pane' name='layer' id='3' value='ModFX2'
+    PROPERTY control='Effects Pane' name='layer' id='4' value='Rev1'
+    PROPERTY control='Effects Pane' name='layer' id='5' value='Shape3'
+    PROPERTY control='Effects Pane' name='layer' id='6' value='Shape4'
+    PROPERTY control='Effects Pane' name='layer' id='7' value='Mix5'
+    PROPERTY control='Effects Pane' name='layer' id='8' value='Mix6'
+    PROPERTY control='Effects Pane' name='layer' id='9' value='Comp1'
+    PROPERTY control='Effects Pane' name='layer' id='10' value='Comp2'
+    PROPERTY control='Effects Pane' name='layer' id='11' value='EQ1'
+    PROPERTY control='Effects Pane' name='layer' id='12' value='EQ2'
+    PROPERTY control='Effects Pane' name='layer' id='13' value='VCF5'
+    PROPERTY control='Effects Pane' name='layer' id='14' value='VCF6'
+    PROPERTY control='Effects Pane' name='layer' id='15' value='SB3'
+    PROPERTY control='Effects Pane' name='layer' id='16' value='XMF3'
+    PROPERTY control='Effects Pane' name='layer' id='17' value='Dist3'
+    PROPERTY control='Effects Pane' name='layer' id='18' value='Dist4'
+    PROPERTY control='Effects Pane' name='layer' id='19' value='NuRev1'
 
     PROPERTY control='Effects Pane' name='allowSwapping' id='0' value='NO'
     PROPERTY control='Effects Pane' name='RackMember' id='0' value='redux_module_is_rackmember'
@@ -27443,20 +27453,14 @@ PROPERTY control='ModFX1_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='ModFX1_Title' name='font' id='0' value='title_font'
 PROPERTY control='ModFX1_Title' name='FontSize' id='0' value='title_font_size'
 
-	CONTROL type='Pane' name='ModFX 1 ID BG' bounds='0.00 20.00 324.00 137.00' parent='ModFX 1 Ghost' layerMask='1'
-	PROPERTY control='ModFX 1 ID BG' name='colours' id='0' value='none'
-	PROPERTY control='ModFX 1 ID BG' name='colours' id='1' value='none'
-	PROPERTY control='ModFX 1 ID BG' name='colours' id='2' value='none'
-	PROPERTY control='ModFX 1 ID BG' name='colours' id='3' value='none'
-	PROPERTY control='ModFX 1 ID BG' name='graphics' id='0' value='modfx_bg'
-
-	CONTROL type='Pane' name='Pane 4287' bounds='0.00 0.00 324.00 137.00' parent='ModFX 1 ID BG' layerMask='1'
-	PROPERTY control='Pane 4287' name='colours' id='0' value='modfx_bg'
+	CONTROL type='Pane' name='Pane 4287' bounds='0.00 20.00 324.00 137.00' parent='ModFX 1 Ghost' layerMask='1'
+	PROPERTY control='Pane 4287' name='colours' id='0' value='module_bg'
 	PROPERTY control='Pane 4287' name='colours' id='1' value='module_border'
 	PROPERTY control='Pane 4287' name='colours' id='2' value='module_highlight'
 	PROPERTY control='Pane 4287' name='colours' id='3' value='none'
 	PROPERTY control='Pane 4287' name='graphics' id='0' value='none'
-	PROPERTY control='Pane 4287' name='layer' id='0' value='Layer 1'
+	PROPERTY control='Pane 4287' name='layer' id='0' value='ModFX1'
+        PROPERTY control='Pane 4287' name='Radius' id='0' value='redux_pane_radius'
 
 		CONTROL type='Display' name='Display 1438' bounds='245.00 3.00 70.00 131.00' parent='Pane 4287' layerMask='1'
 		PROPERTY control='Display 1438' name='colours' id='0' value='none'
@@ -27683,33 +27687,23 @@ PROPERTY control='ModFX1_Title' name='FontSize' id='0' value='title_font_size'
 		PROPERTY control='Label 2829' name='labeltext' id='0' value='Bypass EQ'
 		PROPERTY control='Label 2829' name='parentLabel' id='0' value='yes'
 
+	# CONTROL type='Label' name='ModFX 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 4287' layerMask='7fffffff'
+	# PROPERTY control='ModFX 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='ModFX 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='ModFX 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='ModFX 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='ModFX 1 Number' name='parentLabel' id='0' value='yes'
 
-		# CONTROL type='Pane' name='Pane 4288' bounds='14.00 6.00 44.00 14.00' parent='Pane 4287' layerMask='1'
-		# PROPERTY control='Pane 4288' name='colours' id='0' value='none'
-		# PROPERTY control='Pane 4288' name='colours' id='1' value='none'
-		# PROPERTY control='Pane 4288' name='colours' id='2' value='none'
-		# PROPERTY control='Pane 4288' name='colours' id='3' value='none'
-		# PROPERTY control='Pane 4288' name='graphics' id='0' value='A_ModFX'
-		# PROPERTY control='Pane 4288' name='layer' id='0' value='Layer 1'
-
-		# CONTROL type='Pane' name='Pane 4289' bounds='62.00 6.00 14.00 14.00' parent='Pane 4287' layerMask='1'
-		# PROPERTY control='Pane 4289' name='colours' id='0' value='none'
-		# PROPERTY control='Pane 4289' name='colours' id='1' value='none'
-		# PROPERTY control='Pane 4289' name='colours' id='2' value='none'
-		# PROPERTY control='Pane 4289' name='colours' id='3' value='none'
-		# PROPERTY control='Pane 4289' name='graphics' id='0' value='A_1'
-		# PROPERTY control='Pane 4289' name='layer' id='0' value='Layer 1'
-
-	CONTROL type='Label' name='ModFX 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 4287' layerMask='7fffffff'
-	PROPERTY control='ModFX 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='ModFX 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='ModFX 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='ModFX 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='ModFX 1 Number' name='parentLabel' id='0' value='yes'
-
-		PROPERTY control='ModFX 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='ModFX 1 Number' name='FontSize' id='0' value='12.00'
 
 
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 137.00' parent='ModFX 1 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='modfx_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -27743,20 +27737,14 @@ PROPERTY control='ModFX2_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='ModFX2_Title' name='font' id='0' value='title_font'
 PROPERTY control='ModFX2_Title' name='FontSize' id='0' value='title_font_size'
 
-	CONTROL type='Pane' name='ModFX 2 ID BG' bounds='0.00 20.00 324.00 137.00' parent='ModFX 2 Ghost' layerMask='1'
-	PROPERTY control='ModFX 2 ID BG' name='colours' id='0' value='none'
-	PROPERTY control='ModFX 2 ID BG' name='colours' id='1' value='none'
-	PROPERTY control='ModFX 2 ID BG' name='colours' id='2' value='none'
-	PROPERTY control='ModFX 2 ID BG' name='colours' id='3' value='none'
-	PROPERTY control='ModFX 2 ID BG' name='graphics' id='0' value='modfx_bg'
-
-	CONTROL type='Pane' name='Pane 4290' bounds='0.00 0.00 324.00 137.00' parent='ModFX 2 ID BG' layerMask='1'
-	PROPERTY control='Pane 4290' name='colours' id='0' value='modfx_bg'
+	CONTROL type='Pane' name='Pane 4290' bounds='0.00 20.00 324.00 137.00' parent='ModFX 2 Ghost' layerMask='1'
+	PROPERTY control='Pane 4290' name='colours' id='0' value='module_bg'
 	PROPERTY control='Pane 4290' name='colours' id='1' value='module_border'
 	PROPERTY control='Pane 4290' name='colours' id='2' value='module_highlight'
 	PROPERTY control='Pane 4290' name='colours' id='3' value='none'
 	PROPERTY control='Pane 4290' name='graphics' id='0' value='none'
-	PROPERTY control='Pane 4290' name='layer' id='0' value='Layer 1'
+	PROPERTY control='Pane 4290' name='layer' id='0' value='ModFX2'
+        PROPERTY control='Pane 4290' name='Radius' id='0' value='redux_pane_radius'
 
 		CONTROL type='Display' name='Display 4291' bounds='245.00 3.00 70.00 131.00' parent='Pane 4290' layerMask='1'
 		PROPERTY control='Display 4291' name='colours' id='0' value='none'
@@ -27949,16 +27937,22 @@ PROPERTY control='ModFX2_Title' name='FontSize' id='0' value='title_font_size'
 		PROPERTY control='Label 4317' name='labeltext' id='0' value='Bypass EQ'
 		PROPERTY control='Label 4317' name='parentLabel' id='0' value='yes'
 
-	CONTROL type='Label' name='ModFX 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 4290' layerMask='7fffffff'
-	PROPERTY control='ModFX 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='ModFX 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='ModFX 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='ModFX 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='ModFX 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='ModFX 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 4290' layerMask='7fffffff'
+	# PROPERTY control='ModFX 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='ModFX 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='ModFX 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='ModFX 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='ModFX 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='ModFX 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='ModFX 2 Number' name='FontSize' id='0' value='12.00'
 
-
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 137.00' parent='ModFX 2 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='modfx_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -27993,20 +27987,14 @@ PROPERTY control='Delay1_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='Delay1_Title' name='font' id='0' value='title_font'
 PROPERTY control='Delay1_Title' name='FontSize' id='0' value='title_font_size'
 
-    CONTROL type='Pane' name='Delay 1 ID BG' bounds='0.00 20.00 324.00 137.00' parent='Delay 1 Ghost' layerMask='1'
-    PROPERTY control='Delay 1 ID BG' name='colours' id='0' value='none'
-    PROPERTY control='Delay 1 ID BG' name='colours' id='1' value='none'
-    PROPERTY control='Delay 1 ID BG' name='colours' id='2' value='none'
-    PROPERTY control='Delay 1 ID BG' name='colours' id='3' value='none'
-    PROPERTY control='Delay 1 ID BG' name='graphics' id='0' value='delay_bg'
-
-        CONTROL type='Pane' name='Pane 4246' bounds='0.00 0.00 324.00 137.00' parent='Delay 1 ID BG' layerMask='1'
-        PROPERTY control='Pane 4246' name='colours' id='0' value='delay_bg'
+        CONTROL type='Pane' name='Pane 4246' bounds='0.00 20.00 324.00 137.00' parent='Delay 1 Ghost' layerMask='1'
+        PROPERTY control='Pane 4246' name='colours' id='0' value='module_bg'
         PROPERTY control='Pane 4246' name='colours' id='1' value='module_border'
         PROPERTY control='Pane 4246' name='colours' id='2' value='module_highlight'
         PROPERTY control='Pane 4246' name='colours' id='3' value='none'
         PROPERTY control='Pane 4246' name='graphics' id='0' value='none'
-        PROPERTY control='Pane 4246' name='layer' id='0' value='Layer 1'
+        PROPERTY control='Pane 4246' name='layer' id='0' value='Delay1'
+        PROPERTY control='Pane 4246' name='Radius' id='0' value='redux_pane_radius'
 
 # CONTROL type='Display' name='Display 1397' bounds='4.00 3.00 316.00 24.00' parent='Pane 4246' layerMask='1'
 CONTROL type='Display' name='Display 1397' bounds='110.00 5.00 110.00 17.00' parent='Pane 4246' layerMask='1'
@@ -28246,16 +28234,23 @@ PARAMETER control='Display 1417' port='integer' module='Delay1' parameter='Sync4
 
 
 
-CONTROL type='Label' name='Delay 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 4246' layerMask='7fffffff'
-PROPERTY control='Delay 1 Number' name='colours' id='0' value='none'
-PROPERTY control='Delay 1 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='Delay 1 Number' name='graphics' id='0' value='none'
-PROPERTY control='Delay 1 Number' name='labeltext' id='0' value='1'
-PROPERTY control='Delay 1 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='Delay 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 4246' layerMask='7fffffff'
+# PROPERTY control='Delay 1 Number' name='colours' id='0' value='none'
+# PROPERTY control='Delay 1 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='Delay 1 Number' name='graphics' id='0' value='none'
+# PROPERTY control='Delay 1 Number' name='labeltext' id='0' value='1'
+# PROPERTY control='Delay 1 Number' name='parentLabel' id='0' value='yes'
 
-    PROPERTY control='Delay 1 Number' name='FontSize' id='0' value='12.00'
+#     PROPERTY control='Delay 1 Number' name='FontSize' id='0' value='12.00'
 
 
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 137.00' parent='Delay 1 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='delay_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -28289,20 +28284,14 @@ PROPERTY control='Delay2_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='Delay2_Title' name='font' id='0' value='title_font'
 PROPERTY control='Delay2_Title' name='FontSize' id='0' value='title_font_size'
 
-    CONTROL type='Pane' name='Delay 2 ID BG' bounds='0.00 20.00 324.00 137.00' parent='Delay 2 Ghost' layerMask='1'
-    PROPERTY control='Delay 2 ID BG' name='colours' id='0' value='none'
-    PROPERTY control='Delay 2 ID BG' name='colours' id='1' value='none'
-    PROPERTY control='Delay 2 ID BG' name='colours' id='2' value='none'
-    PROPERTY control='Delay 2 ID BG' name='colours' id='3' value='none'
-    PROPERTY control='Delay 2 ID BG' name='graphics' id='0' value='delay_bg'
-
-        CONTROL type='Pane' name='Pane 4249' bounds='0.00 0.00 324.00 137.00' parent='Delay 2 ID BG' layerMask='1'
-        PROPERTY control='Pane 4249' name='colours' id='0' value='delay_bg'
+        CONTROL type='Pane' name='Pane 4249' bounds='0.00 20.00 324.00 137.00' parent='Delay 2 Ghost' layerMask='1'
+        PROPERTY control='Pane 4249' name='colours' id='0' value='module_bg'
         PROPERTY control='Pane 4249' name='colours' id='1' value='module_border'
         PROPERTY control='Pane 4249' name='colours' id='2' value='module_highlight'
         PROPERTY control='Pane 4249' name='colours' id='3' value='none'
         PROPERTY control='Pane 4249' name='graphics' id='0' value='none'
-        PROPERTY control='Pane 4249' name='layer' id='0' value='Layer 1'
+        PROPERTY control='Pane 4249' name='layer' id='0' value='Delay2'
+        PROPERTY control='Pane 4249' name='Radius' id='0' value='redux_pane_radius'
 
 CONTROL type='Display' name='Display 4250' bounds='110.00 5.00 110.00 17.00' parent='Pane 4249' layerMask='1'
 PROPERTY control='Display 4250' name='colours' id='0' value='none'
@@ -28514,16 +28503,22 @@ PARAMETER control='Display 4267' port='integer' module='Delay2' parameter='Sync4
     PROPERTY control='Label 4284' name='labeltext' id='0' value='Pan'
     PROPERTY control='Label 4284' name='parentLabel' id='0' value='yes'
 
-CONTROL type='Label' name='Delay 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 4249' layerMask='7fffffff'
-PROPERTY control='Delay 2 Number' name='colours' id='0' value='none'
-PROPERTY control='Delay 2 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='Delay 2 Number' name='graphics' id='0' value='none'
-PROPERTY control='Delay 2 Number' name='labeltext' id='0' value='2'
-PROPERTY control='Delay 2 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='Delay 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 4249' layerMask='7fffffff'
+# PROPERTY control='Delay 2 Number' name='colours' id='0' value='none'
+# PROPERTY control='Delay 2 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='Delay 2 Number' name='graphics' id='0' value='none'
+# PROPERTY control='Delay 2 Number' name='labeltext' id='0' value='2'
+# PROPERTY control='Delay 2 Number' name='parentLabel' id='0' value='yes'
 
-    PROPERTY control='Delay 2 Number' name='FontSize' id='0' value='12.00'
+#     PROPERTY control='Delay 2 Number' name='FontSize' id='0' value='12.00'
 
-
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 137.00' parent='Delay 2 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='delay_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -28545,7 +28540,7 @@ PROPERTY control='Shaper 3 Ghost' name='colours' id='1' value='none'
 PROPERTY control='Shaper 3 Ghost' name='colours' id='2' value='none'
 PROPERTY control='Shaper 3 Ghost' name='colours' id='3' value='none'
 PROPERTY control='Shaper 3 Ghost' name='graphics' id='0' value='none'
-PROPERTY control='Shaper 3 Ghost' name='layer' id='0' value='Shape3'
+# PROPERTY control='Shaper 3 Ghost' name='layer' id='0' value='Shape3'
 # PROPERTY control='Shaper 3 Ghost' name='RackMember' id='0' value='redux_module_is_rackmember'
 
 CONTROL type='Label' name='Shaper3_Title' bounds='0.00 5.00 124.00 redux_title_h' parent='Shaper 3 Ghost' layerMask='ffffffff'
@@ -28560,19 +28555,14 @@ PROPERTY control='Shaper3_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='Shaper3_Title' name='font' id='0' value='title_font'
 PROPERTY control='Shaper3_Title' name='FontSize' id='0' value='title_font_size'
 
-    CONTROL type='Pane' name='Shaper 3 ID BG' bounds='0.00 20.00 324.00 48.00' parent='Shaper 3 Ghost' layerMask='1'
-    PROPERTY control='Shaper 3 ID BG' name='colours' id='0' value='none'
-    PROPERTY control='Shaper 3 ID BG' name='colours' id='1' value='none'
-    PROPERTY control='Shaper 3 ID BG' name='colours' id='2' value='none'
-    PROPERTY control='Shaper 3 ID BG' name='colours' id='3' value='none'
-    PROPERTY control='Shaper 3 ID BG' name='graphics' id='0' value='shaper_bg'
-
-    CONTROL type='Pane' name='Shaper 3 Pane' bounds='0.00 0.00 324.00 48.00' parent='Shaper 3 ID BG' layerMask='1'
-    PROPERTY control='Shaper 3 Pane' name='colours' id='0' value='shaper_bg'
+    CONTROL type='Pane' name='Shaper 3 Pane' bounds='0.00 20.00 324.00 48.00' parent='Shaper 3 Ghost' layerMask='1'
+    PROPERTY control='Shaper 3 Pane' name='colours' id='0' value='module_bg'
     PROPERTY control='Shaper 3 Pane' name='colours' id='1' value='module_border'
     PROPERTY control='Shaper 3 Pane' name='colours' id='2' value='module_highlight'
     PROPERTY control='Shaper 3 Pane' name='colours' id='3' value='none'
     PROPERTY control='Shaper 3 Pane' name='graphics' id='0' value='none'
+        PROPERTY control='Shaper 3 Pane' name='Radius' id='0' value='redux_pane_radius'
+PROPERTY control='Shaper 3 Pane' name='layer' id='0' value='Shape3'
 
         CONTROL type='Pane' name='Pane 3574' bounds='0.00 0.00 324.00 48.00' parent='Shaper 3 Pane' layerMask='1'
         PROPERTY control='Pane 3574' name='colours' id='0' value='none'
@@ -28705,16 +28695,23 @@ PROPERTY control='Label 3581' name='graphics' id='0' value='none'
 PROPERTY control='Label 3581' name='labeltext' id='0' value='...'
 PROPERTY control='Label 3581' name='parentLabel' id='0' value='yes'
 
-    CONTROL type='Label' name='Shaper 3 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3574' layerMask='7fffffff'
-    PROPERTY control='Shaper 3 Number' name='colours' id='0' value='none'
-    PROPERTY control='Shaper 3 Number' name='colours' id='1' value='label_module_number'
-    PROPERTY control='Shaper 3 Number' name='graphics' id='0' value='none'
-    PROPERTY control='Shaper 3 Number' name='labeltext' id='0' value='3'
-    PROPERTY control='Shaper 3 Number' name='parentLabel' id='0' value='yes'
+    # CONTROL type='Label' name='Shaper 3 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3574' layerMask='7fffffff'
+    # PROPERTY control='Shaper 3 Number' name='colours' id='0' value='none'
+    # PROPERTY control='Shaper 3 Number' name='colours' id='1' value='label_module_number'
+    # PROPERTY control='Shaper 3 Number' name='graphics' id='0' value='none'
+    # PROPERTY control='Shaper 3 Number' name='labeltext' id='0' value='3'
+    # PROPERTY control='Shaper 3 Number' name='parentLabel' id='0' value='yes'
 
-        PROPERTY control='Shaper 3 Number' name='FontSize' id='0' value='12.00'
+    #     PROPERTY control='Shaper 3 Number' name='FontSize' id='0' value='12.00'
 
 
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Shaper 3 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='shaper_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -28737,7 +28734,7 @@ PROPERTY control='Shaper 4 Ghost' name='colours' id='1' value='none'
 PROPERTY control='Shaper 4 Ghost' name='colours' id='2' value='none'
 PROPERTY control='Shaper 4 Ghost' name='colours' id='3' value='none'
 PROPERTY control='Shaper 4 Ghost' name='graphics' id='0' value='none'
-PROPERTY control='Shaper 4 Ghost' name='layer' id='0' value='Shape4'
+# PROPERTY control='Shaper 4 Ghost' name='layer' id='0' value='Shape4'
 # PROPERTY control='Shaper 4 Ghost' name='RackMember' id='0' value='redux_module_is_rackmember'
 
 CONTROL type='Label' name='Shaper4_Title' bounds='0.00 5.00 124.00 redux_title_h' parent='Shaper 4 Ghost' layerMask='ffffffff'
@@ -28752,19 +28749,15 @@ PROPERTY control='Shaper4_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='Shaper4_Title' name='font' id='0' value='title_font'
 PROPERTY control='Shaper4_Title' name='FontSize' id='0' value='title_font_size'
 
-    CONTROL type='Pane' name='Shaper 4 ID BG' bounds='0.00 20.00 324.00 48.00' parent='Shaper 4 Ghost' layerMask='1'
-    PROPERTY control='Shaper 4 ID BG' name='colours' id='0' value='none'
-    PROPERTY control='Shaper 4 ID BG' name='colours' id='1' value='none'
-    PROPERTY control='Shaper 4 ID BG' name='colours' id='2' value='none'
-    PROPERTY control='Shaper 4 ID BG' name='colours' id='3' value='none'
-    PROPERTY control='Shaper 4 ID BG' name='graphics' id='0' value='shaper_bg'
-
-    CONTROL type='Pane' name='Shaper 4 Pane' bounds='0.00 0.00 324.00 48.00' parent='Shaper 4 ID BG' layerMask='1'
-    PROPERTY control='Shaper 4 Pane' name='colours' id='0' value='shaper_bg'
+    CONTROL type='Pane' name='Shaper 4 Pane' bounds='0.00 20.00 324.00 48.00' parent='Shaper 4 Ghost' layerMask='1'
+    PROPERTY control='Shaper 4 Pane' name='colours' id='0' value='module_bg'
     PROPERTY control='Shaper 4 Pane' name='colours' id='1' value='module_border'
     PROPERTY control='Shaper 4 Pane' name='colours' id='2' value='module_highlight'
     PROPERTY control='Shaper 4 Pane' name='colours' id='3' value='none'
     PROPERTY control='Shaper 4 Pane' name='graphics' id='0' value='none'
+        PROPERTY control='Shaper 4 Pane' name='Radius' id='0' value='redux_pane_radius'
+PROPERTY control='Shaper 4 Pane' name='layer' id='0' value='Shape4'
+
 
         CONTROL type='Pane' name='Pane 3592' bounds='0.00 0.00 324.00 48.00' parent='Shaper 4 Pane' layerMask='1'
         PROPERTY control='Pane 3592' name='colours' id='0' value='none'
@@ -28896,14 +28889,23 @@ PROPERTY control='Label 3599' name='graphics' id='0' value='none'
 PROPERTY control='Label 3599' name='labeltext' id='0' value='...'
 PROPERTY control='Label 3599' name='parentLabel' id='0' value='yes'
 
-    CONTROL type='Label' name='Shaper 4 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3592' layerMask='7fffffff'
-    PROPERTY control='Shaper 4 Number' name='colours' id='0' value='none'
-    PROPERTY control='Shaper 4 Number' name='colours' id='1' value='label_module_number'
-    PROPERTY control='Shaper 4 Number' name='graphics' id='0' value='none'
-    PROPERTY control='Shaper 4 Number' name='labeltext' id='0' value='4'
-    PROPERTY control='Shaper 4 Number' name='parentLabel' id='0' value='yes'
+    # CONTROL type='Label' name='Shaper 4 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3592' layerMask='7fffffff'
+    # PROPERTY control='Shaper 4 Number' name='colours' id='0' value='none'
+    # PROPERTY control='Shaper 4 Number' name='colours' id='1' value='label_module_number'
+    # PROPERTY control='Shaper 4 Number' name='graphics' id='0' value='none'
+    # PROPERTY control='Shaper 4 Number' name='labeltext' id='0' value='4'
+    # PROPERTY control='Shaper 4 Number' name='parentLabel' id='0' value='yes'
 
-        PROPERTY control='Shaper 4 Number' name='FontSize' id='0' value='12.00'
+    #     PROPERTY control='Shaper 4 Number' name='FontSize' id='0' value='12.00'
+
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Shaper 4 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='shaper_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+
 
 
 
@@ -28942,21 +28944,14 @@ PROPERTY control='Mix5_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='Mix5_Title' name='font' id='0' value='title_font'
 PROPERTY control='Mix5_Title' name='FontSize' id='0' value='title_font_size'
 
-    CONTROL type='Pane' name='Mix 5 ID BG' bounds='0.00 20.00 324.00 48.00' parent='Mix 5 Ghost' layerMask='1'
-    PROPERTY control='Mix 5 ID BG' name='colours' id='0' value='none'
-    PROPERTY control='Mix 5 ID BG' name='colours' id='1' value='none'
-    PROPERTY control='Mix 5 ID BG' name='colours' id='2' value='none'
-    PROPERTY control='Mix 5 ID BG' name='colours' id='3' value='none'
-    PROPERTY control='Mix 5 ID BG' name='graphics' id='0' value='mix_bg'
-
-        CONTROL type='Pane' name='Mix 5 Pane' bounds='0.00 0.00 324.00 48.00' parent='Mix 5 ID BG' layerMask='1'
-        PROPERTY control='Mix 5 Pane' name='colours' id='0' value='mix_bg'
+        CONTROL type='Pane' name='Mix 5 Pane' bounds='0.00 20.00 324.00 48.00' parent='Mix 5 Ghost' layerMask='1'
+        PROPERTY control='Mix 5 Pane' name='colours' id='0' value='module_bg'
         PROPERTY control='Mix 5 Pane' name='colours' id='1' value='module_border'
         PROPERTY control='Mix 5 Pane' name='colours' id='2' value='module_highlight'
         PROPERTY control='Mix 5 Pane' name='colours' id='3' value='none'
         PROPERTY control='Mix 5 Pane' name='graphics' id='0' value='none'
         PROPERTY control='Mix 5 Pane' name='layer' id='0' value='Mix5'
-        # PROPERTY control='Mix 5 Ghost' name='RackMember' id='0' value='YES'
+        PROPERTY control='Mix 5 Pane' name='Radius' id='0' value='redux_pane_radius'
 
         CONTROL type='Pane' name='Pane 3852' bounds='0.00 0.00 324.00 48.00' parent='Mix 5 Pane' layerMask='1'
         PROPERTY control='Pane 3852' name='colours' id='0' value='none'
@@ -29031,14 +29026,22 @@ PROPERTY control='Display 3857' name='graphics' id='0' value='none'
 PROPERTY control='Display 3857' name='graphics' id='1' value='none'
 PARAMETER control='Display 3857' port='integer' module='Mix5' parameter='PnMd'
 
-    CONTROL type='Label' name='Mix 5 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3852' layerMask='ffffffff'
-    PROPERTY control='Mix 5 Number' name='colours' id='0' value='none'
-    PROPERTY control='Mix 5 Number' name='colours' id='1' value='label_module_number'
-    PROPERTY control='Mix 5 Number' name='graphics' id='0' value='none'
-    PROPERTY control='Mix 5 Number' name='labeltext' id='0' value='5'
-    PROPERTY control='Mix 5 Number' name='parentLabel' id='0' value='yes'
+    # CONTROL type='Label' name='Mix 5 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3852' layerMask='ffffffff'
+    # PROPERTY control='Mix 5 Number' name='colours' id='0' value='none'
+    # PROPERTY control='Mix 5 Number' name='colours' id='1' value='label_module_number'
+    # PROPERTY control='Mix 5 Number' name='graphics' id='0' value='none'
+    # PROPERTY control='Mix 5 Number' name='labeltext' id='0' value='5'
+    # PROPERTY control='Mix 5 Number' name='parentLabel' id='0' value='yes'
 
-        PROPERTY control='Mix 5 Number' name='FontSize' id='0' value='12.00'
+    #     PROPERTY control='Mix 5 Number' name='FontSize' id='0' value='12.00'
+
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Mix 5 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -29074,21 +29077,14 @@ PROPERTY control='Mix6_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='Mix6_Title' name='font' id='0' value='title_font'
 PROPERTY control='Mix6_Title' name='FontSize' id='0' value='title_font_size'
 
-    CONTROL type='Pane' name='Mix 6 ID BG' bounds='0.00 20.00 324.00 48.00' parent='Mix 6 Ghost' layerMask='1'
-    PROPERTY control='Mix 6 ID BG' name='colours' id='0' value='none'
-    PROPERTY control='Mix 6 ID BG' name='colours' id='1' value='none'
-    PROPERTY control='Mix 6 ID BG' name='colours' id='2' value='none'
-    PROPERTY control='Mix 6 ID BG' name='colours' id='3' value='none'
-    PROPERTY control='Mix 6 ID BG' name='graphics' id='0' value='mix_bg'
-
-        CONTROL type='Pane' name='Mix 6 Pane' bounds='0.00 0.00 324.00 48.00' parent='Mix 6 ID BG' layerMask='1'
-        PROPERTY control='Mix 6 Pane' name='colours' id='0' value='mix_bg'
+        CONTROL type='Pane' name='Mix 6 Pane' bounds='0.00 20.00 324.00 48.00' parent='Mix 6 Ghost' layerMask='1'
+        PROPERTY control='Mix 6 Pane' name='colours' id='0' value='module_bg'
         PROPERTY control='Mix 6 Pane' name='colours' id='1' value='module_border'
         PROPERTY control='Mix 6 Pane' name='colours' id='2' value='module_highlight'
         PROPERTY control='Mix 6 Pane' name='colours' id='3' value='none'
         PROPERTY control='Mix 6 Pane' name='graphics' id='0' value='none'
         PROPERTY control='Mix 6 Pane' name='layer' id='0' value='Mix6'
-        # PROPERTY control='Mix 6 Pane' name='RackMember' id='0' value='YES'
+        PROPERTY control='Mix 6 Pane' name='Radius' id='0' value='redux_pane_radius'
 
         CONTROL type='Pane' name='Pane 3863' bounds='0.00 0.00 324.00 48.00' parent='Mix 6 Pane' layerMask='1'
         PROPERTY control='Pane 3863' name='colours' id='0' value='none'
@@ -29163,14 +29159,22 @@ PROPERTY control='Display 3868' name='graphics' id='0' value='none'
 PROPERTY control='Display 3868' name='graphics' id='1' value='none'
 PARAMETER control='Display 3868' port='integer' module='Mix6' parameter='PnMd'
 
-    CONTROL type='Label' name='Mix 6 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3863' layerMask='ffffffff'
-    PROPERTY control='Mix 6 Number' name='colours' id='0' value='none'
-    PROPERTY control='Mix 6 Number' name='colours' id='1' value='label_module_number'
-    PROPERTY control='Mix 6 Number' name='graphics' id='0' value='none'
-    PROPERTY control='Mix 6 Number' name='labeltext' id='0' value='6'
-    PROPERTY control='Mix 6 Number' name='parentLabel' id='0' value='yes'
+    # CONTROL type='Label' name='Mix 6 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3863' layerMask='ffffffff'
+    # PROPERTY control='Mix 6 Number' name='colours' id='0' value='none'
+    # PROPERTY control='Mix 6 Number' name='colours' id='1' value='label_module_number'
+    # PROPERTY control='Mix 6 Number' name='graphics' id='0' value='none'
+    # PROPERTY control='Mix 6 Number' name='labeltext' id='0' value='6'
+    # PROPERTY control='Mix 6 Number' name='parentLabel' id='0' value='yes'
 
-        PROPERTY control='Mix 6 Number' name='FontSize' id='0' value='12.00'
+    #     PROPERTY control='Mix 6 Number' name='FontSize' id='0' value='12.00'
+
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Mix 6 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -29195,7 +29199,7 @@ PROPERTY control='Rev 1 Ghost' name='colours' id='1' value='none'
 PROPERTY control='Rev 1 Ghost' name='colours' id='2' value='none'
 PROPERTY control='Rev 1 Ghost' name='colours' id='3' value='none'
 PROPERTY control='Rev 1 Ghost' name='graphics' id='0' value='none'
-PROPERTY control='Rev 1 Ghost' name='layer' id='0' value='Layer 1'
+# PROPERTY control='Rev 1 Ghost' name='layer' id='0' value='Layer 1'
 # PROPERTY control='Rev 1 Ghost' name='RackMember' id='0' value='redux_module_is_rackmember'
 
 CONTROL type='Label' name='Rev1_Title' bounds='0.00 5.00 124.00 redux_title_h' parent='Rev 1 Ghost' layerMask='ffffffff'
@@ -29210,20 +29214,14 @@ PROPERTY control='Rev1_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='Rev1_Title' name='font' id='0' value='title_font'
 PROPERTY control='Rev1_Title' name='FontSize' id='0' value='title_font_size'
 
-CONTROL type='Pane' name='Rev 1 ID BG' bounds='0.00 20.00 324.00 137.00' parent='Rev 1 Ghost' layerMask='1'
-PROPERTY control='Rev 1 ID BG' name='colours' id='0' value='none'
-PROPERTY control='Rev 1 ID BG' name='colours' id='1' value='none'
-PROPERTY control='Rev 1 ID BG' name='colours' id='2' value='none'
-PROPERTY control='Rev 1 ID BG' name='colours' id='3' value='none'
-PROPERTY control='Rev 1 ID BG' name='graphics' id='0' value='rev_bg'
-
-CONTROL type='Pane' name='Pane 4320' bounds='0.00 0.00 324.00 137.00' parent='Rev 1 ID BG' layerMask='1'
-PROPERTY control='Pane 4320' name='colours' id='0' value='rev_bg'
+CONTROL type='Pane' name='Pane 4320' bounds='0.00 20.00 324.00 137.00' parent='Rev 1 Ghost' layerMask='1'
+PROPERTY control='Pane 4320' name='colours' id='0' value='module_bg'
 PROPERTY control='Pane 4320' name='colours' id='1' value='module_border'
 PROPERTY control='Pane 4320' name='colours' id='2' value='module_highlight'
 PROPERTY control='Pane 4320' name='colours' id='3' value='none'
 PROPERTY control='Pane 4320' name='graphics' id='0' value='none'
-
+        PROPERTY control='Pane 4320' name='Radius' id='0' value='redux_pane_radius'
+PROPERTY control='Pane 4320' name='layer' id='0' value='Rev1'
 
 CONTROL type='Display' name='Display 1750' bounds='250.00 3.00 70.00 131.00' parent='Pane 4320' layerMask='1'
 PROPERTY control='Display 1750' name='colours' id='0' value='none'
@@ -29441,7 +29439,13 @@ PROPERTY control='Label 1773' name='parentLabel' id='0' value='yes'
 # PROPERTY control='Label 1777' name='graphics' id='0' value='none'
 # PROPERTY control='Label 1777' name='labeltext' id='0' value='Diffusor'
 
-
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 137.00' parent='Rev 1 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='rev_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -29476,20 +29480,14 @@ PROPERTY control='Comp1_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='Comp1_Title' name='font' id='0' value='title_font'
 PROPERTY control='Comp1_Title' name='FontSize' id='0' value='title_font_size'
 
-	CONTROL type='Pane' name='Comp 1 ID BG' bounds='0.00 20.00 324.00 48.00' parent='Comp 1 Ghost' layerMask='1'
-	PROPERTY control='Comp 1 ID BG' name='colours' id='0' value='none'
-	PROPERTY control='Comp 1 ID BG' name='colours' id='1' value='none'
-	PROPERTY control='Comp 1 ID BG' name='colours' id='2' value='none'
-	PROPERTY control='Comp 1 ID BG' name='colours' id='3' value='none'
-	PROPERTY control='Comp 1 ID BG' name='graphics' id='0' value='comp_bg'
-
-		CONTROL type='Pane' name='Pane 2262' bounds='0.00 0.00 324.00 48.00' parent='Comp 1 ID BG' layerMask='1'
-		PROPERTY control='Pane 2262' name='colours' id='0' value='comp_bg'
+		CONTROL type='Pane' name='Pane 2262' bounds='0.00 20.00 324.00 48.00' parent='Comp 1 Ghost' layerMask='1'
+		PROPERTY control='Pane 2262' name='colours' id='0' value='module_bg'
 		PROPERTY control='Pane 2262' name='colours' id='1' value='module_border'
 		PROPERTY control='Pane 2262' name='colours' id='2' value='module_highlight'
 		PROPERTY control='Pane 2262' name='colours' id='3' value='none'
 		PROPERTY control='Pane 2262' name='graphics' id='0' value='none'
-		PROPERTY control='Pane 2262' name='layer' id='0' value='Layer 1'
+		PROPERTY control='Pane 2262' name='layer' id='0' value='Comp1'
+        PROPERTY control='Pane 2262' name='Radius' id='0' value='redux_pane_radius'
 
 	CONTROL type='Display' name='Comp1Menu' bounds='165.00 2.00 54.00 32.00' parent='Pane 2262' layerMask='1'
 	PROPERTY control='Comp1Menu' name='colours' id='0' value='none'
@@ -29612,16 +29610,26 @@ PROPERTY control='Comp1_Title' name='FontSize' id='0' value='title_font_size'
 
 
 
-	CONTROL type='Label' name='Comp 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 2262' layerMask='7fffffff'
-	PROPERTY control='Comp 1 Number' name='colours' id='0' value='none'
-	PROPERTY control='Comp 1 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Comp 1 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Comp 1 Number' name='labeltext' id='0' value='1'
-	PROPERTY control='Comp 1 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Comp 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 2262' layerMask='7fffffff'
+	# PROPERTY control='Comp 1 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Comp 1 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Comp 1 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Comp 1 Number' name='labeltext' id='0' value='1'
+	# PROPERTY control='Comp 1 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Comp 1 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Comp 1 Number' name='FontSize' id='0' value='12.00'
 
 
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Comp 1 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='comp_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+
+
+    
 
 
 
@@ -29657,20 +29665,14 @@ PROPERTY control='Comp2_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='Comp2_Title' name='font' id='0' value='title_font'
 PROPERTY control='Comp2_Title' name='FontSize' id='0' value='title_font_size'
 
-	CONTROL type='Pane' name='Comp 2 ID BG' bounds='0.00 20.00 324.00 48.00' parent='Comp 2 Ghost' layerMask='1'
-	PROPERTY control='Comp 2 ID BG' name='colours' id='0' value='none'
-	PROPERTY control='Comp 2 ID BG' name='colours' id='1' value='none'
-	PROPERTY control='Comp 2 ID BG' name='colours' id='2' value='none'
-	PROPERTY control='Comp 2 ID BG' name='colours' id='3' value='none'
-	PROPERTY control='Comp 2 ID BG' name='graphics' id='0' value='comp_bg'
-
-		CONTROL type='Pane' name='Pane 4332' bounds='0.00 0.00 324.00 48.00' parent='Comp 2 ID BG' layerMask='1'
-		PROPERTY control='Pane 4332' name='colours' id='0' value='comp_bg'
+		CONTROL type='Pane' name='Pane 4332' bounds='0.00 20.00 324.00 48.00' parent='Comp 2 Ghost' layerMask='1'
+		PROPERTY control='Pane 4332' name='colours' id='0' value='module_bg'
 		PROPERTY control='Pane 4332' name='colours' id='1' value='module_border'
 		PROPERTY control='Pane 4332' name='colours' id='2' value='module_highlight'
 		PROPERTY control='Pane 4332' name='colours' id='3' value='none'
 		PROPERTY control='Pane 4332' name='graphics' id='0' value='none'
-		PROPERTY control='Pane 4332' name='layer' id='0' value='Layer 1'
+		PROPERTY control='Pane 4332' name='layer' id='0' value='Comp2'
+        PROPERTY control='Pane 4332' name='Radius' id='0' value='redux_pane_radius'
 
 	CONTROL type='Display' name='Comp2Menu' bounds='165.00 2.00 54.00 32.00' parent='Pane 4332' layerMask='1'
 	PROPERTY control='Comp2Menu' name='colours' id='0' value='none'
@@ -29791,16 +29793,22 @@ PROPERTY control='Comp2_Title' name='FontSize' id='0' value='title_font_size'
 	PROPERTY control='Label 4344' name='parentLabel' id='0' value='yes'
 
 
-	CONTROL type='Label' name='Comp 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 4332' layerMask='7fffffff'
-	PROPERTY control='Comp 2 Number' name='colours' id='0' value='none'
-	PROPERTY control='Comp 2 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='Comp 2 Number' name='graphics' id='0' value='none'
-	PROPERTY control='Comp 2 Number' name='labeltext' id='0' value='2'
-	PROPERTY control='Comp 2 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='Comp 2 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 4332' layerMask='7fffffff'
+	# PROPERTY control='Comp 2 Number' name='colours' id='0' value='none'
+	# PROPERTY control='Comp 2 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='Comp 2 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='Comp 2 Number' name='labeltext' id='0' value='2'
+	# PROPERTY control='Comp 2 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='Comp 2 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='Comp 2 Number' name='FontSize' id='0' value='12.00'
 
-
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Comp 2 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='comp_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -29838,26 +29846,19 @@ PROPERTY control='EQ1_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='EQ1_Title' name='font' id='0' value='title_font'
 PROPERTY control='EQ1_Title' name='FontSize' id='0' value='title_font_size'
 
-CONTROL type='Pane' name='EQ 1 ID BG' bounds='0.00 20.00 324.00 137.00' parent='EQ 1 Ghost' layerMask='1'
-PROPERTY control='EQ 1 ID BG' name='colours' id='0' value='none'
-PROPERTY control='EQ 1 ID BG' name='colours' id='1' value='none'
-PROPERTY control='EQ 1 ID BG' name='colours' id='2' value='none'
-PROPERTY control='EQ 1 ID BG' name='colours' id='3' value='none'
-PROPERTY control='EQ 1 ID BG' name='graphics' id='0' value='none' # eq_bg
-# PROPERTY control='EQ 1 ID BG' name='layer' id='0' value='Layer 1'
-
-CONTROL type='Pane' name='Pane 4322' bounds='0.00 0.00 324.00 137.00' parent='EQ 1 ID BG' layerMask='1'
-PROPERTY control='Pane 4322' name='colours' id='0' value='eq_bg'
+CONTROL type='Pane' name='Pane 4322' bounds='0.00 20.00 324.00 137.00' parent='EQ 1 Ghost' layerMask='1'
+PROPERTY control='Pane 4322' name='colours' id='0' value='module_bg'
 PROPERTY control='Pane 4322' name='colours' id='1' value='module_border'
 PROPERTY control='Pane 4322' name='colours' id='2' value='module_highlight'
 PROPERTY control='Pane 4322' name='colours' id='3' value='none'
 PROPERTY control='Pane 4322' name='graphics' id='0' value='none'
-PROPERTY control='Pane 4322' name='layer' id='0' value='Layer 1'
+PROPERTY control='Pane 4322' name='layer' id='0' value='EQ1'
+PROPERTY control='Pane 4322' name='Radius' id='0' value='redux_pane_radius'
 
 # grid bg graphics
 
 CONTROL type='Pane' name='Pane 2323' bounds='0.00 0.00 324.00 137.00' parent='Pane 4322' layerMask='1'
-PROPERTY control='Pane 2323' name='colours' id='0' value='none'
+PROPERTY control='Pane 2323' name='colours' id='0' value='eq_bg'
 PROPERTY control='Pane 2323' name='colours' id='1' value='none'
 PROPERTY control='Pane 2323' name='colours' id='2' value='none'
 PROPERTY control='Pane 2323' name='colours' id='3' value='none'
@@ -30053,14 +30054,15 @@ PROPERTY control='EQ 1 Ruler V' name='layer' id='0' value='Layer 1'
     PROPERTY control='EQ 1 Gain 24m' name='labelTextAlignment' id='0' value='0'
 
 
-CONTROL type='Label' name='EQ 1 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 4322' layerMask='ffffffff'
-PROPERTY control='EQ 1 Number' name='colours' id='0' value='none'
-PROPERTY control='EQ 1 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='EQ 1 Number' name='graphics' id='0' value='none'
-PROPERTY control='EQ 1 Number' name='labeltext' id='0' value='1'
-PROPERTY control='EQ 1 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='EQ 1 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 4322' layerMask='ffffffff'
+# PROPERTY control='EQ 1 Number' name='colours' id='0' value='none'
+# PROPERTY control='EQ 1 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='EQ 1 Number' name='graphics' id='0' value='none'
+# PROPERTY control='EQ 1 Number' name='labeltext' id='0' value='1'
+# PROPERTY control='EQ 1 Number' name='parentLabel' id='0' value='yes'
 
-    PROPERTY control='EQ 1 Number' name='FontSize' id='0' value='12.00'
+#     PROPERTY control='EQ 1 Number' name='FontSize' id='0' value='12.00'
+
 
 
 
@@ -30104,15 +30106,16 @@ PROPERTY control='EQ 2 ID BG' name='colours' id='3' value='none'
 PROPERTY control='EQ 2 ID BG' name='graphics' id='0' value='eq_bg'
 
 CONTROL type='Pane' name='Pane 4325' bounds='0.00 0.00 324.00 137.00' parent='EQ 2 ID BG' layerMask='1'
-PROPERTY control='Pane 4325' name='colours' id='0' value='eq_bg'
+PROPERTY control='Pane 4325' name='colours' id='0' value='module_bg'
 PROPERTY control='Pane 4325' name='colours' id='1' value='module_border'
 PROPERTY control='Pane 4325' name='colours' id='2' value='module_highlight'
 PROPERTY control='Pane 4325' name='colours' id='3' value='none'
 PROPERTY control='Pane 4325' name='graphics' id='0' value='none'
-PROPERTY control='Pane 4325' name='layer' id='0' value='Layer 1'
+PROPERTY control='Pane 4325' name='layer' id='0' value='EQ2'
+PROPERTY control='Pane 4325' name='Radius' id='0' value='redux_pane_radius'
 
 CONTROL type='Pane' name='Pane 4326' bounds='0.00 0.00 324.00 137.00' parent='Pane 4325' layerMask='1'
-PROPERTY control='Pane 4326' name='colours' id='0' value='none'
+PROPERTY control='Pane 4326' name='colours' id='0' value='eq_bg'
 PROPERTY control='Pane 4326' name='colours' id='1' value='none'
 PROPERTY control='Pane 4326' name='colours' id='2' value='none'
 PROPERTY control='Pane 4326' name='colours' id='3' value='none'
@@ -30311,14 +30314,14 @@ PROPERTY control='EQ 2 Ruler V' name='layer' id='0' value='Layer 1'
 
 # Label
 
-CONTROL type='Label' name='EQ 2 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 4325' layerMask='ffffffff'
-PROPERTY control='EQ 2 Number' name='colours' id='0' value='none'
-PROPERTY control='EQ 2 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='EQ 2 Number' name='graphics' id='0' value='none'
-PROPERTY control='EQ 2 Number' name='labeltext' id='0' value='2'
-PROPERTY control='EQ 2 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='EQ 2 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 4325' layerMask='ffffffff'
+# PROPERTY control='EQ 2 Number' name='colours' id='0' value='none'
+# PROPERTY control='EQ 2 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='EQ 2 Number' name='graphics' id='0' value='none'
+# PROPERTY control='EQ 2 Number' name='labeltext' id='0' value='2'
+# PROPERTY control='EQ 2 Number' name='parentLabel' id='0' value='yes'
 
-    PROPERTY control='EQ 2 Number' name='FontSize' id='0' value='12.00'
+#     PROPERTY control='EQ 2 Number' name='FontSize' id='0' value='12.00'
 
 
 
@@ -30342,7 +30345,7 @@ PROPERTY control='VCF 5 Ghost' name='colours' id='1' value='none'
 PROPERTY control='VCF 5 Ghost' name='colours' id='2' value='none'
 PROPERTY control='VCF 5 Ghost' name='colours' id='3' value='none'
 PROPERTY control='VCF 5 Ghost' name='graphics' id='0' value='none'
-PROPERTY control='VCF 5 Ghost' name='layer' id='0' value='VCF5'
+# PROPERTY control='VCF 5 Ghost' name='layer' id='0' value='VCF5'
 # PROPERTY control='VCF 5 Ghost' name='RackMember' id='0' value='redux_module_is_rackmember'
 
 CONTROL type='Label' name='VCF5_Title' bounds='0.00 5.00 124.00 redux_title_h' parent='VCF 5 Ghost' layerMask='ffffffff'
@@ -30357,19 +30360,15 @@ PROPERTY control='VCF5_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='VCF5_Title' name='font' id='0' value='title_font'
 PROPERTY control='VCF5_Title' name='FontSize' id='0' value='title_font_size'
 
-	CONTROL type='Pane' name='VCF 5 ID BG' bounds='0.00 20.00 324.00 48.00' parent='VCF 5 Ghost' layerMask='1'
-	PROPERTY control='VCF 5 ID BG' name='colours' id='0' value='none'
-	PROPERTY control='VCF 5 ID BG' name='colours' id='1' value='none'
-	PROPERTY control='VCF 5 ID BG' name='colours' id='2' value='none'
-	PROPERTY control='VCF 5 ID BG' name='colours' id='3' value='none'
-	PROPERTY control='VCF 5 ID BG' name='graphics' id='0' value='vcf_bg'
-
 	CONTROL type='Pane' name='VCF 5 Pane' bounds='0.00 20.00 324.00 48.00' parent='VCF 5 Ghost' layerMask='1'
-	PROPERTY control='VCF 5 Pane' name='colours' id='0' value='vcf_bg'
+	PROPERTY control='VCF 5 Pane' name='colours' id='0' value='module_bg'
 	PROPERTY control='VCF 5 Pane' name='colours' id='1' value='module_border'
 	PROPERTY control='VCF 5 Pane' name='colours' id='2' value='module_highlight'
 	PROPERTY control='VCF 5 Pane' name='colours' id='3' value='none'
 	PROPERTY control='VCF 5 Pane' name='graphics' id='0' value='none'
+    PROPERTY control='VCF 5 Pane' name='Radius' id='0' value='redux_pane_radius'
+    PROPERTY control='VCF 5 Pane' name='layer' id='0' value='VCF5'
+
 
 		CONTROL type='Pane' name='Pane 3673' bounds='0.00 0.00 324.00 48.00' parent='VCF 5 Pane' layerMask='1'
 		PROPERTY control='Pane 3673' name='colours' id='0' value='none'
@@ -30551,16 +30550,22 @@ PARAMETER control='Knob 3683' port='Knob Value' module='VCF5' parameter='KeyScl'
 
 # Text Label
 
-	CONTROL type='Label' name='VCF 5 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3673' layerMask='7fffffff'
-	PROPERTY control='VCF 5 Number' name='colours' id='0' value='none'
-	PROPERTY control='VCF 5 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='VCF 5 Number' name='graphics' id='0' value='none'
-	PROPERTY control='VCF 5 Number' name='labeltext' id='0' value='5'
-	PROPERTY control='VCF 5 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='VCF 5 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3673' layerMask='7fffffff'
+	# PROPERTY control='VCF 5 Number' name='colours' id='0' value='none'
+	# PROPERTY control='VCF 5 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='VCF 5 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='VCF 5 Number' name='labeltext' id='0' value='5'
+	# PROPERTY control='VCF 5 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='VCF 5 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='VCF 5 Number' name='FontSize' id='0' value='12.00'
 
-
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 0.00 324.00 48.00' parent='VCF 5 Pane' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -30581,7 +30586,7 @@ PROPERTY control='VCF 6 Ghost' name='colours' id='1' value='none'
 PROPERTY control='VCF 6 Ghost' name='colours' id='2' value='none'
 PROPERTY control='VCF 6 Ghost' name='colours' id='3' value='none'
 PROPERTY control='VCF 6 Ghost' name='graphics' id='0' value='none'
-PROPERTY control='VCF 6 Ghost' name='layer' id='0' value='VCF6'
+# PROPERTY control='VCF 6 Ghost' name='layer' id='0' value='VCF6'
 # PROPERTY control='VCF 6 Ghost' name='RackMember' id='0' value='redux_module_is_rackmember'
 
 CONTROL type='Label' name='VCF6_Title' bounds='0.00 5.00 124.00 redux_title_h' parent='VCF 6 Ghost' layerMask='ffffffff'
@@ -30596,19 +30601,15 @@ PROPERTY control='VCF6_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='VCF6_Title' name='font' id='0' value='title_font'
 PROPERTY control='VCF6_Title' name='FontSize' id='0' value='title_font_size'
 
-	CONTROL type='Pane' name='VCF 6 ID BG' bounds='0.00 20.00 324.00 48.00' parent='VCF 6 Ghost' layerMask='1'
-	PROPERTY control='VCF 6 ID BG' name='colours' id='0' value='none'
-	PROPERTY control='VCF 6 ID BG' name='colours' id='1' value='none'
-	PROPERTY control='VCF 6 ID BG' name='colours' id='2' value='none'
-	PROPERTY control='VCF 6 ID BG' name='colours' id='3' value='none'
-	PROPERTY control='VCF 6 ID BG' name='graphics' id='0' value='vcf_bg'
-
 	CONTROL type='Pane' name='VCF 6 Pane' bounds='0.00 20.00 324.00 48.00' parent='VCF 6 Ghost' layerMask='1'
-	PROPERTY control='VCF 6 Pane' name='colours' id='0' value='vcf_bg'
+	PROPERTY control='VCF 6 Pane' name='colours' id='0' value='module_bg'
 	PROPERTY control='VCF 6 Pane' name='colours' id='1' value='module_border'
 	PROPERTY control='VCF 6 Pane' name='colours' id='2' value='module_highlight'
 	PROPERTY control='VCF 6 Pane' name='colours' id='3' value='none'
 	PROPERTY control='VCF 6 Pane' name='graphics' id='0' value='none'
+    PROPERTY control='VCF 6 Pane' name='Radius' id='0' value='redux_pane_radius'
+    PROPERTY control='VCF 6 Pane' name='layer' id='0' value='VCF6'
+
 
 		CONTROL type='Pane' name='Pane 3694' bounds='0.00 0.00 324.00 48.00' parent='VCF 6 Pane' layerMask='1'
 		PROPERTY control='Pane 3694' name='colours' id='0' value='none'
@@ -30789,16 +30790,22 @@ PARAMETER control='Knob 3704' port='Knob Value' module='VCF6' parameter='KeyScl'
 
 # Text Label
 
-	CONTROL type='Label' name='VCF 6 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3694' layerMask='7fffffff'
-	PROPERTY control='VCF 6 Number' name='colours' id='0' value='none'
-	PROPERTY control='VCF 6 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='VCF 6 Number' name='graphics' id='0' value='none'
-	PROPERTY control='VCF 6 Number' name='labeltext' id='0' value='6'
-	PROPERTY control='VCF 6 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='VCF 6 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3694' layerMask='7fffffff'
+	# PROPERTY control='VCF 6 Number' name='colours' id='0' value='none'
+	# PROPERTY control='VCF 6 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='VCF 6 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='VCF 6 Number' name='labeltext' id='0' value='6'
+	# PROPERTY control='VCF 6 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='VCF 6 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='VCF 6 Number' name='FontSize' id='0' value='12.00'
 
-
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 0.00 324.00 48.00' parent='VCF 6 Pane' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
  ######  ########      #######
@@ -30817,7 +30824,7 @@ PROPERTY control='SB 3 Ghost' name='colours' id='1' value='none'
 PROPERTY control='SB 3 Ghost' name='colours' id='2' value='none'
 PROPERTY control='SB 3 Ghost' name='colours' id='3' value='none'
 PROPERTY control='SB 3 Ghost' name='graphics' id='0' value='none'
-PROPERTY control='SB 3 Ghost' name='layer' id='0' value='SB3'
+# PROPERTY control='SB 3 Ghost' name='layer' id='0' value='SB3'
 # PROPERTY control='SB 3 Ghost' name='RackMember' id='0' value='redux_module_is_rackmember'
 
 CONTROL type='Label' name='SB6_Title' bounds='0.00 5.00 124.00 redux_title_h' parent='SB 3 Ghost' layerMask='ffffffff'
@@ -30832,19 +30839,14 @@ PROPERTY control='SB6_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='SB6_Title' name='font' id='0' value='title_font'
 PROPERTY control='SB6_Title' name='FontSize' id='0' value='title_font_size'
 
-	CONTROL type='Pane' name='SB 3 ID BG' bounds='0.00 20.00 324.00 48.00' parent='SB 3 Ghost' layerMask='1'
-	PROPERTY control='SB 3 ID BG' name='colours' id='0' value='none'
-	PROPERTY control='SB 3 ID BG' name='colours' id='1' value='none'
-	PROPERTY control='SB 3 ID BG' name='colours' id='2' value='none'
-	PROPERTY control='SB 3 ID BG' name='colours' id='3' value='none'
-	PROPERTY control='SB 3 ID BG' name='graphics' id='0' value='sb_bg'
-
-	CONTROL type='Pane' name='SB 3 Pane' bounds='0.00 0.00 324.00 48.00' parent='SB 3 ID BG' layerMask='1'
-	PROPERTY control='SB 3 Pane' name='colours' id='0' value='sb_bg'
+	CONTROL type='Pane' name='SB 3 Pane' bounds='0.00 20.00 324.00 48.00' parent='SB 3 Ghost' layerMask='1'
+	PROPERTY control='SB 3 Pane' name='colours' id='0' value='module_bg'
 	PROPERTY control='SB 3 Pane' name='colours' id='1' value='module_border'
 	PROPERTY control='SB 3 Pane' name='colours' id='2' value='module_highlight'
 	PROPERTY control='SB 3 Pane' name='colours' id='3' value='none'
 	PROPERTY control='SB 3 Pane' name='graphics' id='0' value='none'
+PROPERTY control='SB 3 Pane' name='Radius' id='0' value='redux_pane_radius'
+PROPERTY control='SB 3 Pane' name='layer' id='0' value='SB3'
 
 		CONTROL type='Pane' name='Pane 3902' bounds='0.00 0.00 324.00 48.00' parent='SB 3 Pane' layerMask='1'
 		PROPERTY control='Pane 3902' name='colours' id='0' value='none'
@@ -30971,26 +30973,23 @@ PROPERTY control='Label 3929' name='graphics' id='0' value='none'
 PROPERTY control='Label 3929' name='labeltext' id='0' value='...'
 PROPERTY control='Label 3929' name='parentLabel' id='0' value='yes'
 
-	CONTROL type='Label' name='SB 3 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3902' layerMask='7fffffff'
-	PROPERTY control='SB 3 Number' name='colours' id='0' value='none'
-	PROPERTY control='SB 3 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='SB 3 Number' name='graphics' id='0' value='none'
-	PROPERTY control='SB 3 Number' name='labeltext' id='0' value='3'
-	PROPERTY control='SB 3 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='SB 3 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane 3902' layerMask='7fffffff'
+	# PROPERTY control='SB 3 Number' name='colours' id='0' value='none'
+	# PROPERTY control='SB 3 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='SB 3 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='SB 3 Number' name='labeltext' id='0' value='3'
+	# PROPERTY control='SB 3 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='SB 3 Number' name='FontSize' id='0' value='12.00'
-
-
+	# 	PROPERTY control='SB 3 Number' name='FontSize' id='0' value='12.00'
 
 
-
-
-
-
-
-
-
-
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='SB 3 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='sb_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -31011,7 +31010,7 @@ PROPERTY control='XMF 3 Ghost' name='colours' id='1' value='none'
 PROPERTY control='XMF 3 Ghost' name='colours' id='2' value='none'
 PROPERTY control='XMF 3 Ghost' name='colours' id='3' value='none'
 PROPERTY control='XMF 3 Ghost' name='graphics' id='0' value='none'
-PROPERTY control='XMF 3 Ghost' name='layer' id='0' value='XMF3'
+# PROPERTY control='XMF 3 Ghost' name='layer' id='0' value='XMF3'
 # PROPERTY control='XMF 3 Ghost' name='RackMember' id='0' value='redux_module_is_rackmember'
 
 CONTROL type='Label' name='XMF3_Title' bounds='0.00 5.00 124.00 redux_title_h' parent='XMF 3 Ghost' layerMask='ffffffff'
@@ -31026,19 +31025,14 @@ PROPERTY control='XMF3_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='XMF3_Title' name='font' id='0' value='title_font'
 PROPERTY control='XMF3_Title' name='FontSize' id='0' value='title_font_size'
 
-CONTROL type='Pane' name='XMF 3 ID BG' bounds='0.00 20.00 324.00 109.00' parent='XMF 3 Ghost' layerMask='1'
-PROPERTY control='XMF 3 ID BG' name='colours' id='0' value='none'
-PROPERTY control='XMF 3 ID BG' name='colours' id='1' value='none'
-PROPERTY control='XMF 3 ID BG' name='colours' id='2' value='none'
-PROPERTY control='XMF 3 ID BG' name='colours' id='3' value='none'
-PROPERTY control='XMF 3 ID BG' name='graphics' id='0' value='xmf_bg'
-
-CONTROL type='Pane' name='XMF 3 Pane' bounds='0.00 0.00 324.00 109.00' parent='XMF 3 ID BG' layerMask='1'
-PROPERTY control='XMF 3 Pane' name='colours' id='0' value='xmf_bg'
+CONTROL type='Pane' name='XMF 3 Pane' bounds='0.00 20.00 324.00 109.00' parent='XMF 3 Ghost' layerMask='1'
+PROPERTY control='XMF 3 Pane' name='colours' id='0' value='module_bg'
 PROPERTY control='XMF 3 Pane' name='colours' id='1' value='module_border'
 PROPERTY control='XMF 3 Pane' name='colours' id='2' value='module_highlight'
 PROPERTY control='XMF 3 Pane' name='colours' id='3' value='none'
 PROPERTY control='XMF 3 Pane' name='graphics' id='0' value='none'
+PROPERTY control='XMF 3 Pane' name='Radius' id='0' value='redux_pane_radius'
+PROPERTY control='XMF 3 Pane' name='layer' id='0' value='XMF3'
 
 CONTROL type='Pane' name='Pane 4497' bounds='0.00 0.00 324.00 109.00' parent='XMF 3 Pane' layerMask='1'
 PROPERTY control='Pane 4497' name='colours' id='0' value='none'
@@ -31232,14 +31226,14 @@ PROPERTY control='OSC1 GD5' name='graphics' id='0' value='none'
 
 	# Label
 
-	CONTROL type='Label' name='XMF 3 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 4497' layerMask='ffffffff'
-	PROPERTY control='XMF 3 Number' name='colours' id='0' value='none'
-	PROPERTY control='XMF 3 Number' name='colours' id='1' value='label_module_number'
-	PROPERTY control='XMF 3 Number' name='graphics' id='0' value='none'
-	PROPERTY control='XMF 3 Number' name='labeltext' id='0' value='3'
-	PROPERTY control='XMF 3 Number' name='parentLabel' id='0' value='yes'
+	# CONTROL type='Label' name='XMF 3 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 4497' layerMask='ffffffff'
+	# PROPERTY control='XMF 3 Number' name='colours' id='0' value='none'
+	# PROPERTY control='XMF 3 Number' name='colours' id='1' value='label_module_number'
+	# PROPERTY control='XMF 3 Number' name='graphics' id='0' value='none'
+	# PROPERTY control='XMF 3 Number' name='labeltext' id='0' value='3'
+	# PROPERTY control='XMF 3 Number' name='parentLabel' id='0' value='yes'
 
-		PROPERTY control='XMF 3 Number' name='FontSize' id='0' value='12.00'
+	# 	PROPERTY control='XMF 3 Number' name='FontSize' id='0' value='12.00'
 
 	# Filter 1 type
 
@@ -31317,6 +31311,14 @@ PROPERTY control='XMF 3 More Button' name='graphics' id='0' value='none'
 # 	PROPERTY control='XMF 3 LayerSelector' name='skipselected' id='1' value='yes'
 
 
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 109.00' parent='XMF 3 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='xmf_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+
 
 
 
@@ -31338,7 +31340,7 @@ PROPERTY control='Dist 3 Ghost' name='colours' id='1' value='none'
 PROPERTY control='Dist 3 Ghost' name='colours' id='2' value='none'
 PROPERTY control='Dist 3 Ghost' name='colours' id='3' value='none'
 PROPERTY control='Dist 3 Ghost' name='graphics' id='0' value='none'
-PROPERTY control='Dist 3 Ghost' name='layer' id='0' value='Dist3'
+# PROPERTY control='Dist 3 Ghost' name='layer' id='0' value='Dist3'
 # PROPERTY control='Dist 3 Ghost' name='RackMember' id='0' value='redux_module_is_rackmember'
 
 CONTROL type='Label' name='Dist3_Title' bounds='0.00 5.00 124.00 redux_title_h' parent='Dist 3 Ghost' layerMask='ffffffff'
@@ -31353,19 +31355,14 @@ PROPERTY control='Dist3_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='Dist3_Title' name='font' id='0' value='title_font'
 PROPERTY control='Dist3_Title' name='FontSize' id='0' value='title_font_size'
 
-	CONTROL type='Pane' name='Dist 3 ID BG' bounds='0.00 20.00 324.00 100.00' parent='Dist 3 Ghost' layerMask='1'
-	PROPERTY control='Dist 3 ID BG' name='colours' id='0' value='none'
-	PROPERTY control='Dist 3 ID BG' name='colours' id='1' value='none'
-	PROPERTY control='Dist 3 ID BG' name='colours' id='2' value='none'
-	PROPERTY control='Dist 3 ID BG' name='colours' id='3' value='none'
-	PROPERTY control='Dist 3 ID BG' name='graphics' id='0' value='dist_bg'
-
-		CONTROL type='Pane' name='Pane Dist3' bounds='0.00 0.00 324.00 100.00' parent='Dist 3 ID BG' layerMask='1'
-		PROPERTY control='Pane Dist3' name='colours' id='0' value='dist_bg'
+		CONTROL type='Pane' name='Pane Dist3' bounds='0.00 20.00 324.00 100.00' parent='Dist 3 Ghost' layerMask='1'
+		PROPERTY control='Pane Dist3' name='colours' id='0' value='module_bg'
 		PROPERTY control='Pane Dist3' name='colours' id='1' value='module_border'
 		PROPERTY control='Pane Dist3' name='colours' id='2' value='module_highlight'
 		PROPERTY control='Pane Dist3' name='colours' id='3' value='none'
 		PROPERTY control='Pane Dist3' name='graphics' id='0' value='none'
+        PROPERTY control='Pane Dist3' name='layer' id='0' value='Dist3'
+        PROPERTY control='Pane Dist3' name='Radius' id='0' value='redux_pane_radius'
 
 CONTROL type='Display' name='Display 5018' bounds='4.00 45.00 84.00 40.00' parent='Pane Dist3' layerMask='1'
 PROPERTY control='Display 5018' name='colours' id='0' value='none'
@@ -31494,14 +31491,23 @@ PARAMETER control='Display 5068' port='integer' module='Dist3' parameter='PostFl
 
 	PROPERTY control='Display 5068' name='iterate' id='1' value='yes'
 
-CONTROL type='Label' name='Dist 3 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane Dist3' layerMask='ffffffff'
-PROPERTY control='Dist 3 Number' name='colours' id='0' value='none'
-PROPERTY control='Dist 3 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='Dist 3 Number' name='graphics' id='0' value='none'
-PROPERTY control='Dist 3 Number' name='labeltext' id='0' value='3'
-PROPERTY control='Dist 3 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='Dist 3 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane Dist3' layerMask='ffffffff'
+# PROPERTY control='Dist 3 Number' name='colours' id='0' value='none'
+# PROPERTY control='Dist 3 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='Dist 3 Number' name='graphics' id='0' value='none'
+# PROPERTY control='Dist 3 Number' name='labeltext' id='0' value='3'
+# PROPERTY control='Dist 3 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='Dist 3 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='Dist 3 Number' name='FontSize' id='0' value='12.00'
+
+
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 100.00' parent='Dist 3 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='dist_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 
 
@@ -31523,7 +31529,7 @@ PROPERTY control='Dist 4 Ghost' name='colours' id='1' value='none'
 PROPERTY control='Dist 4 Ghost' name='colours' id='2' value='none'
 PROPERTY control='Dist 4 Ghost' name='colours' id='3' value='none'
 PROPERTY control='Dist 4 Ghost' name='graphics' id='0' value='none'
-PROPERTY control='Dist 4 Ghost' name='layer' id='0' value='Dist4'
+# PROPERTY control='Dist 4 Ghost' name='layer' id='0' value='Dist4'
 # PROPERTY control='Dist 4 Ghost' name='RackMember' id='0' value='redux_module_is_rackmember'
 
 CONTROL type='Label' name='Dist4_Title' bounds='0.00 5.00 124.00 redux_title_h' parent='Dist 4 Ghost' layerMask='ffffffff'
@@ -31538,19 +31544,14 @@ PROPERTY control='Dist4_Title' name='FontAlignment' id='0' value='0'
 PROPERTY control='Dist4_Title' name='font' id='0' value='title_font'
 PROPERTY control='Dist4_Title' name='FontSize' id='0' value='title_font_size'
 
-	CONTROL type='Pane' name='Dist 4 ID BG' bounds='0.00 20.00 324.00 100.00' parent='Dist 4 Ghost' layerMask='1'
-	PROPERTY control='Dist 4 ID BG' name='colours' id='0' value='none'
-	PROPERTY control='Dist 4 ID BG' name='colours' id='1' value='none'
-	PROPERTY control='Dist 4 ID BG' name='colours' id='2' value='none'
-	PROPERTY control='Dist 4 ID BG' name='colours' id='3' value='none'
-	PROPERTY control='Dist 4 ID BG' name='graphics' id='0' value='dist_bg'
-
-		CONTROL type='Pane' name='Pane Dist4' bounds='0.00 0.00 324.00 100.00' parent='Dist 4 ID BG' layerMask='1'
-		PROPERTY control='Pane Dist4' name='colours' id='0' value='dist_bg'
+		CONTROL type='Pane' name='Pane Dist4' bounds='0.00 20.00 324.00 100.00' parent='Dist 4 Ghost' layerMask='1'
+		PROPERTY control='Pane Dist4' name='colours' id='0' value='module_bg'
 		PROPERTY control='Pane Dist4' name='colours' id='1' value='module_border'
 		PROPERTY control='Pane Dist4' name='colours' id='2' value='module_highlight'
 		PROPERTY control='Pane Dist4' name='colours' id='3' value='none'
 		PROPERTY control='Pane Dist4' name='graphics' id='0' value='none'
+        PROPERTY control='Pane Dist4' name='layer' id='0' value='Dist4'
+
 
 CONTROL type='Display' name='Display 5070' bounds='4.00 45.00 84.00 40.00' parent='Pane Dist4' layerMask='1'
 PROPERTY control='Display 5070' name='colours' id='0' value='none'
@@ -31679,14 +31680,26 @@ PARAMETER control='Display 5086' port='integer' module='Dist4' parameter='PostFl
 
 	PROPERTY control='Display 5086' name='iterate' id='1' value='yes'
 
-CONTROL type='Label' name='Dist 4 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane Dist4' layerMask='ffffffff'
-PROPERTY control='Dist 4 Number' name='colours' id='0' value='none'
-PROPERTY control='Dist 4 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='Dist 4 Number' name='graphics' id='0' value='none'
-PROPERTY control='Dist 4 Number' name='labeltext' id='0' value='4'
-PROPERTY control='Dist 4 Number' name='parentLabel' id='0' value='yes'
+# CONTROL type='Label' name='Dist 4 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane Dist4' layerMask='ffffffff'
+# PROPERTY control='Dist 4 Number' name='colours' id='0' value='none'
+# PROPERTY control='Dist 4 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='Dist 4 Number' name='graphics' id='0' value='none'
+# PROPERTY control='Dist 4 Number' name='labeltext' id='0' value='4'
+# PROPERTY control='Dist 4 Number' name='parentLabel' id='0' value='yes'
 
-	PROPERTY control='Dist 4 Number' name='FontSize' id='0' value='12.00'
+# 	PROPERTY control='Dist 4 Number' name='FontSize' id='0' value='12.00'
+
+
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 100.00' parent='Dist 4 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='dist_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+
+
+
 
 
 
@@ -31698,7 +31711,6 @@ PROPERTY control='Pane NuRev1 Ghost' name='colours' id='1' value='none'
 PROPERTY control='Pane NuRev1 Ghost' name='colours' id='2' value='none'
 PROPERTY control='Pane NuRev1 Ghost' name='colours' id='3' value='none'
 PROPERTY control='Pane NuRev1 Ghost' name='graphics' id='0' value='none'
-PROPERTY control='Pane NuRev1 Ghost' name='layer' id='0' value='Layer 1'
 
 CONTROL type='Label' name='NuRev1_Title' bounds='0.00 5.00 124.00 redux_title_h' parent='Pane NuRev1 Ghost' layerMask='ffffffff'
 PROPERTY control='NuRev1_Title' name='colours' id='0' value='none'
@@ -31713,13 +31725,15 @@ PROPERTY control='NuRev1_Title' name='font' id='0' value='title_font'
 PROPERTY control='NuRev1_Title' name='FontSize' id='0' value='title_font_size'
 
 CONTROL type='Pane' name='Pane NuRev1' bounds='0.00 20.00 324.00 48.00' parent='Pane NuRev1 Ghost' layerMask='1'
-PROPERTY control='Pane NuRev1' name='colours' id='0' value='res_bg'
+PROPERTY control='Pane NuRev1' name='colours' id='0' value='module_bg'
 PROPERTY control='Pane NuRev1' name='colours' id='1' value='module_border'
-PROPERTY control='Pane NuRev1' name='colours' id='2' value='none'
+PROPERTY control='Pane NuRev1' name='colours' id='2' value='module_highlight'
 PROPERTY control='Pane NuRev1' name='colours' id='3' value='none'
 PROPERTY control='Pane NuRev1' name='graphics' id='0' value='none'
-PROPERTY control='Pane NuRev1' name='layer' id='0' value='Layer 1'
+PROPERTY control='Pane NuRev1' name='layer' id='0' value='NuRev1'
 PROPERTY control='Pane NuRev1' name='movable' id='0' value='NO'
+PROPERTY control='Pane NuRev1' name='Radius' id='0' value='redux_pane_radius'
+
 
 CONTROL type='Knob' name='Knob 66971' bounds='10.00 3.00 32.00 32.00' parent='Pane NuRev1' layerMask='1'
 PROPERTY control='Knob 66971' name='graphics' id='0' value='knob_bg'
@@ -31820,13 +31834,26 @@ PROPERTY control='Label 66960' name='labeltext' id='0' value='Dry/Wet'
 PROPERTY control='Label 66960' name='parentLabel' id='0' value='yes'
 
 
-CONTROL type='Label' name='ModFX 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane NuRev1' layerMask='7fffffff'
-PROPERTY control='ModFX 1 Number' name='colours' id='0' value='none'
-PROPERTY control='ModFX 1 Number' name='colours' id='1' value='label_module_number'
-PROPERTY control='ModFX 1 Number' name='graphics' id='0' value='none'
-PROPERTY control='ModFX 1 Number' name='labeltext' id='0' value='1'
-PROPERTY control='ModFX 1 Number' name='parentLabel' id='0' value='yes'
-PROPERTY control='ModFX 1 Number' name='FontSize' id='0' value='12.00'
+# CONTROL type='Label' name='ModFX 1 Number' bounds='1.00 2.00 10.00 14.00' parent='Pane NuRev1' layerMask='7fffffff'
+# PROPERTY control='ModFX 1 Number' name='colours' id='0' value='none'
+# PROPERTY control='ModFX 1 Number' name='colours' id='1' value='label_module_number'
+# PROPERTY control='ModFX 1 Number' name='graphics' id='0' value='none'
+# PROPERTY control='ModFX 1 Number' name='labeltext' id='0' value='1'
+# PROPERTY control='ModFX 1 Number' name='parentLabel' id='0' value='yes'
+# PROPERTY control='ModFX 1 Number' name='FontSize' id='0' value='12.00'
+
+
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Pane NuRev1 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='nurev_bg'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+
+
+
+
 
 
 ########  ########  ######   #######  ##    ##    ###    ########  #######  ########
