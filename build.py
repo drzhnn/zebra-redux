@@ -30,7 +30,7 @@ variables = {'label_font': 'RopaSans-Italic',
              'button_font': 'RopaSans-Italic',
              'button_font_size': '13.00',
              'title_font': 'Viga-Regular',
-             'title_font_size': '11.00',
+             'title_font_size': '10.00',
              'slider_head_size': '2.00',
              'slider_sensitivity': '0.20',
              'redux_version': now,
@@ -39,7 +39,17 @@ variables = {'label_font': 'RopaSans-Italic',
              'redux_title_h': '14.00',
              'redux_module_is_rackmember': 'no',
              'redux_module_overlay_mode': 'overlay',
+             # 'redux_rack_404_bounds': '259.00 40.00 339.00 510.00',
+             # 'redux_fx_rack_parent': 'Top Panel',
+             # 'redux_fx_rack_layermask': '1',
+             # 'redux_fx_rack_bounds': '265.00 554.00 324.00 160.00',
+             'redux_rack_404_bounds': '259.00 40.00 339.00 674.00',
+             'redux_fx_rack_parent': 'Rack 404',
+             'redux_fx_rack_layermask': '80000000',
+             'redux_fx_rack_bounds': '6.00 3738.00 324.00 160.00',             
              }
+
+
 
 garbage = ['(?!#FX.)[#].*', '^[ \t]+', '[ \t]+$', '  +', '^\n']
 

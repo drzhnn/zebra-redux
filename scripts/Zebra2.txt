@@ -8555,7 +8555,7 @@ PROPERTY control='Meter outPeak' name='direction' id='0' value='vertical'
 
 # RACK
 
-CONTROL type='Rack' name='Rack 404' bounds='259.00 40.00 339.00 674.00' parent='Top Panel' layerMask='1'
+CONTROL type='Rack' name='Rack 404' bounds='redux_rack_404_bounds' parent='Top Panel' layerMask='1'
 PROPERTY control='Rack 404' name='colours' id='0' value='none'
 PROPERTY control='Rack 404' name='colours' id='1' value='none'
 PROPERTY control='Rack 404' name='colours' id='2' value='none'
@@ -27601,7 +27601,7 @@ PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_
 
 # FX Rack
 
-	CONTROL type='Pane' name='Effects Pane Ghost' bounds='6.00 3738.00 324.00 160.00' parent='Rack 404' layerMask='80000000'
+	CONTROL type='Pane' name='Effects Pane Ghost' bounds='redux_fx_rack_bounds' parent='redux_fx_rack_parent' layerMask='redux_fx_rack_layermask'
 	PROPERTY control='Effects Pane Ghost' name='colours' id='0' value='fx_rack_bg'
 	PROPERTY control='Effects Pane Ghost' name='colours' id='1' value='none'
 	PROPERTY control='Effects Pane Ghost' name='colours' id='2' value='none'
