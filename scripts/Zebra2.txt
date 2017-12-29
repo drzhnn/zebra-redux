@@ -32819,7 +32819,18 @@ PROPERTY control='Pane Patches Float Button' name='graphics' id='2' value='none'
 PROPERTY control='Pane Patches Float Button' name='graphics' id='3' value='none'
 PROPERTY control='Pane Patches Float Button' name='clientpane' id='1' value='Pane Patches Float'
 
-###
+
+
+CONTROL type='Pane' name='Full_Size_Overlay' bounds='0.00 0.00 1168.00 720.00' parent='root' layerMask='ffffffff'
+PROPERTY control='Full_Size_Overlay' name='colours' id='0' value='main_bg_grad' # main_bg
+PROPERTY control='Full_Size_Overlay' name='colours' id='1' value='none'
+PROPERTY control='Full_Size_Overlay' name='colours' id='2' value='none'
+PROPERTY control='Full_Size_Overlay' name='colours' id='3' value='none'
+PROPERTY control='Full_Size_Overlay' name='graphics' id='0' value='v_main_bg_overlay_rect'
+PROPERTY control='Full_Size_Overlay' name='BlendMode' id='0' value='screen'
+PROPERTY control='Full_Size_Overlay' name='clickThrough' id='0' value='YES'
+
+
 
 
 
@@ -33219,17 +33230,6 @@ PROPERTY control='PreferencesMenuInfo' name='FontVAlignment' id='0' value='top'
           PROPERTY control='Pane CogTab' name='Z Layer' id='0' value='40'
           PROPERTY control='Pane CogTab' name='clickThrough' id='0' value='YES'
           PROPERTY control='Button 6250' name='clientpane' id='1' value='Pane PrefPanel'
-
-
-
-CONTROL type='Pane' name='Full_Size_Overlay' bounds='0.00 0.00 1168.00 720.00' parent='root' layerMask='ffffffff'
-PROPERTY control='Full_Size_Overlay' name='colours' id='0' value='main_bg_grad' # main_bg
-PROPERTY control='Full_Size_Overlay' name='colours' id='1' value='none'
-PROPERTY control='Full_Size_Overlay' name='colours' id='2' value='none'
-PROPERTY control='Full_Size_Overlay' name='colours' id='3' value='none'
-PROPERTY control='Full_Size_Overlay' name='graphics' id='0' value='v_main_bg_overlay_rect'
-PROPERTY control='Full_Size_Overlay' name='BlendMode' id='0' value='screen'
-PROPERTY control='Full_Size_Overlay' name='clickThrough' id='0' value='YES'
 
 
 
