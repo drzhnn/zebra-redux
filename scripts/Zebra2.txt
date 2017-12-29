@@ -115,43 +115,18 @@ COLOUR name='module_bg' rgba='3c3a3fff'
 COLOUR name='config_bg' rgba='3c3a3f00'
 COLOUR name='config_sub_bg' rgba='3c3a3fff'
 COLOUR name='diva_vcf_bg' rgba='3c3a3fff'
-COLOUR name='osc_bg' rgba='31504100'
 COLOUR name='osc_sub_bg' rgba='46454aa1'
-COLOUR name='noise_bg' rgba='314C5000'
-COLOUR name='vcf_bg' rgba='FF2E4700'
-COLOUR name='fmo_bg' rgba='4D503100'
 COLOUR name='fmo_sub_bg' rgba='3c3a3fff'
-COLOUR name='comb_bg' rgba='49315000'
-COLOUR name='shaper_bg' rgba='FFA3500'
-COLOUR name='mix_bg' rgba='29553E00'
-COLOUR name='xmf_bg' rgba='FF2E4700'
 COLOUR name='xmf_sub_bg' rgba='3c3a3fff'
-COLOUR name='sb_bg' rgba='204A6800'
-COLOUR name='dist_bg' rgba='4D2C0E00'
-COLOUR name='fold_bg' rgba='4D2C0E00'
 
-COLOUR name='arp_bg' rgba='30275900'
 COLOUR name='arp_sub_bg' rgba='3c3a3fff'
-COLOUR name='arpmod_bg' rgba='685D9800'
-COLOUR name='matrix_bg' rgba='3c3a3fff'
 COLOUR name='matrix_sub_bg' rgba='3c3a3fff'
-COLOUR name='mseg_bg' rgba='40145500'
-COLOUR name='env_bg' rgba='662A2A00'
 COLOUR name='env_sub_bg' rgba='46454a71'
-COLOUR name='lfo_bg' rgba='612A6600'
 COLOUR name='lfo_sub_bg' rgba='46454a71'
-COLOUR name='lfog_bg' rgba='87278B00'
 COLOUR name='lfog_sub_bg' rgba='46454a71'
-COLOUR name='mmix_bg' rgba='3C6D1800'
-COLOUR name='mmap_bg' rgba='132A5700'
 
 COLOUR name='fx_rack_bg' rgba='3c3a3f00'
-COLOUR name='modfx_bg' rgba='0BB23600'
-COLOUR name='delay_bg' rgba='4D4AC000'
-COLOUR name='comp_bg' rgba='70020200'
 COLOUR name='eq_bg' rgba='181719a0'
-COLOUR name='rev_bg' rgba='306C6300'
-COLOUR name='nurev_bg' rgba='48246600'
 COLOUR name='res_bg' rgba='3c3a3fff'
 
 COLOUR name='keyboard_bg' rgba='3c3a3fff'
@@ -289,8 +264,109 @@ COLOUR name='waveform_grad' rgba='ffffff20'
 COL_ELEMENT name='waveform_grad_base' parent='waveform_grad' rgba='ffffff10' location='1.000000'
 
 
-COLOUR name='test_grad' rgba='3BAEFF50'
-COL_ELEMENT name='test_grad_base' parent='test_grad' rgba='3B40FF10' location='1.000000'
+COLOUR name='module_bg_grad' rgba='ffffff50'
+COL_ELEMENT name='module_bg_grad_top' parent='module_bg_grad' rgba='ffffff10' location='1.000000'
+
+COLOUR name='config_bg_grad' rgba='ffffff20'
+COL_ELEMENT name='config_bg_grad_top' parent='config_bg_grad' rgba='00000010' location='1.000000'
+
+COLOUR name='osc_bg_grad' rgba='C6FF0020'
+COL_ELEMENT name='osc_bg_grad_top' parent='osc_bg_grad' rgba='00624320' location='0.500000'
+COL_ELEMENT name='osc_bg_grad_middle' parent='osc_bg_grad' rgba='2ED70020' location='1.000000'
+
+COLOUR name='noise_bg_grad' rgba='00DEFF20'
+COL_ELEMENT name='noise_bg_grad_top' parent='noise_bg_grad' rgba='0048BF20' location='1.000000'
+
+COLOUR name='vcf_bg_grad' rgba='FB3B0020'
+COL_ELEMENT name='vcf_bg_grad_top' parent='vcf_bg_grad' rgba='BF003F20' location='1.000000'
+
+COLOUR name='fmo_bg_grad' rgba='7FA40020'
+COL_ELEMENT name='fmo_bg_grad_top' parent='fmo_bg_grad' rgba='78550020' location='1.000000'
+
+COLOUR name='comb_bg_grad' rgba='25007820'
+COL_ELEMENT name='comb_bg_grad_top' parent='comb_bg_grad' rgba='78007720' location='1.000000'
+
+COLOUR name='shaper_bg_grad' rgba='FFFDC150'
+COL_ELEMENT name='shaper_bg_grad_top' parent='shaper_bg_grad' rgba='FFC7C150' location='1.000000'
+
+COLOUR name='mix_bg_grad' rgba='82D4FF40'
+COL_ELEMENT name='mix_bg_grad_top' parent='mix_bg_grad' rgba='00864F20' location='1.000000'
+
+COLOUR name='xmf_bg_grad' rgba='FB3B0030'
+COL_ELEMENT name='xmf_bg_grad_top' parent='xmf_bg_grad' rgba='BF003F30' location='1.000000'
+
+COLOUR name='sb_bg_grad' rgba='F153FF20'
+COL_ELEMENT name='sb_bg_grad_top' parent='sb_bg_grad' rgba='00538D30' location='1.000000'
+
+COLOUR name='dist_bg_grad' rgba='FFFDC150'
+COL_ELEMENT name='dist_bg_grad_top' parent='dist_bg_grad' rgba='FFC7C150' location='1.000000'
+
+COLOUR name='fold_bg_grad' rgba='FFFDC150'
+COL_ELEMENT name='fold_bg_grad_top' parent='fold_bg_grad' rgba='FFC7C150' location='1.000000'
+
+
+COLOUR name='arp_bg_grad' rgba='00DEFF20'
+COL_ELEMENT name='arp_bg_grad_top' parent='arp_bg_grad' rgba='0048BF20' location='1.000000'
+
+COLOUR name='arpmod_bg_grad' rgba='00DEFF20'
+COL_ELEMENT name='arpmod_bg_grad_top' parent='arpmod_bg_grad' rgba='0048BF20' location='1.000000'
+
+COLOUR name='env_bg_grad' rgba='FFFDC150'
+COL_ELEMENT name='env_bg_grad_top' parent='env_bg_grad' rgba='FFC7C150' location='1.000000'
+
+COLOUR name='mseg_bg_grad' rgba='83FFC030'
+COL_ELEMENT name='mseg_bg_grad_middle' parent='mseg_bg_grad' rgba='053D3B50' location='0.500000'
+COL_ELEMENT name='mseg_bg_grad_bottom' parent='mseg_bg_grad' rgba='22911620' location='1.000000'
+
+COLOUR name='lfo_bg_grad' rgba='FB3B0030'
+COL_ELEMENT name='lfo_bg_grad_top' parent='lfo_bg_grad' rgba='BF003F40' location='1.000000'
+
+COLOUR name='lfog_bg_grad' rgba='FB3B0050'
+COL_ELEMENT name='lfog_bg_grad_top' parent='lfog_bg_grad' rgba='BF003F50' location='1.000000'
+
+COLOUR name='mmap_bg_grad' rgba='25007820'
+COL_ELEMENT name='mmap_bg_grad_top' parent='mmap_bg_grad' rgba='78007720' location='1.000000'
+
+COLOUR name='mmix_bg_grad' rgba='82D4FF50'
+COL_ELEMENT name='mmix_bg_grad_top' parent='mmix_bg_grad' rgba='00864F40' location='1.000000'
+
+
+COLOUR name='modfx_bg_grad' rgba='00B4FF20'
+COL_ELEMENT name='modfx_bg_grad_top' parent='modfx_bg_grad' rgba='CE99FF40' location='1.000000'
+
+COLOUR name='delay_bg_grad' rgba='006A3720'
+COL_ELEMENT name='delay_bg_grad_top' parent='delay_bg_grad' rgba='A3FF9940' location='1.000000'
+
+COLOUR name='rev_bg_grad' rgba='C6F2FF20'
+COL_ELEMENT name='rev_bg_grad_top' parent='rev_bg_grad' rgba='000C6A30' location='1.000000'
+
+COLOUR name='comp_bg_grad' rgba='B6B1A680'
+COL_ELEMENT name='comp_bg_grad_top' parent='comp_bg_grad' rgba='B6A6AF50' location='1.000000'
+
+COLOUR name='eq_bg_grad' rgba='392B7840'
+COL_ELEMENT name='eq_bg_grad_top' parent='eq_bg_grad' rgba='7912BB20' location='1.000000'
+
+COLOUR name='nurev_bg_grad' rgba='C6F2FF20'
+COL_ELEMENT name='nurev_bg_grad_top' parent='nurev_bg_grad' rgba='000C6A30' location='1.000000'
+
+
+
+
+
+
+# graphics
+
+GRAPHIC name='v_module_overlay_rect' path='1' type='rounded rect'
+GR_PROPERTY graphic='v_module_overlay_rect' name='width' id='0' value='100.00'
+GR_PROPERTY graphic='v_module_overlay_rect' name='height' id='0' value='100.00'
+GR_PROPERTY graphic='v_module_overlay_rect' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='v_module_overlay_rect' name='colour' id='0' value='invisible'
+GR_PROPERTY graphic='v_module_overlay_rect' name='colour' id='1' value='invisible'
+GR_PROPERTY graphic='v_module_overlay_rect' name='border' id='0' value='0.00'
+GR_PROPERTY graphic='v_module_overlay_rect' name='radius' id='0' value='0.01'
+
+
+
 
 
 
@@ -8949,7 +9025,14 @@ PROPERTY control='Global Config More Button' name='graphics' id='0' value='none'
                     PROPERTY control='Global Config LayerSelector' name='clientpane' id='1' value='Global Config CallPane'
                     PROPERTY control='Global Config LayerSelector' name='skipselected' id='1' value='yes'
 
-
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 71.00' parent='Global Config Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='config_bg_grad' # osc_bg
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -9691,12 +9774,13 @@ PROPERTY control='New Layer Selector 1' name='graphics' id='1' value='button_mor
 				PROPERTY control='New Layer Selector 1' name='skipselected' id='1' value='yes'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 207.00' parent='OSC 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='osc_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='osc_bg_grad' # osc_bg
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -10363,12 +10447,13 @@ PROPERTY control='New Layer Selector 1' name='graphics' id='1' value='button_mor
 				PROPERTY control='New Layer Selector 1' name='skipselected' id='1' value='yes'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 207.00' parent='OSC 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='osc_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='osc_bg_grad' # osc_bg
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -11027,12 +11112,13 @@ PROPERTY control='New Layer Selector 1' name='graphics' id='1' value='button_mor
 				PROPERTY control='New Layer Selector 1' name='skipselected' id='1' value='yes'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 207.00' parent='OSC 3 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='osc_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='osc_bg_grad' # osc_bg
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -11692,12 +11778,13 @@ PROPERTY control='New Layer Selector 4' name='graphics' id='1' value='button_mor
 				PROPERTY control='New Layer Selector 4' name='skipselected' id='1' value='yes'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 207.00' parent='OSC 4 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='osc_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='osc_bg_grad' # osc_bg
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -12032,14 +12119,13 @@ PROPERTY control='Noise1 GD4' name='graphics' id='0' value='none'
 	# 	PROPERTY control='Noise 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 90.00' parent='Noise 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='noise_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='noise_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
-
-
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -12365,12 +12451,13 @@ PROPERTY control='Noise1 GD4' name='graphics' id='0' value='none'
 	# 	PROPERTY control='Noise 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 90.00' parent='Noise 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='noise_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='noise_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -12618,13 +12705,13 @@ PARAMETER control='Knob 503' port='Knob Value' module='VCF1' parameter='KeyScl' 
 	# 	PROPERTY control='VCF 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 0.00 324.00 48.00' parent='VCF 1 Pane' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
-
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 ##     ##  ######  ########     #######
 ##     ## ##    ## ##          ##     ##
@@ -12856,12 +12943,13 @@ PARAMETER control='Knob 3620' port='Knob Value' module='VCF2' parameter='KeyScl'
 	# 	PROPERTY control='VCF 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 0.00 324.00 48.00' parent='VCF 2 Pane' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 ##     ##  ######  ########     #######
@@ -13096,12 +13184,13 @@ PARAMETER control='Knob 3641' port='Knob Value' module='VCF3' parameter='KeyScl'
 	# 	PROPERTY control='VCF 3 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 0.00 324.00 48.00' parent='VCF 3 Pane' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 ##     ##  ######  ########    ##
@@ -13334,12 +13423,13 @@ PARAMETER control='Knob 3662' port='Knob Value' module='VCF4' parameter='KeyScl'
 	# 	PROPERTY control='VCF 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 0.00 324.00 48.00' parent='VCF 4 Pane' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -13727,12 +13817,13 @@ PROPERTY control='FMO 1 More Button' name='graphics' id='1' value='button_more_2
 				PROPERTY control='FMO 1 More Button' name='skipselected' id='1' value='yes'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 94.00' parent='FMO 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='fmo_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='fmo_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -14119,12 +14210,13 @@ PROPERTY control='FMO 2 More Button' name='graphics' id='1' value='button_more_2
 				PROPERTY control='FMO 2 More Button' name='skipselected' id='1' value='yes'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 94.00' parent='FMO 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='fmo_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='fmo_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -14513,12 +14605,13 @@ PROPERTY control='FMO 3 More Button' name='graphics' id='1' value='button_more_2
 				PROPERTY control='FMO 3 More Button' name='skipselected' id='1' value='yes'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 94.00' parent='FMO 3 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='fmo_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='fmo_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -14908,12 +15001,13 @@ PROPERTY control='FMO 4 More Button' name='graphics' id='1' value='button_more_2
 				PROPERTY control='FMO 4 More Button' name='skipselected' id='1' value='yes'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 94.00' parent='FMO 4 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='fmo_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='fmo_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -15434,12 +15528,13 @@ PROPERTY control='Label 1255' name='parentLabel' id='0' value='yes'
 # 	PROPERTY control='Comb 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 174.00' parent='Comb 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='comb_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='comb_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
  ######   #######  ##     ## ########      #######
 ##    ## ##     ## ###   ### ##     ##    ##     ##
@@ -15957,12 +16052,13 @@ PROPERTY control='Label 3548' name='parentLabel' id='0' value='yes'
 # 	PROPERTY control='Comb 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 174.00' parent='Comb 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='comb_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='comb_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -16162,12 +16258,13 @@ PROPERTY control='Label 1720' name='parentLabel' id='0' value='yes'
 	# 	PROPERTY control='Shaper 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Shaper 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='shaper_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='shaper_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
  ######  ##     ##    ###    ########  ######## ########      #######
@@ -16351,12 +16448,13 @@ PROPERTY control='Label 3563' name='parentLabel' id='0' value='yes'
 	# 	PROPERTY control='Shaper 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Shaper 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='shaper_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='shaper_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -16486,12 +16584,13 @@ PARAMETER control='Display 2000' port='integer' module='Mix1' parameter='PnMd'
 	# 	PROPERTY control='Mix 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Mix 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -16619,12 +16718,13 @@ PARAMETER control='Display 3824' port='integer' module='Mix2' parameter='PnMd'
 	# 	PROPERTY control='Mix 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Mix 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -16752,12 +16852,13 @@ PARAMETER control='Display 3835' port='integer' module='Mix3' parameter='PnMd'
 	# 	PROPERTY control='Mix 3 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Mix 3 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -16886,12 +16987,13 @@ PARAMETER control='Display 3846' port='integer' module='Mix4' parameter='PnMd'
 	# 	PROPERTY control='Mix 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Mix 4 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -17349,12 +17451,13 @@ PROPERTY control='XMF 1 LayerSelector' name='graphics' id='1' value='button_more
 	PROPERTY control='XMF 1 LayerSelector' name='skipselected' id='1' value='yes'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 109.00' parent='XMF 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='xmf_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='xmf_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 ##     ## ##     ## ########     #######
@@ -17757,12 +17860,13 @@ PROPERTY control='XMF 2 LayerSelector' name='graphics' id='1' value='button_more
 	PROPERTY control='XMF 2 LayerSelector' name='skipselected' id='1' value='yes'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 109.00' parent='XMF 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='xmf_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='xmf_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -17958,12 +18062,13 @@ PROPERTY control='Label 3048' name='parentLabel' id='0' value='yes'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='SB 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='sb_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='sb_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
  ######  ########      #######
@@ -18142,12 +18247,13 @@ PROPERTY control='Label 3912' name='parentLabel' id='0' value='yes'
 	# 	PROPERTY control='SB 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='SB 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='sb_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='sb_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -18355,12 +18461,13 @@ PARAMETER control='Display 5064' port='integer' module='Dist1' parameter='PostFl
 # 	PROPERTY control='Dist 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 100.00' parent='Dist 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='dist_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='dist_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 ########  ####  ######  ########     #######
@@ -18541,12 +18648,13 @@ PARAMETER control='Display 5066' port='integer' module='Dist2' parameter='PostFl
 # 	PROPERTY control='Dist 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 100.00' parent='Dist 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='dist_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='dist_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -18759,12 +18867,13 @@ PROPERTY control='Label FOLD1 Live' name='parentLabel' id='0' value='yes'
 # PROPERTY control='Label FOLD1 Module Num' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 114.00' parent='FOLD1 RackPane' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='fold_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='fold_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 # Fold2
 
@@ -18975,12 +19084,13 @@ PROPERTY control='Label FOLD2 Live' name='parentLabel' id='0' value='yes'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 114.00' parent='FOLD2 RackPane' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='fold_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='fold_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -21968,12 +22078,13 @@ CONTROL type='LayerSelector' name='Arp LayerSelector' bounds='0.00 0.00 26.00 14
 					PROPERTY control='Arp LayerSelector' name='skipselected' id='1' value='yes'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 53.00' parent='Arp In Rack Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='arp_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='arp_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
    ###    ########  ########  ##     ##  #######  ########
@@ -22190,12 +22301,13 @@ PROPERTY control='ArpMod1_Title' name='FontSize' id='0' value='title_font_size'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 75.00' parent='ArpMod In Rack Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='arpmod_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='arpmod_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -22416,12 +22528,13 @@ PROPERTY control='ArpMod2_Title' name='FontSize' id='0' value='title_font_size'
 		PROPERTY control='Slider 2510' name='direction' id='0' value='vertical'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 75.00' parent='ArpMod 2 In Rack Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='arpmod_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='arpmod_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -22798,12 +22911,13 @@ PROPERTY control='Env 1 More Button' name='graphics' id='0' value='none'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 62.00' parent='Env 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='env_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='env_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 ######## ##    ## ##     ## ######## ##        #######  ########  ########         #######
@@ -23157,12 +23271,13 @@ PROPERTY control='Env 2 More Button' name='graphics' id='0' value='none'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 62.00' parent='Env 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='env_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='env_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 ######## ##    ## ##     ##     #######
@@ -23513,12 +23628,13 @@ PROPERTY control='ENV 3 More Button' name='graphics' id='0' value='none'
 	# 	PROPERTY control='ENV 3 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 62.00' parent='ENV 3 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='env_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='env_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -23871,12 +23987,13 @@ PROPERTY control='Env 4 More Button' name='graphics' id='0' value='none'
 	# 	PROPERTY control='Env 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 62.00' parent='Env 4 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='env_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='env_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -24069,13 +24186,13 @@ PROPERTY control='MultiStage 1435 1r' name='dot shape' id='0' value='circle'
     PROPERTY control='MSEG 1 L' name='graphics' id='0' value='mseg_label'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 150.00' parent='MSEG 1 Rack Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mseg_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mseg_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
-#
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 ##     ##  ######  ########  ######       #######     #### ##    ##    ########     ###     ######  ##    ##
@@ -24255,13 +24372,13 @@ PROPERTY control='MultiStage 1435 2r' name='dot shape' id='0' value='circle'
     PROPERTY control='MSEG 2 L' name='graphics' id='0' value='mseg_label'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 150.00' parent='MSEG 2 Rack Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mseg_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mseg_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
-#
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -24441,13 +24558,13 @@ PROPERTY control='MultiStage 1435 3r' name='dot shape' id='0' value='circle'
     PROPERTY control='MSEG 3 L' name='graphics' id='0' value='mseg_label'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 150.00' parent='MSEG 3 Rack Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mseg_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mseg_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
-#
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -24627,14 +24744,13 @@ PROPERTY control='MultiStage 1435 4r' name='dot shape' id='0' value='circle'
     PROPERTY control='MSEG 4 L' name='graphics' id='0' value='mseg_label'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 150.00' parent='MSEG 4 Rack Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mseg_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mseg_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
-#
-
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 ##       ########  #######
@@ -24930,12 +25046,13 @@ PROPERTY control='GenericStep 2149' name='dot shape' id='0' value='circle'
 	# 	PROPERTY control='LFO 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 64.00' parent='Pane 2155' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='lfo_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='lfo_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -25220,12 +25337,13 @@ PROPERTY control='GenericStep 4133' name='dot shape' id='0' value='circle'
 	# 	PROPERTY control='LFO 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 64.00' parent='Pane 4111' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='lfo_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='lfo_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -25511,13 +25629,13 @@ PROPERTY control='GenericStep 4160' name='dot shape' id='0' value='circle'
 	# 	PROPERTY control='LFO 3 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 64.00' parent='Pane 4138' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='lfo_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='lfo_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
-
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -25805,12 +25923,13 @@ PROPERTY control='GenericStep 4187' name='dot shape' id='0' value='circle'
 	# 	PROPERTY control='LFO 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 64.00' parent='Pane 4165' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='lfo_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='lfo_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -26048,12 +26167,13 @@ PROPERTY control='GenericStep 4214' name='dot shape' id='0' value='circle'
     PROPERTY control='GLFO 1 G' name='graphics' id='0' value='lfog_g'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 64.00' parent='Pane 4192' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='lfog_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='lfog_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
  ######   ##       ########  #######      #######
@@ -26277,12 +26397,13 @@ PROPERTY control='GenericStep 4241' name='dot shape' id='0' value='circle'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 64.00' parent='Pane 4219' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='lfog_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='lfog_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -26393,12 +26514,13 @@ PARAMETER control='Display 3024' port='integer' module='MMap1' parameter='MSrc'
 	# 	PROPERTY control='MMap 1 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 98.00' parent='MMap 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mmap_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mmap_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 ##     ## ##     ##    ###    ########      #######
@@ -26492,12 +26614,13 @@ PARAMETER control='Display 3977' port='integer' module='MMap2' parameter='MSrc'
 	# 	PROPERTY control='MMap 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 98.00' parent='MMap 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mmap_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mmap_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -26593,12 +26716,13 @@ PARAMETER control='Display 4443' port='integer' module='MMap3' parameter='MSrc'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 98.00' parent='MMap 3 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mmap_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mmap_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -26696,12 +26820,13 @@ PARAMETER control='Display 4468' port='integer' module='MMap4' parameter='MSrc'
 	# 	PROPERTY control='MMap 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 98.00' parent='MMap 4 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mmap_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mmap_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -26865,12 +26990,13 @@ PROPERTY control='MMix 1 Slider BG' name='graphics' id='0' value='none'
 	PROPERTY control='MMix 1 Slider' name='direction' id='0' value='horizontal'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 53.00' parent='MMix 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mmix_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mmix_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -27023,12 +27149,13 @@ PROPERTY control='MMix 2 Slider BG' name='graphics' id='0' value='none'
 # 	PROPERTY control='MMix 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 53.00' parent='MMix 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mmix_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mmix_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -27182,12 +27309,13 @@ PROPERTY control='MMix 3 Slider BG' name='graphics' id='0' value='none'
 # 	PROPERTY control='MMix 3 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 53.00' parent='MMix 3 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mmix_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mmix_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -27343,12 +27471,13 @@ PROPERTY control='MMix 4 Slider BG' name='graphics' id='0' value='none'
 	# 	PROPERTY control='MMix 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 53.00' parent='MMix 4 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mmix_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mmix_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -27698,12 +27827,13 @@ PROPERTY control='ModFX1_Title' name='FontSize' id='0' value='title_font_size'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 137.00' parent='ModFX 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='modfx_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='modfx_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -27947,12 +28077,13 @@ PROPERTY control='ModFX2_Title' name='FontSize' id='0' value='title_font_size'
 	# 	PROPERTY control='ModFX 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 137.00' parent='ModFX 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='modfx_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='modfx_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -28245,12 +28376,14 @@ PARAMETER control='Display 1417' port='integer' module='Delay1' parameter='Sync4
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 137.00' parent='Delay 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='delay_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='delay_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
+
 
 
 
@@ -28513,12 +28646,13 @@ PARAMETER control='Display 4267' port='integer' module='Delay2' parameter='Sync4
 #     PROPERTY control='Delay 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 137.00' parent='Delay 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='delay_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='delay_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -28706,12 +28840,13 @@ PROPERTY control='Label 3581' name='parentLabel' id='0' value='yes'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Shaper 3 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='shaper_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='shaper_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -28899,12 +29034,13 @@ PROPERTY control='Label 3599' name='parentLabel' id='0' value='yes'
     #     PROPERTY control='Shaper 4 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Shaper 4 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='shaper_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='shaper_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -29036,12 +29172,13 @@ PARAMETER control='Display 3857' port='integer' module='Mix5' parameter='PnMd'
     #     PROPERTY control='Mix 5 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Mix 5 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -29169,12 +29306,13 @@ PARAMETER control='Display 3868' port='integer' module='Mix6' parameter='PnMd'
     #     PROPERTY control='Mix 6 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Mix 6 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='mix_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -29440,12 +29578,13 @@ PROPERTY control='Label 1773' name='parentLabel' id='0' value='yes'
 # PROPERTY control='Label 1777' name='labeltext' id='0' value='Diffusor'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 137.00' parent='Rev 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='rev_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='rev_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -29621,12 +29760,13 @@ PROPERTY control='Comp1_Title' name='FontSize' id='0' value='title_font_size'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Comp 1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='comp_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='comp_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
     
@@ -29803,12 +29943,13 @@ PROPERTY control='Comp2_Title' name='FontSize' id='0' value='title_font_size'
 	# 	PROPERTY control='Comp 2 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Comp 2 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='comp_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='comp_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -30053,18 +30194,14 @@ PROPERTY control='EQ 1 Ruler V' name='layer' id='0' value='Layer 1'
     PROPERTY control='EQ 1 Gain 24m' name='FontSize' id='0' value='8.00'
     PROPERTY control='EQ 1 Gain 24m' name='labelTextAlignment' id='0' value='0'
 
-
-# CONTROL type='Label' name='EQ 1 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 4322' layerMask='ffffffff'
-# PROPERTY control='EQ 1 Number' name='colours' id='0' value='none'
-# PROPERTY control='EQ 1 Number' name='colours' id='1' value='label_module_number'
-# PROPERTY control='EQ 1 Number' name='graphics' id='0' value='none'
-# PROPERTY control='EQ 1 Number' name='labeltext' id='0' value='1'
-# PROPERTY control='EQ 1 Number' name='parentLabel' id='0' value='yes'
-
-#     PROPERTY control='EQ 1 Number' name='FontSize' id='0' value='12.00'
-
-
-
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 137.00' parent='EQ 1 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='eq_bg_grad'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -30310,18 +30447,15 @@ PROPERTY control='EQ 2 Ruler V' name='layer' id='0' value='Layer 1'
     PROPERTY control='EQ 2 Gain 24m' name='labelTextAlignment' id='0' value='0'
 
 
+CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 137.00' parent='EQ 2 Ghost' layerMask='1'
+PROPERTY control='ColorOVL' name='colours' id='0' value='eq_bg_grad'
+PROPERTY control='ColorOVL' name='colours' id='1' value='none'
+PROPERTY control='ColorOVL' name='colours' id='2' value='none'
+PROPERTY control='ColorOVL' name='colours' id='3' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
+PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
-
-# Label
-
-# CONTROL type='Label' name='EQ 2 Number' bounds='1.00 3.00 10.00 14.00' parent='Pane 4325' layerMask='ffffffff'
-# PROPERTY control='EQ 2 Number' name='colours' id='0' value='none'
-# PROPERTY control='EQ 2 Number' name='colours' id='1' value='label_module_number'
-# PROPERTY control='EQ 2 Number' name='graphics' id='0' value='none'
-# PROPERTY control='EQ 2 Number' name='labeltext' id='0' value='2'
-# PROPERTY control='EQ 2 Number' name='parentLabel' id='0' value='yes'
-
-#     PROPERTY control='EQ 2 Number' name='FontSize' id='0' value='12.00'
 
 
 
@@ -30560,12 +30694,13 @@ PARAMETER control='Knob 3683' port='Knob Value' module='VCF5' parameter='KeyScl'
 	# 	PROPERTY control='VCF 5 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 0.00 324.00 48.00' parent='VCF 5 Pane' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -30800,12 +30935,13 @@ PARAMETER control='Knob 3704' port='Knob Value' module='VCF6' parameter='KeyScl'
 	# 	PROPERTY control='VCF 6 Number' name='FontSize' id='0' value='12.00'
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 0.00 324.00 48.00' parent='VCF 6 Pane' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='vcf_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
  ######  ########      #######
@@ -30984,12 +31120,13 @@ PROPERTY control='Label 3929' name='parentLabel' id='0' value='yes'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='SB 3 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='sb_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='sb_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -31312,12 +31449,13 @@ PROPERTY control='XMF 3 More Button' name='graphics' id='0' value='none'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 109.00' parent='XMF 3 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='xmf_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='xmf_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -31502,12 +31640,13 @@ PARAMETER control='Display 5068' port='integer' module='Dist3' parameter='PostFl
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 100.00' parent='Dist 3 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='dist_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='dist_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -31691,12 +31830,13 @@ PARAMETER control='Display 5086' port='integer' module='Dist4' parameter='PostFl
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 100.00' parent='Dist 4 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='dist_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='dist_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -31844,12 +31984,13 @@ PROPERTY control='Label 66960' name='parentLabel' id='0' value='yes'
 
 
 CONTROL type='Pane' name='ColorOVL' bounds='0.00 20.00 324.00 48.00' parent='Pane NuRev1 Ghost' layerMask='1'
-PROPERTY control='ColorOVL' name='colours' id='0' value='nurev_bg'
+PROPERTY control='ColorOVL' name='colours' id='0' value='nurev_bg_grad'
 PROPERTY control='ColorOVL' name='colours' id='1' value='none'
 PROPERTY control='ColorOVL' name='colours' id='2' value='none'
 PROPERTY control='ColorOVL' name='colours' id='3' value='none'
-PROPERTY control='ColorOVL' name='graphics' id='0' value='none'
+PROPERTY control='ColorOVL' name='graphics' id='0' value='v_module_overlay_rect'
 PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
+PROPERTY control='ColorOVL' name='BlendMode' id='0' value='redux_module_overlay_mode'
 
 
 
@@ -32976,9 +33117,176 @@ PROPERTY control='PreferencesMenuInfo' name='FontVAlignment' id='0' value='top'
 
 
 
+# tests
+
+# CONTROL type='Pane' name='Test_Pane' bounds='200.00 100.00 800.00 400.00' parent='root' layerMask='7fffffff'
+# PROPERTY control='Test_Pane' name='colours' id='0' value='w50'
+# PROPERTY control='Test_Pane' name='colours' id='1' value='trans red'
+# PROPERTY control='Test_Pane' name='colours' id='2' value='none'
+# PROPERTY control='Test_Pane' name='colours' id='3' value='none'
+# PROPERTY control='Test_Pane' name='graphics' id='0' value='none'
+# PROPERTY control='Test_Pane' name='layer' id='0' value='Layer 1'
+# PROPERTY control='Test_Pane' name='movable' id='0' value='YES'
 
 
+#     # drag
+#         # CONTROL type='Dragable' name='Dragable 2177' bounds='10.00 10.00 72.00 20.00' parent='Test_Pane' layerMask='ffffffff'
+#         # PROPERTY control='Dragable 2177' name='colours' id='0' value='trans red'
+#         # PROPERTY control='Dragable 2177' name='colours' id='1' value='trans white'
+#         # PROPERTY control='Dragable 2177' name='colours' id='2' value='orange'
+#         # PROPERTY control='Dragable 2177' name='colours' id='3' value='w100'
+#         # PROPERTY control='Dragable 2177' name='colours' id='4' value='yellow'
+#         # PROPERTY control='Dragable 2177' name='graphics' id='0' value='none'
+#         # PROPERTY control='Dragable 2177' name='graphics' id='1' value='none'
+#         # PROPERTY control='Dragable 2177' name='graphics' id='2' value='none'
+#         # PARAMETER control='Dragable 2177' port='Commands' module='OSC1' parameter='Wave'
 
+#         # CONTROL type='Label' name='Label 2178' bounds='4.00 21.00 64.00 12.00' parent='Dragable 2177' layerMask='ffffffff'
+#         # PROPERTY control='Label 2178' name='colours' id='0' value='w50'
+#         # PROPERTY control='Label 2178' name='colours' id='1' value='black'
+#         # PROPERTY control='Label 2178' name='graphics' id='0' value='none'
+#         # PROPERTY control='Label 2178' name='labeltext' id='0' value='WaveForm'
+#         # PROPERTY control='Label 2178' name='parentLabel' id='0' value='yes'
+
+#     # randomize
+#         CONTROL type='Button On-Off' name='Button 2224' bounds='40.00 40.00 30.00 20.00' parent='Test_Pane' layerMask='ffffffff'
+#         PROPERTY control='Button 2224' name='colours' id='0' value='trans white'
+#         PROPERTY control='Button 2224' name='colours' id='1' value='invisible'
+#         PROPERTY control='Button 2224' name='colours' id='2' value='none'
+#         PROPERTY control='Button 2224' name='colours' id='3' value='red'
+#         PROPERTY control='Button 2224' name='colours' id='4' value='none'
+#         PROPERTY control='Button 2224' name='graphics' id='0' value='none'
+#         PROPERTY control='Button 2224' name='graphics' id='1' value='none'
+#         PROPERTY control='Button 2224' name='graphics' id='2' value='none'
+#         PROPERTY control='Button 2224' name='graphics' id='3' value='none'
+#         PARAMETER control='Button 2224' port='Button Value' module='main' parameter='RnDmB' valuestring='generic'
+#         PROPERTY control='Button 2224' name='PushOnly' id='1' value='Yes'
+
+#         CONTROL type='Label' name='Label 2225' bounds='-10.00 20.00 50.00 12.00' parent='Button 2224' layerMask='ffffffff'
+#         PROPERTY control='Label 2225' name='colours' id='0' value='none'
+#         PROPERTY control='Label 2225' name='colours' id='1' value='black'
+#         PROPERTY control='Label 2225' name='graphics' id='0' value='none'
+#         PROPERTY control='Label 2225' name='labeltext' id='0' value='Randomize'
+#         PROPERTY control='Label 2225' name='parentLabel' id='0' value='yes'
+
+#         CONTROL type='Slider' name='Slider 2303' bounds='30.00 80.00 50.00 20.00' parent='Test_Pane' layerMask='ffffffff'
+#         PROPERTY control='Slider 2303' name='colours' id='0' value='trans white'
+#         PROPERTY control='Slider 2303' name='colours' id='1' value='invisible'
+#         PROPERTY control='Slider 2303' name='colours' id='2' value='trans red'
+#         PROPERTY control='Slider 2303' name='graphics' id='0' value='none'
+#         PROPERTY control='Slider 2303' name='graphics' id='1' value='none'
+#         PROPERTY control='Slider 2303' name='graphics' id='2' value='none'
+#         PARAMETER control='Slider 2303' port='Slider Value' module='main' parameter='RnDm' valuestring='generic'
+#         PROPERTY control='Slider 2303' name='direction' id='0' value='horizontal'
+
+#         CONTROL type='Label' name='Label 2304' bounds='0.00 20.00 50.00 12.00' parent='Slider 2303' layerMask='ffffffff'
+#         PROPERTY control='Label 2304' name='colours' id='0' value='none'
+#         PROPERTY control='Label 2304' name='colours' id='1' value='black'
+#         PROPERTY control='Label 2304' name='graphics' id='0' value='none'
+#         PROPERTY control='Label 2304' name='labeltext' id='0' value='Random'
+#         PROPERTY control='Label 2304' name='parentLabel' id='0' value='yes'
+
+#     # show empty folders
+#         # CONTROL type='Button On-Off' name='Button 2273' bounds='200.00 40.00 40.00 20.00' parent='Test_Pane' layerMask='ffffffff'
+#         # PROPERTY control='Button 2273' name='colours' id='0' value='trans white'
+#         # PROPERTY control='Button 2273' name='colours' id='1' value='none'
+#         # PROPERTY control='Button 2273' name='colours' id='2' value='none'
+#         # PROPERTY control='Button 2273' name='colours' id='3' value='trans red'
+#         # PROPERTY control='Button 2273' name='colours' id='4' value='none'
+#         # PROPERTY control='Button 2273' name='graphics' id='0' value='none'
+#         # PROPERTY control='Button 2273' name='graphics' id='1' value='none'
+#         # PROPERTY control='Button 2273' name='graphics' id='2' value='none'
+#         # PROPERTY control='Button 2273' name='graphics' id='3' value='none'
+#         # PROPERTY control='Button 2273' name='ActionID' id='1' value='74676566'
+
+#         # CONTROL type='Label' name='Label 2274' bounds='-30.00 20.00 98.00 20.00' parent='Button 2273' layerMask='ffffffff'
+#         # PROPERTY control='Label 2274' name='colours' id='0' value='w100'
+#         # PROPERTY control='Label 2274' name='colours' id='1' value='black'
+#         # PROPERTY control='Label 2274' name='graphics' id='0' value='red'
+#         # PROPERTY control='Label 2274' name='labeltext' id='0' value='Show empty folders'
+#         # PROPERTY control='Label 2274' name='parentLabel' id='0' value='yes'
+#         # PROPERTY control='Label 2274' name='hasShadow' id='0' value='yes'
+
+#     # Clear MIDI assigns
+#         CONTROL type='Button On-Off' name='Button 2299' bounds='100.00 40.00 90.00 20.00' parent='Test_Pane' layerMask='ffffffff'
+#         PROPERTY control='Button 2299' name='colours' id='0' value='w150'
+#         PROPERTY control='Button 2299' name='colours' id='1' value='none'
+#         PROPERTY control='Button 2299' name='colours' id='2' value='none'
+#         PROPERTY control='Button 2299' name='colours' id='3' value='red'
+#         PROPERTY control='Button 2299' name='colours' id='4' value='none'
+#         PROPERTY control='Button 2299' name='graphics' id='0' value='none'
+#         PROPERTY control='Button 2299' name='graphics' id='1' value='none'
+#         PROPERTY control='Button 2299' name='graphics' id='2' value='none'
+#         PROPERTY control='Button 2299' name='graphics' id='3' value='none'
+#         PROPERTY control='Button 2299' name='ActionID' id='1' value='726D614D'
+#         PROPERTY control='Button 2299' name='PushOnly' id='1' value='Yes'
+
+#         CONTROL type='Label' name='Label 2300' bounds='0.00 0.00 90.00 20.00' parent='Button 2299' layerMask='ffffffff'
+#         PROPERTY control='Label 2300' name='colours' id='0' value='none'
+#         PROPERTY control='Label 2300' name='colours' id='1' value='black'
+#         PROPERTY control='Label 2300' name='graphics' id='0' value='none'
+#         PROPERTY control='Label 2300' name='labeltext' id='0' value='Clear MIDI assigns'
+#         PROPERTY control='Label 2300' name='parentLabel' id='0' value='yes'
+
+#     # clear folder
+#         # CONTROL type='Button On-Off' name='Button 2279' bounds='300.00 40.00 26.00 12.00' parent='Test_Pane' layerMask='ffffffff'
+#         # PROPERTY control='Button 2279' name='colours' id='0' value='w100'
+#         # PROPERTY control='Button 2279' name='colours' id='1' value='none'
+#         # PROPERTY control='Button 2279' name='colours' id='2' value='none'
+#         # PROPERTY control='Button 2279' name='colours' id='3' value='red'
+#         # PROPERTY control='Button 2279' name='colours' id='4' value='none'
+#         # PROPERTY control='Button 2279' name='graphics' id='0' value='none'
+#         # PROPERTY control='Button 2279' name='graphics' id='1' value='none'
+#         # PROPERTY control='Button 2279' name='graphics' id='2' value='none'
+#         # PROPERTY control='Button 2279' name='graphics' id='3' value='none'
+#         # PROPERTY control='Button 2279' name='ActionID' id='1' value='636C6546'
+
+#         # CONTROL type='Label' name='Label 2280' bounds='-19.00 12.00 64.00 12.00' parent='Button 2279' layerMask='ffffffff'
+#         # PROPERTY control='Label 2280' name='colours' id='0' value='none'
+#         # PROPERTY control='Label 2280' name='colours' id='1' value='black'
+#         # PROPERTY control='Label 2280' name='graphics' id='0' value='none'
+#         # PROPERTY control='Label 2280' name='labeltext' id='0' value='Clear folder'
+#         # PROPERTY control='Label 2280' name='parentLabel' id='0' value='yes'
+
+#     # folder up
+#         # CONTROL type='Button On-Off' name='Button 2277' bounds='343.00 116.00 26.00 12.00' parent='Test_Pane' layerMask='ffffffff'
+#         # PROPERTY control='Button 2277' name='colours' id='0' value='w100'
+#         # PROPERTY control='Button 2277' name='colours' id='1' value='none'
+#         # PROPERTY control='Button 2277' name='colours' id='2' value='none'
+#         # PROPERTY control='Button 2277' name='colours' id='3' value='red'
+#         # PROPERTY control='Button 2277' name='colours' id='4' value='none'
+#         # PROPERTY control='Button 2277' name='graphics' id='0' value='none'
+#         # PROPERTY control='Button 2277' name='graphics' id='1' value='none'
+#         # PROPERTY control='Button 2277' name='graphics' id='2' value='none'
+#         # PROPERTY control='Button 2277' name='graphics' id='3' value='none'
+#         # PROPERTY control='Button 2277' name='ActionID' id='1' value='666F6C55'
+
+#         # CONTROL type='Label' name='Label 2278' bounds='-19.00 12.00 64.00 12.00' parent='Button 2277' layerMask='ffffffff'
+#         # PROPERTY control='Label 2278' name='colours' id='0' value='none'
+#         # PROPERTY control='Label 2278' name='colours' id='1' value='black'
+#         # PROPERTY control='Label 2278' name='graphics' id='0' value='none'
+#         # PROPERTY control='Label 2278' name='labeltext' id='0' value='Folder up'
+#         # PROPERTY control='Label 2278' name='parentLabel' id='0' value='yes'
+
+#     # show junk
+#         CONTROL type='Button On-Off' name='Button 2275' bounds='200.00 40.00 80.00 20.00' parent='Test_Pane' layerMask='ffffffff'
+#         PROPERTY control='Button 2275' name='colours' id='0' value='w150'
+#         PROPERTY control='Button 2275' name='colours' id='1' value='none'
+#         PROPERTY control='Button 2275' name='colours' id='2' value='none'
+#         PROPERTY control='Button 2275' name='colours' id='3' value='red'
+#         PROPERTY control='Button 2275' name='colours' id='4' value='none'
+#         PROPERTY control='Button 2275' name='graphics' id='0' value='none'
+#         PROPERTY control='Button 2275' name='graphics' id='1' value='none'
+#         PROPERTY control='Button 2275' name='graphics' id='2' value='none'
+#         PROPERTY control='Button 2275' name='graphics' id='3' value='none'
+#         PROPERTY control='Button 2275' name='ActionID' id='1' value='7467736A'
+
+#         CONTROL type='Label' name='Label 2276' bounds='0.00 0.00 80.00 20.00' parent='Button 2275' layerMask='ffffffff'
+#         PROPERTY control='Label 2276' name='colours' id='0' value='none'
+#         PROPERTY control='Label 2276' name='colours' id='1' value='black'
+#         PROPERTY control='Label 2276' name='graphics' id='0' value='none'
+#         PROPERTY control='Label 2276' name='labeltext' id='0' value='Show junk'
+#         PROPERTY control='Label 2276' name='parentLabel' id='0' value='yes'
 
 
 
