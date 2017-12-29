@@ -152,14 +152,15 @@ COLOUR name='mseg_editor_bg' rgba='212024cc'
 COLOUR name='xy_bg' rgba='00000024'
 COLOUR name='label_xy' rgba='ffffff32'
 
-COLOUR name='module_tab_bg' rgba='00000032' # b50 b60
+COLOUR name='module_tab_bg' rgba='2D2B2Fff' # b50 b60
 COLOUR name='label_module_tab_unselected' rgba='ffffff3c' # w60 w70
 COLOUR name='label_module_tab_selected' rgba='ffffff8c'
 
-COLOUR name='slider_bg' rgba='00000032'
+COLOUR name='slider_bg' rgba='2D2B2Fff'
 COLOUR name='slider_border' rgba='0000001e' # b10 b30
 COLOUR name='metarange_handle' rgba='ffffff3c'
 COLOUR name='metarange_depth' rgba='ffffff50'
+COLOUR name='slider_randomize_handle' rgba='7F7D80ff'
 
 
 COLOUR name='browser_bg' rgba='1a191cf7'
@@ -168,10 +169,10 @@ COLOUR name='presets_bg' rgba='2D2C30ff'
 
 
 
-COLOUR name='button_light_bg' rgba='ffffff00' # ffffff0a
-COLOUR name='button_light_border' rgba='ffffff01' # ffffff0f
+COLOUR name='button_light_bg' rgba='ffffff08' # ffffff0a
+COLOUR name='button_light_border' rgba='ffffff00' # ffffff0f
 COLOUR name='button_dark_bg' rgba='00000032'
-COLOUR name='button_dark_border' rgba='00000001' # 0000001e
+COLOUR name='button_dark_border' rgba='00000000' # 0000001e
 
 COLOUR name='module_border' rgba='ffffff00'
 COLOUR name='sub_module_border' rgba='ffffff00'
@@ -259,6 +260,11 @@ COLOUR name='mmap_line' rgba='ffffff3c'
 COLOUR name='mmap_line_sel' rgba='ffffffb4'
 
 *** USER COLORS END ***
+
+COLOUR name='main_bg_grad' rgba='612C6B06'
+COL_ELEMENT name='main_bg_grad_base' parent='main_bg_grad' rgba='422C6B3f' location='1.000000'
+
+
 
 COLOUR name='waveform_grad' rgba='ffffff20'
 COL_ELEMENT name='waveform_grad_base' parent='waveform_grad' rgba='ffffff10' location='1.000000'
@@ -353,15 +359,22 @@ COL_ELEMENT name='nurev_bg_grad_bottom' parent='nurev_bg_grad' rgba='000C6A30' l
 COLOUR name='vu_bg_grad' rgba='ff000030'
 COL_ELEMENT name='vu_bg_grad_base' parent='vu_bg_grad' rgba='ff000030' location='0.149999'
 COL_ELEMENT name='vu_bg_grad_base1' parent='vu_bg_grad' rgba='ffffff30' location='0.150000'
-
 COL_ELEMENT name='vu_bg_grad_base2' parent='vu_bg_grad' rgba='ffffff30' location='0.279999'
 COL_ELEMENT name='vu_bg_grad_base3' parent='vu_bg_grad' rgba='00000030' location='0.280000'
 COL_ELEMENT name='vu_bg_grad_base4' parent='vu_bg_grad' rgba='00000010' location='1.000000'
 
 
 
-
 # graphics
+
+GRAPHIC name='v_main_bg_overlay_rect' path='1' type='rounded rect'
+GR_PROPERTY graphic='v_main_bg_overlay_rect' name='width' id='0' value='100.00'
+GR_PROPERTY graphic='v_main_bg_overlay_rect' name='height' id='0' value='100.00'
+GR_PROPERTY graphic='v_main_bg_overlay_rect' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='v_main_bg_overlay_rect' name='colour' id='0' value='invisible'
+GR_PROPERTY graphic='v_main_bg_overlay_rect' name='colour' id='1' value='invisible'
+GR_PROPERTY graphic='v_main_bg_overlay_rect' name='border' id='0' value='0.00'
+GR_PROPERTY graphic='v_main_bg_overlay_rect' name='radius' id='0' value='0.01'
 
 GRAPHIC name='v_module_overlay_rect' path='1' type='rounded rect'
 GR_PROPERTY graphic='v_module_overlay_rect' name='width' id='0' value='100.00'
@@ -1214,6 +1227,14 @@ GR_PROPERTY graphic='v_out_vu_head' name='colour' id='0' value='w60'
 GR_PROPERTY graphic='v_out_vu_head' name='border' id='0' value='0.00'
 GR_PROPERTY graphic='v_out_vu_head' name='radius' id='0' value='0.00'
 
+GRAPHIC name='v_randomize_head' path='1' type='rounded rect'
+GR_PROPERTY graphic='v_randomize_head' name='width' id='0' value='4.00'
+GR_PROPERTY graphic='v_randomize_head' name='height' id='0' value='20.00'
+GR_PROPERTY graphic='v_randomize_head' name='scalable' id='0' value='yes'
+GR_PROPERTY graphic='v_randomize_head' name='colour' id='0' value='white'
+GR_PROPERTY graphic='v_randomize_head' name='border' id='0' value='0.00'
+GR_PROPERTY graphic='v_randomize_head' name='radius' id='0' value='0.00'
+
 
 *********************************************************************
 
@@ -1231,7 +1252,7 @@ GR_PROPERTY graphic='v_out_vu_head' name='radius' id='0' value='0.00'
 # Controls
 
 CONTROL type='Pane' name='Full Size' bounds='0.00 0.00 1168.00 720.00' parent='root' layerMask='ffffffff'
-PROPERTY control='Full Size' name='colours' id='0' value='main_bg'
+PROPERTY control='Full Size' name='colours' id='0' value='main_bg' # main_bg
 PROPERTY control='Full Size' name='colours' id='1' value='none'
 PROPERTY control='Full Size' name='colours' id='2' value='none'
 PROPERTY control='Full Size' name='colours' id='3' value='none'
@@ -8914,125 +8935,182 @@ PROPERTY control='ColorOVL' name='clickThrough' id='0' value='YES'
 
 # theme version
 
-CONTROL type='Label' name='Label 4538' bounds='200.00 20.00 10.00 14.00' parent='Global Config Subpanel' layerMask='1'
+CONTROL type='Label' name='Label 4538' bounds='272.00 0.00 26.00 redux_title_h' parent='GlobalConfig_Title' layerMask='1'
 PROPERTY control='Label 4538' name='colours' id='0' value='none'
-PROPERTY control='Label 4538' name='colours' id='1' value='w50'
+PROPERTY control='Label 4538' name='colours' id='1' value='w20'
 PROPERTY control='Label 4538' name='graphics' id='0' value='none'
-PROPERTY control='Label 4538' name='labeltext' id='0' value='Z:'
+PROPERTY control='Label 4538' name='labeltext' id='0' value='REV:'
+PROPERTY control='Label 4538' name='FontAlignment' id='0' value='0'
+PROPERTY control='Label 4538' name='FontVOffset' id='0' value='-2.00'
+PROPERTY control='Label 4538' name='font' id='0' value='title_font'
+PROPERTY control='Label 4538' name='FontSize' id='0' value='title_font_size'
 
-        PROPERTY control='Label 4538' name='FontAlignment' id='0' value='0'
-
-    CONTROL type='Display' name='Zebra Revision' bounds='220.00 20.00 30.00 14.00' parent='Global Config Subpanel' layerMask='1'
+    CONTROL type='Display' name='Zebra Revision' bounds='296.00 0.00 30.00 redux_title_h' parent='GlobalConfig_Title' layerMask='1'
     PROPERTY control='Zebra Revision' name='colours' id='0' value='none'
     PROPERTY control='Zebra Revision' name='colours' id='1' value='none'
-    PROPERTY control='Zebra Revision' name='colours' id='2' value='w80'
+    PROPERTY control='Zebra Revision' name='colours' id='2' value='w40'
     PROPERTY control='Zebra Revision' name='graphics' id='0' value='none'
     PROPERTY control='Zebra Revision' name='graphics' id='1' value='none'
     PARAMETER control='Zebra Revision' port='integer' module='PCore' parameter='Rev'
+    PROPERTY control='Zebra Revision' name='FontAlignment' id='0' value='0'
+    PROPERTY control='Zebra Revision' name='FontVOffset' id='0' value='-2.00'
+    PROPERTY control='Zebra Revision' name='font' id='0' value='title_font'
+    PROPERTY control='Zebra Revision' name='FontSize' id='0' value='title_font_size'
 
-        PROPERTY control='Zebra Revision' name='FontAlignment' id='0' value='0'
-
-CONTROL type='Label' name='Label ThemeRevision' bounds='200.00 40.00 10.00 14.00' parent='Global Config Subpanel' layerMask='1'
+CONTROL type='Label' name='Label ThemeRevision' bounds='148.00 0.00 37.00 redux_title_h' parent='GlobalConfig_Title' layerMask='1'
 PROPERTY control='Label ThemeRevision' name='colours' id='0' value='none'
-PROPERTY control='Label ThemeRevision' name='colours' id='1' value='w50'
+PROPERTY control='Label ThemeRevision' name='colours' id='1' value='w20'
 PROPERTY control='Label ThemeRevision' name='graphics' id='0' value='none'
-PROPERTY control='Label ThemeRevision' name='labeltext' id='0' value='T:'
+PROPERTY control='Label ThemeRevision' name='labeltext' id='0' value='REDUX:'
+PROPERTY control='Label ThemeRevision' name='FontAlignment' id='0' value='0'
+PROPERTY control='Label ThemeRevision' name='FontVOffset' id='0' value='-2.00'
+PROPERTY control='Label ThemeRevision' name='font' id='0' value='title_font'
+PROPERTY control='Label ThemeRevision' name='FontSize' id='0' value='title_font_size'
 
-        PROPERTY control='Label ThemeRevision' name='FontAlignment' id='0' value='0'
-
-    CONTROL type='Label' name='ThemeRevision' bounds='220.00 40.00 100.00 14.00' parent='Global Config Subpanel' layerMask='1'
+    CONTROL type='Label' name='ThemeRevision' bounds='187.00 0.00 100.00 redux_title_h' parent='GlobalConfig_Title' layerMask='1'
     PROPERTY control='ThemeRevision' name='colours' id='0' value='none'
-    PROPERTY control='ThemeRevision' name='colours' id='1' value='w80'
+    PROPERTY control='ThemeRevision' name='colours' id='1' value='w40'
     PROPERTY control='ThemeRevision' name='graphics' id='0' value='none'
     PROPERTY control='ThemeRevision' name='labeltext' id='0' value='redux_version'
-
-        PROPERTY control='ThemeRevision' name='FontAlignment' id='0' value='0'
-
+    PROPERTY control='ThemeRevision' name='FontAlignment' id='0' value='0'
+    PROPERTY control='ThemeRevision' name='FontVOffset' id='0' value='-2.00'
+    PROPERTY control='ThemeRevision' name='font' id='0' value='title_font'
+    PROPERTY control='ThemeRevision' name='FontSize' id='0' value='title_font_size'
 #
 
-            # MicroTuning on/off
-            CONTROL type='Button On-Off' name='Button 2822' bounds='4.00 3.00 64.00 14.00' parent='Global Config Subpanel' layerMask='1'
-            PROPERTY control='Button 2822' name='colours' id='0' value='button_dark_bg'
-            PROPERTY control='Button 2822' name='colours' id='1' value='button_dark_border'
-            PROPERTY control='Button 2822' name='colours' id='2' value='label_menu'
-            PROPERTY control='Button 2822' name='colours' id='3' value='none'
-            PROPERTY control='Button 2822' name='colours' id='4' value='none'
-            PROPERTY control='Button 2822' name='graphics' id='0' value='none'
-            PROPERTY control='Button 2822' name='graphics' id='1' value='none'
-            PROPERTY control='Button 2822' name='graphics' id='2' value='none'
-            PROPERTY control='Button 2822' name='graphics' id='3' value='none'
-            PARAMETER control='Button 2822' port='Button Value' module='VCC' parameter='MTunS'
+        # MicroTuning on/off
+        CONTROL type='Button On-Off' name='Button 2822' bounds='4.00 3.00 64.00 14.00' parent='Global Config Subpanel' layerMask='1'
+        PROPERTY control='Button 2822' name='colours' id='0' value='button_dark_bg'
+        PROPERTY control='Button 2822' name='colours' id='1' value='button_dark_border'
+        PROPERTY control='Button 2822' name='colours' id='2' value='label_menu'
+        PROPERTY control='Button 2822' name='colours' id='3' value='none'
+        PROPERTY control='Button 2822' name='colours' id='4' value='none'
+        PROPERTY control='Button 2822' name='graphics' id='0' value='none'
+        PROPERTY control='Button 2822' name='graphics' id='1' value='none'
+        PROPERTY control='Button 2822' name='graphics' id='2' value='none'
+        PROPERTY control='Button 2822' name='graphics' id='3' value='none'
+        PARAMETER control='Button 2822' port='Button Value' module='VCC' parameter='MTunS'
 
-            CONTROL type='Label' name='Label Microtuning' bounds='67.00 2.00 86.00 12.00' parent='Button 2822' layerMask='ffffffff'
-            PROPERTY control='Label Microtuning' name='colours' id='0' value='none'
-            PROPERTY control='Label Microtuning' name='colours' id='1' value='label_text'
-            PROPERTY control='Label Microtuning' name='graphics' id='0' value='none'
-            PROPERTY control='Label Microtuning' name='labeltext' id='0' value='MicroTuning'
-            PROPERTY control='Label Microtuning' name='parentLabel' id='0' value='yes'
+        CONTROL type='Label' name='Label Microtuning' bounds='67.00 2.00 86.00 12.00' parent='Button 2822' layerMask='ffffffff'
+        PROPERTY control='Label Microtuning' name='colours' id='0' value='none'
+        PROPERTY control='Label Microtuning' name='colours' id='1' value='label_text'
+        PROPERTY control='Label Microtuning' name='graphics' id='0' value='none'
+        PROPERTY control='Label Microtuning' name='labeltext' id='0' value='MicroTuning'
+        PROPERTY control='Label Microtuning' name='parentLabel' id='0' value='yes'
 
-                PROPERTY control='Label Microtuning' name='FontAlignment' id='0' value='0'
+            PROPERTY control='Label Microtuning' name='FontAlignment' id='0' value='0'
 
-            # MicroTuning Preset
-            CONTROL type='PresetSaver' name='PresetSaver 2820' bounds='4.00 20.00 64.00 14.00' parent='Global Config Subpanel' layerMask='1'
-            PROPERTY control='PresetSaver 2820' name='colours' id='0' value='button_dark_bg'
-            PROPERTY control='PresetSaver 2820' name='colours' id='1' value='button_dark_border'
-            PROPERTY control='PresetSaver 2820' name='colours' id='2' value='label_menu'
-            PROPERTY control='PresetSaver 2820' name='colours' id='3' value='none'
-            PROPERTY control='PresetSaver 2820' name='colours' id='4' value='none'
-            PROPERTY control='PresetSaver 2820' name='graphics' id='0' value='none'
-            PROPERTY control='PresetSaver 2820' name='graphics' id='1' value='none'
-            PARAMETER control='PresetSaver 2820' port='MPreset' module='VCC' parameter='MTunN'
-            PARAMETER control='PresetSaver 2820' port='Lockable' module='VCC' parameter='MTunT'
+        # MicroTuning Preset
+        CONTROL type='PresetSaver' name='PresetSaver 2820' bounds='4.00 20.00 64.00 14.00' parent='Global Config Subpanel' layerMask='1'
+        PROPERTY control='PresetSaver 2820' name='colours' id='0' value='button_dark_bg'
+        PROPERTY control='PresetSaver 2820' name='colours' id='1' value='button_dark_border'
+        PROPERTY control='PresetSaver 2820' name='colours' id='2' value='label_menu'
+        PROPERTY control='PresetSaver 2820' name='colours' id='3' value='none'
+        PROPERTY control='PresetSaver 2820' name='colours' id='4' value='none'
+        PROPERTY control='PresetSaver 2820' name='graphics' id='0' value='none'
+        PROPERTY control='PresetSaver 2820' name='graphics' id='1' value='none'
+        PARAMETER control='PresetSaver 2820' port='MPreset' module='VCC' parameter='MTunN'
+        PARAMETER control='PresetSaver 2820' port='Lockable' module='VCC' parameter='MTunT'
 
-            CONTROL type='Label' name='Label 2821' bounds='67.00 2.00 86.00 12.00' parent='PresetSaver 2820' layerMask='ffffffff'
-            PROPERTY control='Label 2821' name='colours' id='0' value='none'
-            PROPERTY control='Label 2821' name='colours' id='1' value='label_text'
-            PROPERTY control='Label 2821' name='graphics' id='0' value='none'
-            PROPERTY control='Label 2821' name='labeltext' id='0' value='MicroTuning preset'
-            PROPERTY control='Label 2821' name='parentLabel' id='0' value='yes'
+        CONTROL type='Label' name='Label 2821' bounds='67.00 2.00 86.00 12.00' parent='PresetSaver 2820' layerMask='ffffffff'
+        PROPERTY control='Label 2821' name='colours' id='0' value='none'
+        PROPERTY control='Label 2821' name='colours' id='1' value='label_text'
+        PROPERTY control='Label 2821' name='graphics' id='0' value='none'
+        PROPERTY control='Label 2821' name='labeltext' id='0' value='MicroTuning preset'
+        PROPERTY control='Label 2821' name='parentLabel' id='0' value='yes'
 
-                PROPERTY control='Label 2821' name='FontAlignment' id='0' value='0'
+            PROPERTY control='Label 2821' name='FontAlignment' id='0' value='0'
 
-            # Patch Format
+        # Patch Format
 
 
-            CONTROL type='Display' name='Display 2611' bounds='4.00 37.00 64.00 14.00' parent='Global Config Subpanel' layerMask='1'
-            PROPERTY control='Display 2611' name='colours' id='0' value='button_dark_bg'
-            PROPERTY control='Display 2611' name='colours' id='1' value='button_dark_border'
-            PROPERTY control='Display 2611' name='colours' id='2' value='label_menu'
-            PROPERTY control='Display 2611' name='graphics' id='0' value='none'
-            PROPERTY control='Display 2611' name='graphics' id='1' value='none'
-            PARAMETER control='Display 2611' port='integer' module='PCore' parameter='PForm'
+        CONTROL type='Display' name='Display 2611' bounds='4.00 37.00 64.00 14.00' parent='Global Config Subpanel' layerMask='1'
+        PROPERTY control='Display 2611' name='colours' id='0' value='button_dark_bg'
+        PROPERTY control='Display 2611' name='colours' id='1' value='button_dark_border'
+        PROPERTY control='Display 2611' name='colours' id='2' value='label_menu'
+        PROPERTY control='Display 2611' name='graphics' id='0' value='none'
+        PROPERTY control='Display 2611' name='graphics' id='1' value='none'
+        PARAMETER control='Display 2611' port='integer' module='PCore' parameter='PForm'
 
-            CONTROL type='Label' name='Label 2612' bounds='67.00 2.00 57.00 12.00' parent='Display 2611' layerMask='ffffffff'
-            PROPERTY control='Label 2612' name='colours' id='0' value='none'
-            PROPERTY control='Label 2612' name='colours' id='1' value='label_text'
-            PROPERTY control='Label 2612' name='graphics' id='0' value='none'
-            PROPERTY control='Label 2612' name='labeltext' id='0' value='Patch format'
-            PROPERTY control='Label 2612' name='parentLabel' id='0' value='yes'
+        CONTROL type='Label' name='Label 2612' bounds='67.00 2.00 57.00 12.00' parent='Display 2611' layerMask='ffffffff'
+        PROPERTY control='Label 2612' name='colours' id='0' value='none'
+        PROPERTY control='Label 2612' name='colours' id='1' value='label_text'
+        PROPERTY control='Label 2612' name='graphics' id='0' value='none'
+        PROPERTY control='Label 2612' name='labeltext' id='0' value='Patch format'
+        PROPERTY control='Label 2612' name='parentLabel' id='0' value='yes'
 
-                PROPERTY control='Label 2612' name='FontAlignment' id='0' value='0'
+            PROPERTY control='Label 2612' name='FontAlignment' id='0' value='0'
 
-            CONTROL type='Button On-Off' name='Button 2615' bounds='4.00 54.00 64.00 14.00' parent='Global Config Subpanel' layerMask='1'
-            PROPERTY control='Button 2615' name='colours' id='0' value='button_dark_bg'
-            PROPERTY control='Button 2615' name='colours' id='1' value='button_dark_border'
-            PROPERTY control='Button 2615' name='colours' id='2' value='label_menu'
-            PROPERTY control='Button 2615' name='colours' id='3' value='none'
-            PROPERTY control='Button 2615' name='colours' id='4' value='none'
-            PROPERTY control='Button 2615' name='graphics' id='0' value='none'
-            PROPERTY control='Button 2615' name='graphics' id='1' value='none'
-            PROPERTY control='Button 2615' name='graphics' id='2' value='none'
-            PROPERTY control='Button 2615' name='graphics' id='3' value='none'
-            PARAMETER control='Button 2615' port='Button Value' module='PCore' parameter='PComp'
+        CONTROL type='Button On-Off' name='Button 2615' bounds='4.00 54.00 64.00 14.00' parent='Global Config Subpanel' layerMask='1'
+        PROPERTY control='Button 2615' name='colours' id='0' value='button_dark_bg'
+        PROPERTY control='Button 2615' name='colours' id='1' value='button_dark_border'
+        PROPERTY control='Button 2615' name='colours' id='2' value='label_menu'
+        PROPERTY control='Button 2615' name='colours' id='3' value='none'
+        PROPERTY control='Button 2615' name='colours' id='4' value='none'
+        PROPERTY control='Button 2615' name='graphics' id='0' value='none'
+        PROPERTY control='Button 2615' name='graphics' id='1' value='none'
+        PROPERTY control='Button 2615' name='graphics' id='2' value='none'
+        PROPERTY control='Button 2615' name='graphics' id='3' value='none'
+        PARAMETER control='Button 2615' port='Button Value' module='PCore' parameter='PComp'
 
-            CONTROL type='Label' name='Label 2616' bounds='67.00 2.00 112.00 12.00' parent='Button 2615' layerMask='ffffffff'
-            PROPERTY control='Label 2616' name='colours' id='0' value='none'
-            PROPERTY control='Label 2616' name='colours' id='1' value='label_text'
-            PROPERTY control='Label 2616' name='graphics' id='0' value='none'
-            PROPERTY control='Label 2616' name='labeltext' id='0' value='Save only active modules'
-            PROPERTY control='Label 2616' name='parentLabel' id='0' value='yes'
+        CONTROL type='Label' name='Label 2616' bounds='67.00 2.00 112.00 12.00' parent='Button 2615' layerMask='ffffffff'
+        PROPERTY control='Label 2616' name='colours' id='0' value='none'
+        PROPERTY control='Label 2616' name='colours' id='1' value='label_text'
+        PROPERTY control='Label 2616' name='graphics' id='0' value='none'
+        PROPERTY control='Label 2616' name='labeltext' id='0' value='Save only active modules'
+        PROPERTY control='Label 2616' name='parentLabel' id='0' value='yes'
 
-                PROPERTY control='Label 2616' name='FontAlignment' id='0' value='0'
+            PROPERTY control='Label 2616' name='FontAlignment' id='0' value='0'
+
+    # randomize
+CONTROL type='Pane' name='Randomize_Slider_BG' bounds='203.00 15.00 117.00 20.00' parent='Global Config Subpanel' layerMask='1'
+PROPERTY control='Randomize_Slider_BG' name='colours' id='0' value='slider_bg'
+PROPERTY control='Randomize_Slider_BG' name='colours' id='1' value='slider_border'
+PROPERTY control='Randomize_Slider_BG' name='colours' id='2' value='none'
+PROPERTY control='Randomize_Slider_BG' name='colours' id='3' value='none'
+PROPERTY control='Randomize_Slider_BG' name='graphics' id='0' value='none'
+
+        CONTROL type='Slider' name='Slider 2303' bounds='0.00 0.00 117.00 20.00' parent='Randomize_Slider_BG' layerMask='1'
+        PROPERTY control='Slider 2303' name='colours' id='0' value='none'
+        PROPERTY control='Slider 2303' name='colours' id='1' value='none'
+        PROPERTY control='Slider 2303' name='colours' id='2' value='w80'
+        PROPERTY control='Slider 2303' name='graphics' id='0' value='none'
+        PROPERTY control='Slider 2303' name='graphics' id='1' value='none'
+        PROPERTY control='Slider 2303' name='graphics' id='2' value='v_randomize_head'
+        PARAMETER control='Slider 2303' port='Slider Value' module='main' parameter='RnDm' valuestring='generic'
+        PROPERTY control='Slider 2303' name='direction' id='0' value='horizontal'
+
+        # CONTROL type='Label' name='Label 2304' bounds='0.00 20.00 50.00 12.00' parent='Slider 2303' layerMask='ffffffff'
+        # PROPERTY control='Label 2304' name='colours' id='0' value='none'
+        # PROPERTY control='Label 2304' name='colours' id='1' value='black'
+        # PROPERTY control='Label 2304' name='graphics' id='0' value='none'
+        # PROPERTY control='Label 2304' name='labeltext' id='0' value='Random'
+        # PROPERTY control='Label 2304' name='parentLabel' id='0' value='yes'
+
+        CONTROL type='Button On-Off' name='Button 2224' bounds='234.00 40.00 60.00 20.00' parent='Global Config Subpanel' layerMask='1'
+        PROPERTY control='Button 2224' name='colours' id='0' value='button_dark_bg'
+        PROPERTY control='Button 2224' name='colours' id='1' value='button_dark_border'
+        PROPERTY control='Button 2224' name='colours' id='2' value='invisible'
+        PROPERTY control='Button 2224' name='colours' id='3' value='b100'
+        PROPERTY control='Button 2224' name='colours' id='4' value='invisible'
+        PROPERTY control='Button 2224' name='graphics' id='0' value='none'
+        PROPERTY control='Button 2224' name='graphics' id='1' value='none'
+        PROPERTY control='Button 2224' name='graphics' id='2' value='none'
+        PROPERTY control='Button 2224' name='graphics' id='3' value='none'
+        PARAMETER control='Button 2224' port='Button Value' module='main' parameter='RnDmB' valuestring='generic'
+        PROPERTY control='Button 2224' name='PushOnly' id='1' value='Yes'
+
+        CONTROL type='Label' name='Label 2225' bounds='0.00 0.00 60.00 20.00' parent='Button 2224' layerMask='ffffffff'
+        PROPERTY control='Label 2225' name='colours' id='0' value='none'
+        PROPERTY control='Label 2225' name='colours' id='1' value='label_menu'
+        PROPERTY control='Label 2225' name='graphics' id='0' value='none'
+        PROPERTY control='Label 2225' name='labeltext' id='0' value='Randomize'
+        PROPERTY control='Label 2225' name='parentLabel' id='0' value='yes'
+
+
+
+
+
 
 CONTROL type='Pane' name='Global Config More Button' bounds='294.00 54.00 26.00 14.00' parent='Global Config Pane' layerMask='1'
 PROPERTY control='Global Config More Button' name='colours' id='0' value='button_dark_bg'
@@ -33144,6 +33222,16 @@ PROPERTY control='PreferencesMenuInfo' name='FontVAlignment' id='0' value='top'
 
 
 
+CONTROL type='Pane' name='Full_Size_Overlay' bounds='0.00 0.00 1168.00 720.00' parent='root' layerMask='ffffffff'
+PROPERTY control='Full_Size_Overlay' name='colours' id='0' value='main_bg_grad' # main_bg
+PROPERTY control='Full_Size_Overlay' name='colours' id='1' value='none'
+PROPERTY control='Full_Size_Overlay' name='colours' id='2' value='none'
+PROPERTY control='Full_Size_Overlay' name='colours' id='3' value='none'
+PROPERTY control='Full_Size_Overlay' name='graphics' id='0' value='v_main_bg_overlay_rect'
+PROPERTY control='Full_Size_Overlay' name='BlendMode' id='0' value='screen'
+PROPERTY control='Full_Size_Overlay' name='clickThrough' id='0' value='YES'
+
+
 
 # tests
 
@@ -33175,44 +33263,6 @@ PROPERTY control='PreferencesMenuInfo' name='FontVAlignment' id='0' value='top'
 #         # PROPERTY control='Label 2178' name='graphics' id='0' value='none'
 #         # PROPERTY control='Label 2178' name='labeltext' id='0' value='WaveForm'
 #         # PROPERTY control='Label 2178' name='parentLabel' id='0' value='yes'
-
-#     # randomize
-#         CONTROL type='Button On-Off' name='Button 2224' bounds='40.00 40.00 30.00 20.00' parent='Test_Pane' layerMask='ffffffff'
-#         PROPERTY control='Button 2224' name='colours' id='0' value='trans white'
-#         PROPERTY control='Button 2224' name='colours' id='1' value='invisible'
-#         PROPERTY control='Button 2224' name='colours' id='2' value='none'
-#         PROPERTY control='Button 2224' name='colours' id='3' value='red'
-#         PROPERTY control='Button 2224' name='colours' id='4' value='none'
-#         PROPERTY control='Button 2224' name='graphics' id='0' value='none'
-#         PROPERTY control='Button 2224' name='graphics' id='1' value='none'
-#         PROPERTY control='Button 2224' name='graphics' id='2' value='none'
-#         PROPERTY control='Button 2224' name='graphics' id='3' value='none'
-#         PARAMETER control='Button 2224' port='Button Value' module='main' parameter='RnDmB' valuestring='generic'
-#         PROPERTY control='Button 2224' name='PushOnly' id='1' value='Yes'
-
-#         CONTROL type='Label' name='Label 2225' bounds='-10.00 20.00 50.00 12.00' parent='Button 2224' layerMask='ffffffff'
-#         PROPERTY control='Label 2225' name='colours' id='0' value='none'
-#         PROPERTY control='Label 2225' name='colours' id='1' value='black'
-#         PROPERTY control='Label 2225' name='graphics' id='0' value='none'
-#         PROPERTY control='Label 2225' name='labeltext' id='0' value='Randomize'
-#         PROPERTY control='Label 2225' name='parentLabel' id='0' value='yes'
-
-#         CONTROL type='Slider' name='Slider 2303' bounds='30.00 80.00 50.00 20.00' parent='Test_Pane' layerMask='ffffffff'
-#         PROPERTY control='Slider 2303' name='colours' id='0' value='trans white'
-#         PROPERTY control='Slider 2303' name='colours' id='1' value='invisible'
-#         PROPERTY control='Slider 2303' name='colours' id='2' value='trans red'
-#         PROPERTY control='Slider 2303' name='graphics' id='0' value='none'
-#         PROPERTY control='Slider 2303' name='graphics' id='1' value='none'
-#         PROPERTY control='Slider 2303' name='graphics' id='2' value='none'
-#         PARAMETER control='Slider 2303' port='Slider Value' module='main' parameter='RnDm' valuestring='generic'
-#         PROPERTY control='Slider 2303' name='direction' id='0' value='horizontal'
-
-#         CONTROL type='Label' name='Label 2304' bounds='0.00 20.00 50.00 12.00' parent='Slider 2303' layerMask='ffffffff'
-#         PROPERTY control='Label 2304' name='colours' id='0' value='none'
-#         PROPERTY control='Label 2304' name='colours' id='1' value='black'
-#         PROPERTY control='Label 2304' name='graphics' id='0' value='none'
-#         PROPERTY control='Label 2304' name='labeltext' id='0' value='Random'
-#         PROPERTY control='Label 2304' name='parentLabel' id='0' value='yes'
 
 #     # show empty folders
 #         # CONTROL type='Button On-Off' name='Button 2273' bounds='200.00 40.00 40.00 20.00' parent='Test_Pane' layerMask='ffffffff'
