@@ -6174,14 +6174,18 @@ PROPERTY control='Mixer Holder' name='graphics' id='1' value='none'
 PROPERTY control='Mixer Holder' name='layer' id='0' value='MIXER'
 # PROPERTY control='Mixer Holder' name='layer' id='1' value='COMP'
 
-# CONTROL type='Pane' name='Pane 430' bounds='0.00 0.00 220.00 474.00' parent='Mixer BG' layerMask='1'
-# PROPERTY control='Pane 430' name='colours' id='0' value='none'
-# PROPERTY control='Pane 430' name='colours' id='1' value='none'
-# PROPERTY control='Pane 430' name='colours' id='2' value='none'
-# PROPERTY control='Pane 430' name='colours' id='3' value='none'
-# PROPERTY control='Pane 430' name='graphics' id='0' value='none'
-# PROPERTY control='Pane 430' name='layer' id='0' value='Voice Mix'
-# PROPERTY control='Pane 430' name='layer' id='1' value='ModMatrix'
+
+# CONTROL type='Label' name='OSC1_Title' bounds='0.00 5.00 324.00 redux_title_h' parent='OSC 1 Ghost' layerMask='ffffffff'
+# PROPERTY control='OSC1_Title' name='colours' id='0' value='group_bg'
+# PROPERTY control='OSC1_Title' name='colours' id='1' value='label_group'
+# PROPERTY control='OSC1_Title' name='graphics' id='0' value='none'
+# PROPERTY control='OSC1_Title' name='labeltext' id='0' value=' OSC 1 '
+# PROPERTY control='OSC1_Title' name='parentLabel' id='0' value='yes'
+# PROPERTY control='OSC1_Title' name='displayTextSize' id='0' value='10.00'
+# PROPERTY control='OSC1_Title' name='FontVOffset' id='0' value='-2.00'
+# PROPERTY control='OSC1_Title' name='FontAlignment' id='0' value='0'
+# PROPERTY control='OSC1_Title' name='font' id='0' value='title_font'
+# PROPERTY control='OSC1_Title' name='FontSize' id='0' value='title_font_size'
 
 # channel stip 1
 CONTROL type='Pane' name='Mixer Channel Strip 1 BG' bounds='6.00 20.00 47.00 225.00' parent='Mixer Holder' layerMask='1'
@@ -7045,16 +7049,24 @@ PROPERTY control='Mixer Channel Strip 4 BG' name='graphics' id='0' value='none'
 CONTROL type='LayerSelector' name='Mixer Comp Selector' bounds='-1.00 0.00 224.00 18.00' parent='Mixer BG' layerMask='1'
 PROPERTY control='Mixer Comp Selector' name='colours' id='0' value='invisible' # inactive tab bg
 PROPERTY control='Mixer Comp Selector' name='colours' id='1' value='invisible' # border
-PROPERTY control='Mixer Comp Selector' name='colours' id='2' value='w50' # inactive tab text
+PROPERTY control='Mixer Comp Selector' name='colours' id='2' value='invisible' # inactive tab text
 PROPERTY control='Mixer Comp Selector' name='colours' id='3' value='invisible' # active tab bg # b50
-PROPERTY control='Mixer Comp Selector' name='colours' id='4' value='w130' # active tab text
+PROPERTY control='Mixer Comp Selector' name='colours' id='4' value='invisible' # active tab text
 PROPERTY control='Mixer Comp Selector' name='graphics' id='0' value='none'
-# PROPERTY control='Mixer Comp Selector' name='graphics' id='1' value='mixer_tabs'
-
 PROPERTY control='Mixer Comp Selector' name='clientpane' id='1' value='Mixer Holder'
 PROPERTY control='Mixer Comp Selector' name='vertical' id='1' value='no'
 
-
+CONTROL type='Label' name='Mixer_Title' bounds='0.00 0.00 224.00 18.00' parent='Mixer Comp Selector' layerMask='ffffffff'
+PROPERTY control='Mixer_Title' name='colours' id='0' value='none'
+PROPERTY control='Mixer_Title' name='colours' id='1' value='label_group'
+PROPERTY control='Mixer_Title' name='graphics' id='0' value='none'
+PROPERTY control='Mixer_Title' name='labeltext' id='0' value='MIXER'
+PROPERTY control='Mixer_Title' name='parentLabel' id='0' value='yes'
+PROPERTY control='Mixer_Title' name='displayTextSize' id='0' value='10.00'
+PROPERTY control='Mixer_Title' name='FontVOffset' id='0' value='-2.00'
+PROPERTY control='Mixer_Title' name='FontAlignment' id='0' value='1'
+PROPERTY control='Mixer_Title' name='font' id='0' value='title_font'
+PROPERTY control='Mixer_Title' name='FontSize' id='0' value='title_font_size'
 
 
 
