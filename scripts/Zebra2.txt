@@ -1237,7 +1237,7 @@ GR_PROPERTY graphic='v_randomize_head' name='radius' id='0' value='0.00'
 
 
 
-COLOUR name='c_arp_head' rgba='83959Dff'
+COLOUR name='c_arp_head' rgba='FF583Cff' # 83959Dff
 COLOUR name='c_arp_head_border' rgba='424045ff'
 
 GRAPHIC name='v_arp_head' path='1' type='rounded rect'
@@ -21135,17 +21135,17 @@ PROPERTY control='Swing BG' name='graphics' id='0' value='none'
 ###
 
 	CONTROL type='CollPane' name='Arp CollPane' bounds='0.00 73.00 324.00 304.00' parent='Arp In Rack Ghost' layerMask='1'
-	PROPERTY control='Arp CollPane' name='colours' id='0' value='none'
+	PROPERTY control='Arp CollPane' name='colours' id='0' value='arp_bg_grad'
 	PROPERTY control='Arp CollPane' name='colours' id='1' value='none'
 	PROPERTY control='Arp CollPane' name='colours' id='2' value='none'
 	PROPERTY control='Arp CollPane' name='colours' id='3' value='none'
-	PROPERTY control='Arp CollPane' name='graphics' id='0' value='none' # arp_grid
+	PROPERTY control='Arp CollPane' name='graphics' id='0' value='v_module_overlay_rect' # arp_grid
 	PARAMETER control='Arp CollPane' port='' module='' parameter=''
 	PROPERTY control='Arp CollPane' name='layer' id='0' value='-'
 	PROPERTY control='Arp CollPane' name='layer' id='1' value='+'
 
 	CONTROL type='Pane' name='Arp Controls Holder' bounds='0.00 2.00 324.00 302.00' parent='Arp CollPane' layerMask='2'
-	PROPERTY control='Arp Controls Holder' name='colours' id='0' value='arp_bg_grad' # arp_sub_bg
+	PROPERTY control='Arp Controls Holder' name='colours' id='0' value='none' # arp_sub_bg
 	PROPERTY control='Arp Controls Holder' name='colours' id='1' value='sub_module_border' # module_border
 	PROPERTY control='Arp Controls Holder' name='colours' id='2' value='none'
 	PROPERTY control='Arp Controls Holder' name='colours' id='3' value='none'
