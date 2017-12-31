@@ -145,7 +145,7 @@ COLOUR name='osc_editor_bg' rgba='212024e0'
 COLOUR name='label_group' rgba='ffffff90'
 COLOUR name='group_bg' rgba='3D3C40ff' # 2A292Dff
 
-COLOUR name='module_highlight' rgba='4C4A4Fff' # 545358ff 58555Bbb 372F3Dff
+COLOUR name='module_highlight' rgba='4C4A4Fff' #  4C4A4Fff FFC000ff
 
 COLOUR name='editor_in_rack_bg' rgba='21202472' # 00000032 212024c2
 COLOUR name='mseg_editor_bg' rgba='212024cc'
@@ -1237,7 +1237,6 @@ GR_PROPERTY graphic='v_randomize_head' name='radius' id='0' value='0.00'
 
 
 *********************************************************************
-
 
 
 
@@ -5739,13 +5738,12 @@ PROPERTY control='PresetManagerPane' name='colours' id='3' value='none'
 PROPERTY control='PresetManagerPane' name='graphics' id='0' value='none'
 PROPERTY control='PresetManagerPane' name='layer' id='0' value='Layer 1'
 
-
 CONTROL type='PresetBrowser' name='PatchBrowser' bounds='0.00 0.00 913.00 680.00' parent='PresetManagerPane' layerMask='1'
 PROPERTY control='PatchBrowser' name='colours' id='0' value='none'
 PROPERTY control='PatchBrowser' name='colours' id='1' value='none'
 PROPERTY control='PatchBrowser' name='graphics' id='0' value='none'
 PROPERTY control='PatchBrowser' name='columns' id='0' value='4' # 4
-PROPERTY control='PatchBrowser' name='spacing' id='0' value='0.00'
+PROPERTY control='PatchBrowser' name='spacing' id='0' value='1.00'
 PROPERTY control='PatchBrowser' name='margin H' id='0' value='4.00'
 PROPERTY control='PatchBrowser' name='margin V' id='0' value='4.00'
 
@@ -5855,10 +5853,6 @@ PROPERTY control='_DisplayRootStack' name='Resize Type H' id='0' value='Flexible
         PROPERTY control='LabelFolderClear' name='parentLabel' id='0' value='yes'
         PROPERTY control='LabelFolderClear' name='FontSize' id='0' value='13.00'
 
-    # CONTROL type='Layout-Spacer' name='Layout-Spacer 72425+' bounds='0.00 22.00 0.00 6.00' parent='_PresetManagerStack' layerMask='ffffffff'
-    # PROPERTY control='Layout-Spacer 72425+' name='colours' id='0' value='none'
-    # PROPERTY control='Layout-Spacer 72425+' name='colours' id='1' value='none'
-
 # folder list
 CONTROL type='Layout-Stack' name='_PresetManagerFrameStack' bounds='0.00 32.00 268.00 480.00' parent='_PresetManagerStack' layerMask='ffffffff'
 PROPERTY control='_PresetManagerFrameStack' name='colours' id='0' value='none'
@@ -5884,6 +5878,7 @@ PROPERTY control='_PresetManagerView' name='labelTextVOffset' id='0' value='-2.0
 PROPERTY control='_PresetManagerView' name='Resize Type H' id='0' value='Flexible'
 PROPERTY control='_PresetManagerView' name='Resize Type V' id='0' value='Flexible'
 
+
 # preset list
 CONTROL type='Layout-Stack' name='_PresetSelectorStack' bounds='286.00 2.00 557.00 512.00' parent='PatchBrowser' layerMask='ffffffff'
 PROPERTY control='_PresetSelectorStack' name='colours' id='0' value='none'
@@ -5891,20 +5886,25 @@ PROPERTY control='_PresetSelectorStack' name='colours' id='1' value='none'
 PROPERTY control='_PresetSelectorStack' name='graphics' id='0' value='none'
 PROPERTY control='_PresetSelectorStack' name='prototype' id='0' value='_PresetManagerStack'
 PROPERTY control='_PresetSelectorStack' name='align (non orientation)' id='0' value='center'
-PROPERTY control='_PresetSelectorStack' name='margin H' id='0' value='4.00'
+PROPERTY control='_PresetSelectorStack' name='margin H' id='0' value='0.00'
 
+    # restore stack
     CONTROL type='Layout-Stack' name='_RestoreStack' bounds='4.00 0.00 549.00 32.00' parent='_PresetSelectorStack' layerMask='ffffffff'
-    PROPERTY control='_RestoreStack' name='colours' id='0' value='none'
+    PROPERTY control='_RestoreStack' name='colours' id='0' value='w10'
     PROPERTY control='_RestoreStack' name='colours' id='1' value='none'
     PROPERTY control='_RestoreStack' name='graphics' id='0' value='none'
     PROPERTY control='_RestoreStack' name='orientation' id='0' value='horizontal'
     PROPERTY control='_RestoreStack' name='align (non orientation)' id='0' value='center'
     PROPERTY control='_RestoreStack' name='Resize Type H' id='0' value='Flexible'
 
-        CONTROL type='Button On-Off' name='_RestoreButton' bounds='0.00 8.00 55.00 16.00' parent='_RestoreStack' layerMask='ffffffff'
-        PROPERTY control='_RestoreButton' name='colours' id='0' value='none'
-        PROPERTY control='_RestoreButton' name='colours' id='1' value='w40'
-        PROPERTY control='_RestoreButton' name='colours' id='2' value='w120'
+    CONTROL type='Layout-Spacer' name='Layout-Spacer_Gap_L' bounds='0.00 0.00 4.00 32.00' parent='_RestoreStack' layerMask='ffffffff'
+    PROPERTY control='Layout-Spacer_Gap_L' name='colours' id='0' value='none'
+    PROPERTY control='Layout-Spacer_Gap_L' name='colours' id='1' value='none'
+
+        CONTROL type='Button On-Off' name='_RestoreButton' bounds='0.00 4.00 55.00 24.00' parent='_RestoreStack' layerMask='ffffffff'
+        PROPERTY control='_RestoreButton' name='colours' id='0' value='w20'
+        PROPERTY control='_RestoreButton' name='colours' id='1' value='none'
+        PROPERTY control='_RestoreButton' name='colours' id='2' value='w150'
         PROPERTY control='_RestoreButton' name='colours' id='3' value='none'
         PROPERTY control='_RestoreButton' name='colours' id='4' value='none'
         PROPERTY control='_RestoreButton' name='graphics' id='0' value='none'
@@ -5913,19 +5913,29 @@ PROPERTY control='_PresetSelectorStack' name='margin H' id='0' value='4.00'
         PROPERTY control='_RestoreButton' name='graphics' id='3' value='none'
         PROPERTY control='_RestoreButton' name='ActionID' id='1' value='72657350'
 
-        CONTROL type='Layout-Spacer' name='Layout-Spacer 72425' bounds='55.00 11.00 10.00 10.00' parent='_RestoreStack' layerMask='ffffffff'
-        PROPERTY control='Layout-Spacer 72425' name='colours' id='0' value='none'
-        PROPERTY control='Layout-Spacer 72425' name='colours' id='1' value='none'
+    # CONTROL type='Layout-Spacer' name='Layout-Spacer_R1' bounds='55.00 4.00 1.00 24.00' parent='_RestoreStack' layerMask='ffffffff'
+    # PROPERTY control='Layout-Spacer_R1' name='colours' id='0' value='none'
+    # PROPERTY control='Layout-Spacer_R1' name='colours' id='1' value='none'
 
-        CONTROL type='Label' name='_RestoreLabel' bounds='0.00 6.00 589.00 20.00' parent='_RestoreStack' layerMask='ffffffff'
+    CONTROL type='Layout-Spacer' name='Layout-Spacer_R2' bounds='55.00 4.00 10.00 24.00' parent='_RestoreStack' layerMask='ffffffff'
+    PROPERTY control='Layout-Spacer_R2' name='colours' id='0' value='none'
+    PROPERTY control='Layout-Spacer_R2' name='colours' id='1' value='none'
+
+        # name of preset to restore
+        CONTROL type='Label' name='_RestoreLabel' bounds='155.00 4.00 586.00 24.00' parent='_RestoreStack' layerMask='ffffffff'
         PROPERTY control='_RestoreLabel' name='colours' id='0' value='none'
-        PROPERTY control='_RestoreLabel' name='colours' id='1' value='w80' # restore name
+        PROPERTY control='_RestoreLabel' name='colours' id='1' value='white' # restore name
         PROPERTY control='_RestoreLabel' name='graphics' id='0' value='none'
         PROPERTY control='_RestoreLabel' name='labeltext' id='0' value='All Modules'
         PROPERTY control='_RestoreLabel' name='FontSize' id='0' value='12.00'
         PROPERTY control='_RestoreLabel' name='FontAlignment' id='0' value='left'
 
-        CONTROL type='Button On-Off' name='_ViewMenuButtonPS' bounds='810.00 8.00 16.00 16.00' parent='_RestoreStack' layerMask='ffffffff'
+    CONTROL type='Layout-Spacer' name='Layout-Spacer_R3' bounds='55.00 4.00 4.00 24.00' parent='_RestoreStack' layerMask='ffffffff'
+    PROPERTY control='Layout-Spacer_R3' name='colours' id='0' value='none'
+    PROPERTY control='Layout-Spacer_R3' name='colours' id='1' value='none'
+
+        # info menu
+        CONTROL type='Button On-Off' name='_ViewMenuButtonPS' bounds='10.00 8.00 16.00 16.00' parent='_RestoreStack' layerMask='7fffffff'
         PROPERTY control='_ViewMenuButtonPS' name='colours' id='0' value='none'
         PROPERTY control='_ViewMenuButtonPS' name='colours' id='1' value='none'
         PROPERTY control='_ViewMenuButtonPS' name='colours' id='2' value='none'
@@ -5935,6 +5945,8 @@ PROPERTY control='_PresetSelectorStack' name='margin H' id='0' value='4.00'
         PROPERTY control='_ViewMenuButtonPS' name='graphics' id='1' value='none'
         PROPERTY control='_ViewMenuButtonPS' name='graphics' id='2' value='none'
         PROPERTY control='_ViewMenuButtonPS' name='graphics' id='3' value='none'
+
+
 
 CONTROL type='PresetSelector' name='_PresetSelectorView' bounds='4.00 32.00 249.00 480.00' parent='_PresetSelectorStack' layerMask='ffffffff'
 PROPERTY control='_PresetSelectorView' name='colours' id='0' value='presets_bg'
@@ -21120,6 +21132,7 @@ PROPERTY control='Swing BG' name='graphics' id='0' value='none'
 	PROPERTY control='Arp Controls Holder' name='colours' id='3' value='none'
 	PROPERTY control='Arp Controls Holder' name='graphics' id='0' value='none'
 
+
 # Arp Controls - vertical LEDs
 
 	CONTROL type='Pane' name='Arp Controls Pane' bounds='0.00 0.00 324.00 313.00' parent='Arp Controls Holder' layerMask='1'
@@ -33245,46 +33258,6 @@ PROPERTY control='PreferencesMenuInfo' name='FontVAlignment' id='0' value='top'
 # PROPERTY control='Test_Pane' name='movable' id='0' value='YES'
 
 
-#     # drag
-#         # CONTROL type='Dragable' name='Dragable 2177' bounds='10.00 10.00 72.00 20.00' parent='Test_Pane' layerMask='ffffffff'
-#         # PROPERTY control='Dragable 2177' name='colours' id='0' value='trans red'
-#         # PROPERTY control='Dragable 2177' name='colours' id='1' value='trans white'
-#         # PROPERTY control='Dragable 2177' name='colours' id='2' value='orange'
-#         # PROPERTY control='Dragable 2177' name='colours' id='3' value='w100'
-#         # PROPERTY control='Dragable 2177' name='colours' id='4' value='yellow'
-#         # PROPERTY control='Dragable 2177' name='graphics' id='0' value='none'
-#         # PROPERTY control='Dragable 2177' name='graphics' id='1' value='none'
-#         # PROPERTY control='Dragable 2177' name='graphics' id='2' value='none'
-#         # PARAMETER control='Dragable 2177' port='Commands' module='OSC1' parameter='Wave'
-
-#         # CONTROL type='Label' name='Label 2178' bounds='4.00 21.00 64.00 12.00' parent='Dragable 2177' layerMask='ffffffff'
-#         # PROPERTY control='Label 2178' name='colours' id='0' value='w50'
-#         # PROPERTY control='Label 2178' name='colours' id='1' value='black'
-#         # PROPERTY control='Label 2178' name='graphics' id='0' value='none'
-#         # PROPERTY control='Label 2178' name='labeltext' id='0' value='WaveForm'
-#         # PROPERTY control='Label 2178' name='parentLabel' id='0' value='yes'
-
-#     # show empty folders
-#         # CONTROL type='Button On-Off' name='Button 2273' bounds='200.00 40.00 40.00 20.00' parent='Test_Pane' layerMask='ffffffff'
-#         # PROPERTY control='Button 2273' name='colours' id='0' value='trans white'
-#         # PROPERTY control='Button 2273' name='colours' id='1' value='none'
-#         # PROPERTY control='Button 2273' name='colours' id='2' value='none'
-#         # PROPERTY control='Button 2273' name='colours' id='3' value='trans red'
-#         # PROPERTY control='Button 2273' name='colours' id='4' value='none'
-#         # PROPERTY control='Button 2273' name='graphics' id='0' value='none'
-#         # PROPERTY control='Button 2273' name='graphics' id='1' value='none'
-#         # PROPERTY control='Button 2273' name='graphics' id='2' value='none'
-#         # PROPERTY control='Button 2273' name='graphics' id='3' value='none'
-#         # PROPERTY control='Button 2273' name='ActionID' id='1' value='74676566'
-
-#         # CONTROL type='Label' name='Label 2274' bounds='-30.00 20.00 98.00 20.00' parent='Button 2273' layerMask='ffffffff'
-#         # PROPERTY control='Label 2274' name='colours' id='0' value='w100'
-#         # PROPERTY control='Label 2274' name='colours' id='1' value='black'
-#         # PROPERTY control='Label 2274' name='graphics' id='0' value='red'
-#         # PROPERTY control='Label 2274' name='labeltext' id='0' value='Show empty folders'
-#         # PROPERTY control='Label 2274' name='parentLabel' id='0' value='yes'
-#         # PROPERTY control='Label 2274' name='hasShadow' id='0' value='yes'
-
 #     # Clear MIDI assigns
 #         CONTROL type='Button On-Off' name='Button 2299' bounds='100.00 40.00 90.00 20.00' parent='Test_Pane' layerMask='ffffffff'
 #         PROPERTY control='Button 2299' name='colours' id='0' value='w150'
@@ -33306,45 +33279,6 @@ PROPERTY control='PreferencesMenuInfo' name='FontVAlignment' id='0' value='top'
 #         PROPERTY control='Label 2300' name='labeltext' id='0' value='Clear MIDI assigns'
 #         PROPERTY control='Label 2300' name='parentLabel' id='0' value='yes'
 
-#     # clear folder
-#         # CONTROL type='Button On-Off' name='Button 2279' bounds='300.00 40.00 26.00 12.00' parent='Test_Pane' layerMask='ffffffff'
-#         # PROPERTY control='Button 2279' name='colours' id='0' value='w100'
-#         # PROPERTY control='Button 2279' name='colours' id='1' value='none'
-#         # PROPERTY control='Button 2279' name='colours' id='2' value='none'
-#         # PROPERTY control='Button 2279' name='colours' id='3' value='red'
-#         # PROPERTY control='Button 2279' name='colours' id='4' value='none'
-#         # PROPERTY control='Button 2279' name='graphics' id='0' value='none'
-#         # PROPERTY control='Button 2279' name='graphics' id='1' value='none'
-#         # PROPERTY control='Button 2279' name='graphics' id='2' value='none'
-#         # PROPERTY control='Button 2279' name='graphics' id='3' value='none'
-#         # PROPERTY control='Button 2279' name='ActionID' id='1' value='636C6546'
-
-#         # CONTROL type='Label' name='Label 2280' bounds='-19.00 12.00 64.00 12.00' parent='Button 2279' layerMask='ffffffff'
-#         # PROPERTY control='Label 2280' name='colours' id='0' value='none'
-#         # PROPERTY control='Label 2280' name='colours' id='1' value='black'
-#         # PROPERTY control='Label 2280' name='graphics' id='0' value='none'
-#         # PROPERTY control='Label 2280' name='labeltext' id='0' value='Clear folder'
-#         # PROPERTY control='Label 2280' name='parentLabel' id='0' value='yes'
-
-#     # folder up
-#         # CONTROL type='Button On-Off' name='Button 2277' bounds='343.00 116.00 26.00 12.00' parent='Test_Pane' layerMask='ffffffff'
-#         # PROPERTY control='Button 2277' name='colours' id='0' value='w100'
-#         # PROPERTY control='Button 2277' name='colours' id='1' value='none'
-#         # PROPERTY control='Button 2277' name='colours' id='2' value='none'
-#         # PROPERTY control='Button 2277' name='colours' id='3' value='red'
-#         # PROPERTY control='Button 2277' name='colours' id='4' value='none'
-#         # PROPERTY control='Button 2277' name='graphics' id='0' value='none'
-#         # PROPERTY control='Button 2277' name='graphics' id='1' value='none'
-#         # PROPERTY control='Button 2277' name='graphics' id='2' value='none'
-#         # PROPERTY control='Button 2277' name='graphics' id='3' value='none'
-#         # PROPERTY control='Button 2277' name='ActionID' id='1' value='666F6C55'
-
-#         # CONTROL type='Label' name='Label 2278' bounds='-19.00 12.00 64.00 12.00' parent='Button 2277' layerMask='ffffffff'
-#         # PROPERTY control='Label 2278' name='colours' id='0' value='none'
-#         # PROPERTY control='Label 2278' name='colours' id='1' value='black'
-#         # PROPERTY control='Label 2278' name='graphics' id='0' value='none'
-#         # PROPERTY control='Label 2278' name='labeltext' id='0' value='Folder up'
-#         # PROPERTY control='Label 2278' name='parentLabel' id='0' value='yes'
 
 #     # show junk
 #         CONTROL type='Button On-Off' name='Button 2275' bounds='200.00 40.00 80.00 20.00' parent='Test_Pane' layerMask='ffffffff'
