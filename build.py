@@ -14,42 +14,58 @@ FLUSH_METADATA = False
 
 now = time.strftime('%Y-%m%d-%H%M')
 base_dir = os.path.dirname(os.path.realpath(__file__))
-zip_name = '%s-%s' % (PROJECT_NAME, now)
 
 build_path = os.path.join(base_dir, 'build')
 redux_path = os.path.join(build_path, 'Redux')
 scripts_path = os.path.join(redux_path, 'Scripts')
 images_path = os.path.join(redux_path, 'Images')
 
-variables = {'label_font': 'RopaSans-Italic',
-             # 'label_font_size': '12.00',
-             # 'label_small_font': 'Viga-Regular',
-             # 'label_small_font_size': '10.00',
-             # 'display_font': 'RopaSans-Italic',
-             # 'display_font_size': '13.00',
-             # 'button_font': 'RopaSans-Italic',
-             # 'button_font_size': '13.00',
-             'title_font': 'Viga-Regular',
-             'title_font_size': '11.00',
-             # 'slider_head_size': '2.00',
-             # 'slider_sensitivity': '0.20',
-             'redux_version': now,
-             'redux_pane_radius': '0.00',
-             'redux_dot_size': '7.00',
-             'redux_title_h': '14.00',
-             'redux_module_is_rackmember': 'no',
-             'redux_module_overlay_mode': 'overlay',
-             # 'redux_rack_404_bounds': '259.00 40.00 339.00 510.00',
-             # 'redux_fx_rack_parent': 'Top Panel',
-             # 'redux_fx_rack_layermask': '1',
-             # 'redux_fx_rack_bounds': '265.00 554.00 324.00 160.00',
-             'redux_rack_404_bounds': '259.00 40.00 339.00 674.00',
-             'redux_fx_rack_parent': 'Rack 404',
-             'redux_fx_rack_layermask': '80000000',
-             'redux_fx_rack_bounds': '6.00 3738.00 324.00 160.00',             
-             }
+config_default = {'redux_config_name': 'default',
+                  'redux_version': now,
+                  'redux_title_font': 'Viga-Regular',
+                  'redux_title_font_size': '10.00',
+                  'redux_pane_radius': '0.00',
+                  'redux_dot_size': '7.00',
+                  'redux_title_h': '14.00',
+                  'redux_module_is_rackmember': 'YES',
+                  'redux_module_overlay_mode': 'overlay',
+                  'redux_rack_404_bounds': '259.00 40.00 339.00 674.00',
+                  'redux_fx_rack_parent': 'Rack 404',
+                  'redux_fx_rack_layermask': '80000000',
+                  'redux_fx_rack_bounds': '6.00 3738.00 324.00 160.00',
+                  }
 
+config_drzhnn = {'redux_config_name': 'drzhnn',
+                 'redux_version': now,
+                 'redux_title_font': 'Viga-Regular',
+                 'redux_title_font_size': '11.00',
+                 'redux_pane_radius': '0.00',
+                 'redux_dot_size': '7.00',
+                 'redux_title_h': '14.00',
+                 'redux_module_is_rackmember': 'NO',
+                 'redux_module_overlay_mode': 'overlay',
+                 'redux_rack_404_bounds': '259.00 40.00 339.00 674.00',
+                 'redux_fx_rack_parent': 'Rack 404',
+                 'redux_fx_rack_layermask': '80000000',
+                 'redux_fx_rack_bounds': '6.00 3738.00 324.00 160.00',
+                 }
 
+config_fixed_fxrack = {'redux_config_name': 'fixed_fxrack',
+                       'redux_version': now,
+                       'redux_title_font': 'Viga-Regular',
+                       'redux_title_font_size': '10.00',
+                       'redux_pane_radius': '0.00',
+                       'redux_dot_size': '7.00',
+                       'redux_title_h': '14.00',
+                       'redux_module_is_rackmember': 'YES',
+                       'redux_module_overlay_mode': 'overlay',
+                       'redux_rack_404_bounds': '259.00 40.00 339.00 510.00',
+                       'redux_fx_rack_parent': 'Top Panel',
+                       'redux_fx_rack_layermask': '1',
+                       'redux_fx_rack_bounds': '265.00 554.00 324.00 160.00',
+                       }
+
+configs_to_build = [config_default, config_drzhnn, config_fixed_fxrack]
 
 garbage = ['(?!#FX.)[#].*', '^[ \t]+', '[ \t]+$', '  +', '^\n']
 
@@ -71,7 +87,7 @@ def flush_metadata(filename):
     os.remove(tmp_name)
 
 
-def main():
+def build(config):
     try:
         shutil.rmtree(redux_path)
     except Exception as e:
@@ -85,7 +101,6 @@ def main():
         shutil.copytree(os.path.join(base_dir, 'scripts'), scripts_path)
         shutil.copytree(os.path.join(base_dir, 'images'), images_path)
 
-
     scripts = []
 
     for root, _, files in os.walk(scripts_path):
@@ -97,9 +112,9 @@ def main():
         for i, _ in enumerate(garbage):
             line = re.sub(garbage[i], '', line)
 
-        for key in variables:
+        for key in config:
             regex_string = r'\b(%s)\b' % key
-            line = re.sub(regex_string, variables[key], line)
+            line = re.sub(regex_string, config[key], line)
 
         print(line, end='')
 
@@ -113,12 +128,17 @@ def main():
                     print(e)
 
     if RELEASE:
-        shutil.make_archive(os.path.join(base_dir, zip_name), 'zip', build_path)
+        zip_name = '%s-%s-%s' % (PROJECT_NAME, now, config['redux_config_name'])
+        shutil.make_archive(os.path.join(
+            base_dir, zip_name), 'zip', build_path)
 
     winsound.Beep(2000, 100)
 
 
 if __name__ == '__main__':
-    if len(sys.argv) > 1:
+    if len(sys.argv) > 1 and sys.argv[1] == 'release':
         RELEASE = True
-    main()
+        for config in configs_to_build:
+            build(config)
+    else:
+        build(config_default)
