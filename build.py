@@ -128,7 +128,8 @@ def build(config):
                     print(e)
 
     if RELEASE:
-        zip_name = '%s-%s-%s' % (PROJECT_NAME, now, config['redux_config_name'])
+        zip_name = '%s-%s-%s' % (PROJECT_NAME, now,
+                                 config['redux_config_name'])
         shutil.make_archive(os.path.join(
             base_dir, zip_name), 'zip', build_path)
 
@@ -141,4 +142,4 @@ if __name__ == '__main__':
         for config in configs_to_build:
             build(config)
     else:
-        build(config_default)
+        build(config_drzhnn)
