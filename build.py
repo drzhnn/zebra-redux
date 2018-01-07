@@ -1,4 +1,3 @@
-from PIL import Image
 import fileinput
 import os
 import re
@@ -6,22 +5,23 @@ import shutil
 import sys
 import time
 import winsound
+from PIL import Image
 
 
 PROJECT_NAME = 'zebra-redux'
 RELEASE = False
 FLUSH_METADATA = False
 
-now = time.strftime('%Y-%m%d-%H%M')
-base_dir = os.path.dirname(os.path.realpath(__file__))
+NOW = time.strftime('%Y-%m%d-%H%M')
+BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
-build_path = os.path.join(base_dir, 'build')
-redux_path = os.path.join(build_path, 'Redux')
-scripts_path = os.path.join(redux_path, 'Scripts')
-images_path = os.path.join(redux_path, 'Images')
+BUILD_PATH = os.path.join(BASE_DIR, 'build')
+REDUX_PATH = os.path.join(BUILD_PATH, 'Redux')
+SCRIPTS_PATH = os.path.join(REDUX_PATH, 'Scripts')
+IMAGES_PATH = os.path.join(REDUX_PATH, 'Images')
 
-config_default = {'redux_config_name': 'default',
-                  'redux_version': now,
+CONFIG_DEFAULT = {'redux_config_name': 'default',
+                  'redux_version': NOW,
                   'redux_title_font': 'Viga-Regular',
                   'redux_title_font_size': '10.00',
                   'redux_pane_radius': '0.00',
@@ -35,8 +35,8 @@ config_default = {'redux_config_name': 'default',
                   'redux_fx_rack_bounds': '6.00 3738.00 324.00 160.00',
                   }
 
-config_drzhnn = {'redux_config_name': 'drzhnn',
-                 'redux_version': now,
+CONFIG_DRZHNN = {'redux_config_name': 'drzhnn',
+                 'redux_version': NOW,
                  'redux_title_font': 'Viga-Regular',
                  'redux_title_font_size': '11.00',
                  'redux_pane_radius': '0.00',
@@ -50,8 +50,8 @@ config_drzhnn = {'redux_config_name': 'drzhnn',
                  'redux_fx_rack_bounds': '6.00 3738.00 324.00 160.00',
                  }
 
-config_fixed_fxrack = {'redux_config_name': 'fixed_fxrack',
-                       'redux_version': now,
+CONFIG_FIXED_FXRACK = {'redux_config_name': 'fixed_fxrack',
+                       'redux_version': NOW,
                        'redux_title_font': 'Viga-Regular',
                        'redux_title_font_size': '10.00',
                        'redux_pane_radius': '0.00',
@@ -65,9 +65,9 @@ config_fixed_fxrack = {'redux_config_name': 'fixed_fxrack',
                        'redux_fx_rack_bounds': '265.00 554.00 324.00 160.00',
                        }
 
-configs_to_build = [config_default, config_drzhnn, config_fixed_fxrack]
+CONFIGS_TO_BUILD = [CONFIG_DEFAULT, CONFIG_DRZHNN, CONFIG_FIXED_FXRACK]
 
-garbage = ['(?!#FX.)[#].*', '^[ \t]+', '[ \t]+$', '  +', '^\n']
+GARBAGE = ['(?!#FX.)[#].*', '^[ \t]+', '[ \t]+$', '  +', '^\n']
 
 
 def flush_metadata(filename):
@@ -89,28 +89,28 @@ def flush_metadata(filename):
 
 def build(config):
     try:
-        shutil.rmtree(redux_path)
+        shutil.rmtree(REDUX_PATH)
     except Exception as e:
         print(e)
 
     try:
-        os.makedirs(redux_path)
+        os.makedirs(REDUX_PATH)
     except Exception as e:
         print(e)
     finally:
-        shutil.copytree(os.path.join(base_dir, 'scripts'), scripts_path)
-        shutil.copytree(os.path.join(base_dir, 'images'), images_path)
+        shutil.copytree(os.path.join(BASE_DIR, 'scripts'), SCRIPTS_PATH)
+        shutil.copytree(os.path.join(BASE_DIR, 'images'), IMAGES_PATH)
 
     scripts = []
 
-    for root, _, files in os.walk(scripts_path):
+    for root, _, files in os.walk(SCRIPTS_PATH):
         for filename in files:
             full_path = os.path.join(root, filename)
             scripts.append(full_path)
 
     for line in fileinput.FileInput(scripts, inplace=1):
-        for i, _ in enumerate(garbage):
-            line = re.sub(garbage[i], '', line)
+        for i, _ in enumerate(GARBAGE):
+            line = re.sub(GARBAGE[i], '', line)
 
         for key in config:
             regex_string = r'\b(%s)\b' % key
@@ -119,7 +119,7 @@ def build(config):
         print(line, end='')
 
     if FLUSH_METADATA:
-        for root, dirs, files in os.walk(images_path):
+        for root, dirs, files in os.walk(IMAGES_PATH):
             for file in files:
                 fname = os.path.join(root, file)
                 try:
@@ -128,10 +128,10 @@ def build(config):
                     print(e)
 
     if RELEASE:
-        zip_name = '%s-%s-%s' % (PROJECT_NAME, now,
+        zip_name = '%s-%s-%s' % (PROJECT_NAME, NOW,
                                  config['redux_config_name'])
         shutil.make_archive(os.path.join(
-            base_dir, zip_name), 'zip', build_path)
+            BASE_DIR, zip_name), 'zip', BUILD_PATH)
 
     winsound.Beep(2000, 100)
 
@@ -139,7 +139,7 @@ def build(config):
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == 'release':
         RELEASE = True
-        for config in configs_to_build:
+        for config in CONFIGS_TO_BUILD:
             build(config)
     else:
-        build(config_drzhnn)
+        build(CONFIG_DRZHNN)
