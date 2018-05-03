@@ -32999,7 +32999,7 @@ PROPERTY control='MapperZoom4' name='hideOnInit' id='0' value='YES'
 
 # OSC Preset popup
 
-CONTROL type='Pane' name='_FileBrowser' bounds='601.00 37.00 221.00 682.00' parent='Top Panel' layerMask='1'
+CONTROL type='Pane' name='_FileBrowser' bounds='601.00 37.00 221.00 682.00' parent='root' layerMask='ffffffff'
 # CONTROL type='Pane' name='_FileBrowser' bounds='0.00 40.00 255.00 682.00' parent='Top Panel' layerMask='1'
 PROPERTY control='_FileBrowser' name='colours' id='0' value='main_bg'
 PROPERTY control='_FileBrowser' name='colours' id='1' value='none'
@@ -33009,6 +33009,7 @@ PROPERTY control='_FileBrowser' name='graphics' id='0' value='none' # browser_bg
 PROPERTY control='_FileBrowser' name='layer' id='0' value='Layer 1'
 PROPERTY control='_FileBrowser' name='movable' id='0' value='NO'
 PROPERTY control='_FileBrowser' name='hideOnInit' id='0' value='YES'
+PROPERTY control='_FileBrowser' name='isAboveOverlays' id='0' value='NO'
 
 
 CONTROL type='Pane' name='Module Presets Column Line 1' bounds='0.00 217.00 221.00 1.00' parent='_FileBrowser' layerMask='7fffffff'
