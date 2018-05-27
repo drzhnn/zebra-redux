@@ -19,8 +19,16 @@ BUILD_PATH = os.path.join(BASE_DIR, 'build')
 REDUX_PATH = os.path.join(BUILD_PATH, 'Redux')
 SCRIPTS_PATH = os.path.join(REDUX_PATH, 'Scripts')
 IMAGES_PATH = os.path.join(REDUX_PATH, 'Images')
+COLOR_THEMES_PATH = os.path.join(BASE_DIR, 'color_themes')
+
+with open(os.path.join(COLOR_THEMES_PATH, 'default.txt'), 'r') as f:
+    DEFAULT_THEME = f.read()
+
+with open(os.path.join(COLOR_THEMES_PATH, 'gray.txt'), 'r') as f:
+    GRAY_THEME = f.read()
 
 CONFIG_DEFAULT = {'redux_config_name': 'default',
+                  'redux_color_theme': DEFAULT_THEME,
                   'redux_version': NOW,
                   'redux_title_font': 'Viga-Regular',
                   'redux_title_font_size': '10.00',
@@ -36,6 +44,7 @@ CONFIG_DEFAULT = {'redux_config_name': 'default',
                   }
 
 CONFIG_DRZHNN = {'redux_config_name': 'drzhnn',
+                 'redux_color_theme': GRAY_THEME,
                  'redux_version': NOW,
                  'redux_title_font': 'Viga-Regular',
                  'redux_title_font_size': '11.00',
@@ -51,6 +60,7 @@ CONFIG_DRZHNN = {'redux_config_name': 'drzhnn',
                  }
 
 CONFIG_FIXED_FXRACK = {'redux_config_name': 'fixed_fxrack',
+                       'redux_color_theme': DEFAULT_THEME,
                        'redux_version': NOW,
                        'redux_title_font': 'Viga-Regular',
                        'redux_title_font_size': '10.00',
