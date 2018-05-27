@@ -7414,7 +7414,7 @@ PROPERTY control='MSEGs Popup Button' name='clientpane' id='1' value='MSEGs Pane
 
 # RACK
 
-CONTROL type='Rack' name='Rack 404' bounds='redux_rack_404_bounds' parent='Top Panel' layerMask='1'
+CONTROL type='Rack' name='Rack 404' bounds='259.00 40.00 339.00 674.00' parent='Top Panel' layerMask='1'
 PROPERTY control='Rack 404' name='colours' id='0' value='none'
 PROPERTY control='Rack 404' name='colours' id='1' value='none'
 PROPERTY control='Rack 404' name='colours' id='2' value='none'
