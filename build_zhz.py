@@ -48,13 +48,14 @@ def build():
 
     try:
         os.makedirs(REDUX_PATH)
+        os.makedirs(SCRIPTS_PATH)
     except Exception as e:
         print(e)
     finally:
-        shutil.copytree(os.path.join(BASE_DIR, 'scripts'), SCRIPTS_PATH)
+        shutil.copyfile(os.path.join(BASE_DIR, 'scripts', 'ZebraHZ.txt'), os.path.join(SCRIPTS_PATH, 'ZebraHZ.txt'))
         shutil.copytree(os.path.join(BASE_DIR, 'images'), IMAGES_PATH)
 
-    scripts = [os.join.path(SCRIPTS_PATH, 'ZebraHZ.txt')]
+    scripts = [os.path.join(SCRIPTS_PATH, 'ZebraHZ.txt')]
 
     for line in fileinput.FileInput(scripts, inplace=1):
         for i, _ in enumerate(GARBAGE):
