@@ -10,11 +10,11 @@
     [
         {
             "name": "Redux theme builder",
-            "cmd": ["python", "../build_zhz.py"]
+            "cmd": ["python", "../build.py"]
         },
         {
             "name":"Redux theme builder (release)",
-            "cmd": ["python", "../build_zhz.py", "release"]
+            "cmd": ["python", "../build.py", "release"]
         }
 
     ]
