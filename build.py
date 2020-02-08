@@ -8,7 +8,7 @@ import winsound
 from PIL import Image
 
 
-PROJECT_NAME = 'zebrahz-redux'
+PROJECT_NAME = 'zebra-redux'
 RELEASE = False
 FLUSH_METADATA = False
 
