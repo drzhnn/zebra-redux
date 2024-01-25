@@ -4,12 +4,12 @@ import re
 import shutil
 import sys
 import time
-import winsound
+
 from PIL import Image
 
 
 PROJECT_NAME = 'zebra-redux'
-RELEASE = False
+RELEASE = True
 FLUSH_METADATA = False
 
 NOW = time.strftime('%Y-%m%d-%H%M')
@@ -79,8 +79,6 @@ def build():
             zip_name = '%s-%s' % (PROJECT_NAME, NOW)
             shutil.make_archive(os.path.join(
                 BASE_DIR, zip_name), 'zip', BUILD_PATH)
-
-        winsound.Beep(440, 100)
 
 
 if __name__ == '__main__':
